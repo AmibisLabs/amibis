@@ -1,13 +1,19 @@
 
-out=out
+OUT=out
+SERVER=oberon
+SERVERPATH=/var/www/OMiSCID/
+DISTON=${USER}@${SERVER}:${SERVERPATH}
 
 release: all-html
-	rm -rf ${out}
-	mkdir ${out}
-	cp -r css image download *.html ${out}
-	cd ${out}/download && wget http://oberon/release/omiscid.jar
-	cd ${out}/download && wget http://oberon/release/omiscidGui.jar
-	find ${out} -name .svn -exec rm -rf {} \; || true
+	rm -rf ${OUT}
+	mkdir ${OUT}
+	cp -r css image download *.html ${OUT}
+	cd ${OUT}/download && wget http://oberon/release/omiscid.jar
+	cd ${OUT}/download && wget http://oberon/release/omiscidGui.jar
+	find ${OUT} -name .svn -exec rm -rf {} \; || true
+
+export: release
+	rsync -avz --delete $(OUT)/ $(DISTON)
 
 all-html: $(patsubst %.xml,%.html,$(wildcard *.xml))
 
