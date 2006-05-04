@@ -2,6 +2,6 @@
 
 all-html: $(patsubst %.xml,%.html,$(wildcard *.xml))
 
-%.html: %.xml
+%.html: %.xml $(wildcard xsl/*.xsl)
 	xsltproc --xinclude --output $@ xsl/page.xsl $<
 	sed -i -e "s@[.]xml@.html@g" $@

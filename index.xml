@@ -4,10 +4,18 @@
 <page xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="common/common.xml#xpointer(//*)" />
 
-  <title>OMiSCID Main Page</title>
+  <title>O3MiSCID Main Page</title>
   <currentMenu id="Main"/>
 
   <content>
+    <h1>O3MiSCID Description</h1>
+    <h1>O3MiSCID Other Names</h1>
+    <p>O3MiSCID is also known as:
+      <ul>
+        <li>Omiscid for short use (in APIs for example)</li>
+        <li></li>
+      </ul>
+    </p>
   </content>
 
 </page>

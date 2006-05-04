@@ -73,7 +73,6 @@
           </div>
         </xsl:otherwise>
       </xsl:choose>
-      <br/>
     </xsl:for-each>
   </xsl:template>
 
@@ -84,11 +83,11 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="/page/content|footer|header//*">
+  <xsl:template match="/page/content//* | /page/footer//* | /page/header//*">
     <xsl:call-template name="copyme" />
   </xsl:template>
 
-  <xsl:template match="/page/content|footer|header">
+  <xsl:template match="/page/content | /page/footer | /page/header">
     <xsl:apply-templates />
   </xsl:template>
 
