@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   sodipodi:docbase="/home/prometheus/emonet/projects/OMiSCID-WebSite/image"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+   inkscape:export-xdpi="64"
+   inkscape:export-ydpi="64">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="448.8104"
+     inkscape:cy="762.38059"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1280"
+     inkscape:window-height="974"
+     inkscape:window-x="1278"
+     inkscape:window-y="-2" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;color:#000000;fill:#bebebe;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.07814324;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect2567"
+       width="251.75609"
+       height="206.99323"
+       x="526.31104"
+       y="180.57323" />
+    <text
+       xml:space="preserve"
+       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="35.918274"
+       y="-26.103054"
+       id="text1307"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan1309"
+         x="35.918274"
+         y="-26.103054">O3MiSCID</tspan></text>
+    <g
+       id="g2370">
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         transform="translate(-48.2553,-108.7635)"
+         d="M 101.1204 171.8997 A 23.747972 37.281765 0 1 1  53.624456,171.8997 A 23.747972 37.281765 0 1 1  101.1204 171.8997 z"
+         sodipodi:ry="37.281765"
+         sodipodi:rx="23.747972"
+         sodipodi:cy="171.8997"
+         sodipodi:cx="77.372429"
+         id="path1311"
+         style="color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2186"
+         d="M 55.834742,6.4903028 C 66.710612,-34.099006 112.03304,24.365123 62.473952,24.365123"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <use
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         height="1052.3622"
+         width="744.09448"
+         transform="matrix(1,0,0,-1,0,49.14139)"
+         id="use2188"
+         xlink:href="#path2186"
+         y="0"
+         x="0" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="ccc"
+         id="path2198"
+         d="M 90.180752,100.92865 C 103.96989,72.328943 90.691462,24.832993 90.691462,24.832993 L 112.65195,71.818233"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <use
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         height="1052.3622"
+         width="744.09448"
+         transform="matrix(-1,0,0,1,225.8145,0)"
+         id="use2200"
+         xlink:href="#path2198"
+         y="0"
+         x="0" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2222"
+         d="M 160.14789,100.41794 C 136.14457,100.41794 141.50942,64.400943 141.50942,64.400943"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2226"
+         d="M 141.79465,54.201613 L 141.76237,54.454123"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2230"
+         d="M 204.89273,26.905953 C 161.27974,26.905953 160.66705,63.638713 187.39572,63.638713"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <use
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         height="1052.3622"
+         width="744.09448"
+         transform="matrix(-1,0,0,-1,373.507,127.277)"
+         id="use2232"
+         xlink:href="#path2230"
+         y="0"
+         x="0" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2234"
+         d="M 250.53317,26.417633 C 214.91887,27.449933 184.97433,99.879683 252.59777,99.879683"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2236"
+         d="M 266.37711,32.113173 C 266.37711,21.636683 295.29426,34.090783 295.29426,23.614293"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2250"
+         d="M 281.3256,29.115423 L 281.3256,97.462033"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <use
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         height="1052.3622"
+         width="744.09448"
+         transform="translate(0,70.84101)"
+         id="use2252"
+         xlink:href="#path2236"
+         y="0"
+         x="0" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path1321"
+         d="M 303.45995,26.441503 C 396.09814,25.980613 349.45846,100.02689 306.22527,100.02689"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2196"
+         d="M 307.52476,26.851643 C 320.27456,48.934943 316.58404,70.694803 308.71856,98.599163"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2741"
+       transform="translate(12.0872,-193.0368)"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+       inkscape:export-xdpi="64"
+       inkscape:export-ydpi="64">
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         transform="translate(-51.93702,314.3508)"
+         d="M 101.1204 171.8997 A 23.747972 37.281765 0 1 1  53.624456,171.8997 A 23.747972 37.281765 0 1 1  101.1204 171.8997 z"
+         sodipodi:ry="37.281765"
+         sodipodi:rx="23.747972"
+         sodipodi:cy="171.8997"
+         sodipodi:cx="77.372429"
+         id="path2599"
+         style="color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2601"
+         d="M 52.152992,429.60452 C 63.028862,389.01521 108.35129,447.47934 58.792202,447.47934"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2603"
+         d="M 52.152992,465.76532 C 63.028862,506.35463 108.35129,447.8905 58.792202,447.8905"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="ccc"
+         id="path2605"
+         d="M 86.499,524.04287 C 100.28814,495.44316 87.00971,447.94721 87.00971,447.94721 L 108.9702,494.93245"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="ccc"
+         id="path2607"
+         d="M 131.95202,524.04287 C 118.16288,495.44316 131.44131,447.94721 131.44131,447.94721 L 109.48082,494.93245"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2609"
+         d="M 156.46614,523.53216 C 132.46282,523.53216 137.82767,487.51516 137.82767,487.51516"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2611"
+         d="M 138.1129,477.31583 L 138.08062,477.56834"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2613"
+         d="M 201.21098,450.02017 C 157.59799,450.02017 156.9853,486.75293 183.71397,486.75293"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2615"
+         d="M 164.93254,523.48527 C 208.54553,523.48527 209.15822,486.75251 182.42955,486.75251"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2617"
+         d="M 246.85142,449.53185 C 211.23712,450.56415 181.29258,522.9939 248.91602,522.9939"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2619"
+         d="M 262.69536,455.22739 C 262.69536,444.7509 291.61251,457.205 291.61251,446.72851"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2621"
+         d="M 277.64385,452.22964 L 277.64385,520.57625"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2623"
+         d="M 262.69536,526.06839 C 262.69536,515.5919 291.61251,528.046 291.61251,517.56951"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2625"
+         d="M 299.7782,449.55572 C 392.41639,449.09483 345.77671,523.14111 302.54352,523.14111"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2627"
+         d="M 303.84301,449.96586 C 316.59281,472.04916 312.90229,493.80902 305.03681,521.71338"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ffff00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2724"
+       transform="translate(12.0872,-193.0368)"
+       style="stroke:#ff3838;stroke-opacity:1"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+       inkscape:export-xdpi="64"
+       inkscape:export-ydpi="64">
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         transform="translate(-50.69252,313.1062)"
+         d="M 101.1204 171.8997 A 23.747972 37.281765 0 1 1  53.624456,171.8997 A 23.747972 37.281765 0 1 1  101.1204 171.8997 z"
+         sodipodi:ry="37.281765"
+         sodipodi:rx="23.747972"
+         sodipodi:cy="171.8997"
+         sodipodi:cx="77.372429"
+         id="path2629"
+         style="color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2631"
+         d="M 53.397542,428.35997 C 64.273412,387.77066 109.59584,446.23479 60.036752,446.23479"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2633"
+         d="M 53.397542,464.52077 C 64.273412,505.11008 109.59584,446.64595 60.036752,446.64595"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="ccc"
+         id="path2635"
+         d="M 87.74355,522.79832 C 101.53269,494.19861 88.25426,446.70266 88.25426,446.70266 L 110.21475,493.6879"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="ccc"
+         id="path2637"
+         d="M 133.19657,522.79832 C 119.40743,494.19861 132.68586,446.70266 132.68586,446.70266 L 110.72537,493.6879"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2639"
+         d="M 157.71069,522.28761 C 133.70737,522.28761 139.07222,486.27061 139.07222,486.27061"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2641"
+         d="M 139.35745,476.07128 L 139.32517,476.32379"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2643"
+         d="M 202.45553,448.77562 C 158.84254,448.77562 158.22985,485.50838 184.95852,485.50838"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2645"
+         d="M 166.17709,522.24072 C 209.79008,522.24072 210.40277,485.50796 183.6741,485.50796"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2647"
+         d="M 248.09597,448.2873 C 212.48167,449.3196 182.53713,521.74935 250.16057,521.74935"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2649"
+         d="M 263.93991,453.98284 C 263.93991,443.50635 292.85706,455.96045 292.85706,445.48396"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2651"
+         d="M 278.8884,450.98509 L 278.8884,519.3317"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2653"
+         d="M 263.93991,524.82384 C 263.93991,514.34735 292.85706,526.80145 292.85706,516.32496"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2655"
+         d="M 301.02275,448.31117 C 393.66094,447.85028 347.02126,521.89656 303.78807,521.89656"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2657"
+         d="M 305.08756,448.72131 C 317.83736,470.80461 314.14684,492.56447 306.28136,520.46883"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#ff3838;stroke-width:7.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2707"
+       transform="translate(12.0872,-193.0368)"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+       inkscape:export-xdpi="64"
+       inkscape:export-ydpi="64">
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         transform="translate(-49.93702,312.3508)"
+         d="M 101.1204 171.8997 A 23.747972 37.281765 0 1 1  53.624456,171.8997 A 23.747972 37.281765 0 1 1  101.1204 171.8997 z"
+         sodipodi:ry="37.281765"
+         sodipodi:rx="23.747972"
+         sodipodi:cy="171.8997"
+         sodipodi:cx="77.372429"
+         id="path2659"
+         style="color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         sodipodi:type="arc" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2661"
+         d="M 54.152992,427.60452 C 65.028862,387.01521 110.35129,445.47934 60.792202,445.47934"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2663"
+         d="M 54.152992,463.76532 C 65.028862,504.35463 110.35129,445.8905 60.792202,445.8905"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="ccc"
+         id="path2665"
+         d="M 88.499,522.04287 C 102.28814,493.44316 89.00971,445.94721 89.00971,445.94721 L 110.9702,492.93245"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="ccc"
+         id="path2667"
+         d="M 133.95202,522.04287 C 120.16288,493.44316 133.44131,445.94721 133.44131,445.94721 L 111.48082,492.93245"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2669"
+         d="M 158.46614,521.53216 C 134.46282,521.53216 139.82767,485.51516 139.82767,485.51516"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2671"
+         d="M 140.1129,475.31583 L 140.08062,475.56834"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2673"
+         d="M 203.21098,448.02017 C 159.59799,448.02017 158.9853,484.75293 185.71397,484.75293"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2675"
+         d="M 166.93254,521.48527 C 210.54553,521.48527 211.15822,484.75251 184.42955,484.75251"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2677"
+         d="M 248.85142,447.53185 C 213.23712,448.56415 183.29258,520.9939 250.91602,520.9939"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2679"
+         d="M 264.69536,453.22739 C 264.69536,442.7509 293.61251,455.205 293.61251,444.72851"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2681"
+         d="M 279.64385,450.22964 L 279.64385,518.57625"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2683"
+         d="M 264.69536,524.06839 C 264.69536,513.5919 293.61251,526.046 293.61251,515.56951"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2685"
+         d="M 301.7782,447.55572 C 394.41639,447.09483 347.77671,521.14111 304.54352,521.14111"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="64"
+         inkscape:export-xdpi="64"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         sodipodi:nodetypes="cc"
+         id="path2687"
+         d="M 305.84301,447.96586 C 318.59281,470.04916 314.90229,491.80902 307.03681,519.71338"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
