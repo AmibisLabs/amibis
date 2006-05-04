@@ -1,4 +1,3 @@
-
 div {
 	padding: 5px;
 }
@@ -13,7 +12,12 @@ div {
 	background: #ee8;
 	border: 1px solid black;
 	border-top: 0px;
-	float: left;
+	vertical-align: top;
+	background: #ee8;
+}
+
+.content {
+	fill: horizontal;
 }
 
 .footer {

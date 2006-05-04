@@ -32,15 +32,19 @@
         <div class="header">
           <xsl:apply-templates select="/page/header" />
         </div>
+        <table cellpadding="0" cellspacing="0"><tr><td valign="top">
         <div class="menu">
           <xsl:apply-templates select="/page/menu" />
         </div>
+        </td><td valign="top" width="100%">
         <div class="content">
           <xsl:apply-templates select="/page/content" />
         </div>
+        </td></tr><tr><td colspan="2" align="right">
         <div class="footer">
           <xsl:apply-templates select="/page/footer" />
         </div>
+        </td></tr></table>
       </body>
     </html>
   </xsl:template>

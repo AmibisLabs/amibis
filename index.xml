@@ -9,6 +9,12 @@
 
   <content>
     <h1>O3MiSCID Description</h1>
+    <p>O3MiSCID stands for <b>O</b>pensource <b>O</b>bject <b>O</b>riented <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>onnection <b>I</b>ntrospection and <b>D</b>iscovery.</p>
+    <p>O3MiSCID has been implemented so far in C++, Java and Tcl. See <a href="download.xml">the download page</a> to obtain the desired release.</p>
+
+    <h1>O3MiSCID History</h1>
+    <p>O3MiSCID is born in the <a href="http://www-prima.imag.fr/">PRIMA project</a> from INRIA. It has been released as an open source project on the DATE.</p>
+
     <h1>O3MiSCID Other Names</h1>
     <p>O3MiSCID is also known as:
       <ul>
