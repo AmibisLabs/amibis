@@ -1,23 +1,56 @@
-div {
-	padding: 5px;
+
+body {
+	margin: 0px;
+}
+
+.header , .menu {
+	background: #dff6f6;
 }
 
 .header {
-	background: #dda;
-	border: 2px solid black;
+	padding: 5px;
+	padding-left: 15px;
+	border: 3px solid black;
+	font-size: large;
+}
+
+.header a {
+	color: black;
+	text-decoration: none;
+	valign: center;
+}
+
+.header img {
+	border: 0px;
 }
 
 .menu {
-	padding: 0px;
-	background: #ee8;
-	border: 1px solid black;
+	padding: 5px;
+	padding-left: 20px;
+	border: 2px solid black;
 	border-top: 0px;
 	vertical-align: top;
-	background: #ee8;
+}
+
+.menu , .menu a {
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color: red;
+}
+
+.menu .currentmenuitem {
+	color: dodgerblue;
+	text-decoration: underline;
 }
 
 .content {
 	fill: horizontal;
+	padding: 10px;
+	margin-left: 10px;
 }
 
 .footer {

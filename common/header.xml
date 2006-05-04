@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <header>
-    <img class="logo" src="image/logo.png"/>
+  <a href="index.xml">
+    <img class="logo" src="image/logo.png" />
+    A Killing Middleware For Services Connection Introspection and Discovery
+  </a>
 </header>

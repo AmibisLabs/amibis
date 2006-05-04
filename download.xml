@@ -13,6 +13,14 @@
     <h1>Implementations specific material</h1>
     <h2>C++ implementation</h2>
     <h2>Java implementation</h2>
+    <ul>
+      <li>
+        <a href="download/omiscid.jar">omiscid.jar</a>, the base O3MiSCID library.
+      </li>
+      <li>
+        <a href="download/omiscidGui.jar">omiscidGui.jar</a>, the GUI.
+      </li>
+    </ul>
     <h2>Tcl implementation</h2>
   </content>
 
