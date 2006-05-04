@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<menu>
+  <item id="Main" link="index.xml">Home Page</item>
+  <item id="Download" link="download.xml">Download Page</item>
+</menu>

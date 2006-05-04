@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="xsl/page.xsl" ?>
+
+<page xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="common/common.xml#xpointer(//*)" />
+
+  <title>OMiSCID Download Page</title>
+  <currentMenu id="Download"/>
+
+  <content>
+  </content>
+
+</page>
