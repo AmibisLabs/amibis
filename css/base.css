@@ -36,7 +36,7 @@ body {
 
 .menu , .menu a {
 	font-weight: bold;
-	color: black;
+	color: dodgerblue;
 	text-decoration: none;
 }
 
@@ -45,8 +45,7 @@ body {
 }
 
 .menu .currentmenuitem {
-	color: dodgerblue;
-	text-decoration: underline;
+	color: black;
 }
 
 .content {
