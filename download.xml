@@ -15,7 +15,7 @@
     <h2>Java implementation</h2>
     <ul>
       <li>
-        <a href="download/omiscid.jar">omiscid.jar</a>, the base O3MiSCID library.
+        <a href="download/omiscid.jar">omiscid.jar</a>, the base <omiscid/> library.
       </li>
       <li>
         <a href="download/omiscidGui.jar">omiscidGui.jar</a>, the GUI.

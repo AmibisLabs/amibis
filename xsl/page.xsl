@@ -79,7 +79,15 @@
       </xsl:choose>
     </xsl:for-each>
   </xsl:template>
-  
+
+  <xsl:template match="//omiscid">
+    <span class="omiscid">
+      <xsl:text>O</xsl:text>
+      <sup>3</sup>
+      <xsl:text>MiSCID</xsl:text>
+    </span>
+    <xsl:text></xsl:text>
+  </xsl:template>
 
   <xsl:template name="copyme">
     <xsl:copy>
