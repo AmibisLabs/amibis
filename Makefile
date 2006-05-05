@@ -8,8 +8,8 @@ release: all-html
 	rm -rf ${OUT}
 	mkdir ${OUT}
 	cp -r css image download *.html ${OUT}
-	cd ${OUT}/download && wget http://oberon/release/omiscid.jar
-	cd ${OUT}/download && wget http://oberon/release/omiscidGui.jar
+#	cd ${OUT}/download && wget http://oberon/release/omiscid.jar
+#	cd ${OUT}/download && wget http://oberon/release/omiscidGui.jar
 	find ${OUT} -name .svn -exec rm -rf {} \; || true
 
 export: release
