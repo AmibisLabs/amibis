@@ -8,6 +8,9 @@
   <currentMenu id="Download"/>
 
   <content>
+  <p>This page will soon provide access to the already existing tutorials, documentations and to the implementations of <omiscid/></p>
+  <p>Access to the sources will be provided through a "forge". The forge is currently being set up, please come in 2/3 days, it should be done then.</p>
+    <!--
     <h1>General documentations and specifications</h1>
 
     <h1>Implementations specific material</h1>
@@ -22,6 +25,7 @@
       </li>
     </ul>
     <h2>Tcl implementation</h2>
+     -->
   </content>
 
 </page>

@@ -9,11 +9,12 @@
 
   <content>
     <h1><omiscid/> Description</h1>
-    <p><omiscid/> stands for <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>ntrospection and <b>D</b>iscovery.</p>
+    <p><omiscid/> stands for <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>nspection and <b>D</b>iscovery.</p>
     <p><omiscid/> has been implemented so far in C++, Java and Tcl. See <a href="download.xml">the download page</a> to obtain the desired release.</p>
 
     <h1><omiscid/> History</h1>
     <p>O3MiSCID is born in the <a href="http://www-prima.inrialpes.fr/">PRIMA project</a> from INRIA. It has been released as an open source project on the DATE.</p>
+    <p>It is release under a non-sticky opensource licence: see <a href="licence.xml">the licence page</a> for details.</p>
 
     <h1><omiscid/> Other Names</h1>
     <p><omiscid/> is also known as:
