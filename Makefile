@@ -16,7 +16,7 @@ export: release
 	rsync -avz --delete --exclude=.svn $(OUT)/ $(DISTON)
 
 export-gforge:
-	rsync -avzupOI --exclude=.svn  --chmod=g+w --delete $(OUT)/ omiscid.gforge.inria.fr:/home/groups/omiscid/htdocs || echo "!!! code 23 is normal !!!"
+	rsync -avzupOI --exclude=.svn --exclude=.xml --delete $(OUT)/ omiscid.gforge.inria.fr:/home/groups/omiscid/htdocs || echo "!!! code 23 is normal !!!"
 
 all-html: $(patsubst %.xml,%.html,$(wildcard *.xml))
 
