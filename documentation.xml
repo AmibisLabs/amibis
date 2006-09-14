@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="xsl/page.xsl" ?>
+
+<page xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="common/common.xml#xpointer(//*)" />
+
+  <title>OMiSCID Documentation Page</title>
+  <currentMenu id="Documentation"/>
+
+  <content>
+    <h1>Installation</h1>
+    
+    <h2>General Information</h2>
+      <p><omiscid/> requires DNSSD to be installed and running, ...</p>
+    <h2>C++</h2>
+    <h2>Java</h2>
+      <p>The Java version of <omiscid/> requires a DNSSD implementation to be installed. For example, you will need to install mDNSResponder (Apple Bonjour) together with its Java bindings. See the OSGi tutorial for more details about this installation.</p>
+      <p>The developement using the non-OSGi version of omiscid just requires to have the following jars in your classpath:
+        <ul>
+          <li>omiscid.jar: the omiscid library</li>
+          <li>xerces-J_1.4.0.jar, commons-logging.jar, castor-1.0.1-xml.jar, log4j-1.2.8.jar: the base libraries required by <a href="http://www.castor.org/xml-framework.html">Castor XML</a></li>
+          <li>jakarta-oro-2.0.8.jar: the <a href="http://jakarta.apache.org/oro/">apache jakarta oro library</a> required by some Castor XML features</li>
+        </ul>
+        Note that all the dependencies to Castor will probably be replaced when Java 6 will be released and widely available.
+      </p>
+    <h2>OSGi</h2>
+    
+    <h1>Tutorials</h1>
+    <h2>C++</h2>
+    <h2>Java</h2>
+      <p>As the C++ and Java APIs are almost identical (modulo the languages specifity), you can probably take the C++ tutorials as a basis. Your favorite IDE will probably allow you to cope with the slight differences between the C++ and Java APIs.</p>
+    <h2>OSGi</h2>
+    
+    <h1>Publications</h1>
+    <h2>Middleware Description</h2>
+    For a detailled description of <omiscid/> architecture and design goals, see this <a href="http://www-prima.inrialpes.fr/prima/pub/Publications/2006/EVRL06/">paper presented at the IEEE workshop SIPE-2006</a>.
+  </content>
+
+</page>

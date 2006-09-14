@@ -2,7 +2,8 @@
 
 <menu>
   <item id="Main" link="index.xml">Home Page</item>
-  <item id="Download" link="download.xml">Download Page</item>
-  <item id="Licence" link="licence.xml">Licence Page</item>
+  <item id="Documentation" link="documentation.xml">Documentation</item>
+  <item id="Download" link="download.xml">Downloads</item>
+  <item id="Licence" link="licence.xml">Licence</item>
   <item id="Contacts" link="contacts.xml">Contact Us</item>
 </menu>

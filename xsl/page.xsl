@@ -58,7 +58,7 @@
             <xsl:call-template name="globalReplace">
               <xsl:with-param name="outputString" select="text()" />
               <xsl:with-param name="target" select="' '" />
-              <xsl:with-param name="replacement" select="'-'" />
+              <xsl:with-param name="replacement" select="' '" />
             </xsl:call-template>
             </div>
         </xsl:when>
@@ -71,7 +71,7 @@
               <xsl:call-template name="globalReplace">
                 <xsl:with-param name="outputString" select="text()" />
                 <xsl:with-param name="target" select="' '" />
-                <xsl:with-param name="replacement" select="'-'" />
+                <xsl:with-param name="replacement" select="'&#0160;'" />
               </xsl:call-template>
             </a>
           </div>
