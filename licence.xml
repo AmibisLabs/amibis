@@ -8,7 +8,8 @@
   <currentMenu id="Licence"/>
 
   <content>
-    <h2><omiscid/> is released under an MIT-like licence:</h2>
+    <h2><omiscid/> Licence</h2>
+    <p><omiscid/> is released under an MIT-like licence that is described below.</p>
     <pre>
 Copyright© 2005-2006 INRIA/Université Pierre Mendès-France/Université Joseph Fourrier.
 

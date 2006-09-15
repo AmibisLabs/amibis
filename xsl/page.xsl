@@ -36,6 +36,9 @@
         <div class="menu">
           <xsl:apply-templates select="/page/menu" />
         </div>
+        <div class="outline">
+          <xsl:apply-templates select="/page/content/h1 | /page/content/h2" mode="outline" />
+        </div>
         </td><td valign="top" width="100%">
         <div class="content">
           <xsl:apply-templates select="/page/content" />
@@ -104,6 +107,23 @@
     <xsl:apply-templates />
   </xsl:template>
 
+  <xsl:template match="/page/content/h1">
+    <h1><xsl:call-template name="addAnchor" /></h1>
+  </xsl:template>
+
+  <xsl:template match="/page/content/h2">
+    <h2><xsl:call-template name="addAnchor" /></h2>
+  </xsl:template>
+
+  <xsl:template name="addAnchor">
+    <a>
+      <xsl:attribute name="name">
+        a-<xsl:number count="h1 | h2" format="1-1" from="document" level="multiple"/>
+      </xsl:attribute>
+      <xsl:apply-templates />
+    </a>
+  </xsl:template>
+
   <xsl:template name="globalReplace">
     <xsl:param name="outputString" />
     <xsl:param name="target" />
@@ -122,4 +142,27 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+  
+  <xsl:template match="//h1" mode="outline">
+    <h1><xsl:call-template name="outline-content"/></h1>
+  </xsl:template>
+
+  <xsl:template match="//h2" mode="outline">
+    <h2><xsl:call-template name="outline-content"/></h2>
+  </xsl:template>
+  
+  <xsl:template name="outline-content">
+      <a>
+      <xsl:attribute name="href">
+        #a-<xsl:number count="h1 | h2" format="1-1" from="document" level="multiple"/>
+      </xsl:attribute>
+      <xsl:call-template name="globalReplace">
+        <xsl:with-param name="outputString">
+          <xsl:apply-templates />
+        </xsl:with-param>
+        <xsl:with-param name="target" select="' '" />
+        <xsl:with-param name="replacement" select="'&#0160;'" />
+      </xsl:call-template>
+      </a>
+  </xsl:template>  
 </xsl:stylesheet>

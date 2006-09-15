@@ -11,7 +11,7 @@
     <h1><omiscid/> Release</h1>
     <p>Access to the sources will be provided through a "forge". The forge is currently being set up, please come in 1/2 weeks, it should be done then.</p>
 
-    <h2>Implementations specific material</h2>
+    <h2>Specificities</h2>
     <h3>Java implementation</h3>
     The java implementation of OMiSCID containing basic classes and an OSGI bundle version.
     <h3>C++ implementation</h3>
@@ -19,10 +19,10 @@
     <h3>Tcl implementation</h3>
     The Tcl implementation of OMiSCID.
     
-    <h2>Downloads availability</h2>
+    <h2>Availability</h2>
     The availability of all materials mentionned above is postponed to September.
     
-    <h1>Installation Documentations and Tutorials</h1>
+    <h1>Installation &amp; Tutorials</h1>
     <p>Documentation on how to install <omiscid/> and tutorials are available on the <a href="documentation.xml">documentation page</a>.</p>
 
   </content>
