@@ -30,8 +30,8 @@
     <h2>C++</h2>
       <p>You can use the following resources in order to train yourself using <omiscid/>:
          <ul>
-           <li>the under-development version of the <a href="Doc/index.html">doxygen documentation</a></li>
-           <li>a <a href="OMiSCID-C++Tutorial.pdf">tutorial</a> about using user-friendly interface to build <omiscid/> services.</li>
+           <li>the under-development version of the  <a href="download/Doc/index.html">doxygen documentation</a></li>
+           <li>a <a href="download/OMiSCID-C++Tutorial.pdf">tutorial</a> about using user-friendly interface to build  <omiscid/> services.</li>
         </ul>
       </p>
     <h2>Java</h2>
