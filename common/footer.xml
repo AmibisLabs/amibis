@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer>
-Last update 2006-09-15.
+Last update 2006-09-22.
 <!--
+added some documentation: c++ tutorial, doxygen, javadoc
+
+Last update 2006-09-15.
 index page feeding
 added outline
 shortened titles for the outline
