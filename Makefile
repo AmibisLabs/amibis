@@ -7,7 +7,7 @@ DISTON=${USER}@${SERVER}:${SERVERPATH}
 release: all-html
 	rm -rf ${OUT}
 	mkdir ${OUT}
-	cp -r css image download *.html ${OUT}
+	cp -r css image download *.html Documents/OMiSCID-C++Tutorial.pdf ${OUT}
 #	cd ${OUT}/download && wget http://oberon/release/omiscid.jar
 #	cd ${OUT}/download && wget http://oberon/release/omiscidGui.jar
 #	find ${OUT} -name .svn -exec rm -rf {} \; || true

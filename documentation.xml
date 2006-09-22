@@ -11,8 +11,9 @@
     <h1>Installation</h1>
     
     <h2>General Information</h2>
-      <p><omiscid/> requires DNSSD to be installed and running, ...</p>
+      <p>The current version of <omiscid/> requires DNSSD to be installed and running. For example, you can use mDNSResponder (Bonjour from Apple).</p>
     <h2>C++</h2>
+      <p>In order to compile your <omiscid/> source code, you will need to have Bonjour, libxml with their C++ headers and libs for bindings.</p>
     <h2>Java</h2>
       <p>The Java version of <omiscid/> requires a DNSSD implementation to be installed. For example, you will need to install mDNSResponder (Apple Bonjour) together with its Java bindings. See the OSGi tutorial for more details about this installation.</p>
       <p>The developement using the non-OSGi version of omiscid just requires to have the following jars in your classpath:
@@ -27,6 +28,12 @@
     
     <h1>Tutorials</h1>
     <h2>C++</h2>
+      <p>You can use the following resources in order to train yourself using <omiscid/>:
+         <ul>
+           <li>the under-development version of the <a href="Doc/index.html">doxygen documentation</a></li>
+           <li>a <a href="OMiSCID-C++Tutorial.pdf">tutorial</a> about using user-friendly interface to build <omiscid/> services.</li>
+        </ul>
+      </p>
     <h2>Java</h2>
       <p>As the C++ and Java APIs are almost identical (modulo the languages specifity), you can probably take the C++ tutorials as a basis. Your favorite IDE will probably allow you to cope with the slight differences between the C++ and Java APIs.</p>
     <h2>OSGi</h2>
