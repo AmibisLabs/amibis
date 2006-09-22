@@ -87,9 +87,10 @@ body {
 	border: 2px solid #444;
         padding-left: 8px;
         background: #ddf;
+        margin-left: 0px;
 }
 
 .content h2 {
-        padding-left: 15px;
         border-width: 1px;
+        margin-left: 10px;
 }
