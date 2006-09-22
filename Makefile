@@ -9,7 +9,7 @@ release: all-html
 	mkdir ${OUT}
 	cp -r css image download *.html ${OUT}
 	cp -r Documents/Doc/ Documents/OMiSCID-C++Tutorial.pdf ${OUT}/download/
-	rm -rf ${OUT}/download/Doc/.svn  ${OUT}/css/.svn  ${OUT}/download/.svn ${OUT}/image/.svn
+#	rm -rf ${OUT}/download/Doc/.svn  ${OUT}/css/.svn  ${OUT}/download/.svn ${OUT}/image/.svn
 #	cd ${OUT}/download && wget http://oberon/release/omiscid.jar
 #	cd ${OUT}/download && wget http://oberon/release/omiscidGui.jar
 #	find ${OUT} -name .svn -exec rm -rf {} \; || true
