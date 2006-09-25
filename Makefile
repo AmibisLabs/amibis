@@ -15,10 +15,10 @@ release: all-html patch-javadoc
 #	find ${OUT} -name .svn -exec rm -rf {} \; || true
 
 export:
-	rsync -avz --delete --exclude=.svn $(OUT)/ $(DISTON)
+	rsync -avzOI --no-p --delete --exclude=.svn $(OUT)/ $(DISTON)
 
 export-gforge:
-	rsync -avzupOI --exclude=.svn --exclude=.xml --delete $(OUT)/ omiscid.gforge.inria.fr:/home/groups/omiscid/htdocs || echo "!!! code 23 is normal !!!"
+	rsync -avzOI --no-p --exclude=.svn --exclude=.xml --delete $(OUT)/ omiscid.gforge.inria.fr:/home/groups/omiscid/htdocs || echo "!!! code 23 is normal !!!"
 
 all-html: $(patsubst %.xml,%.html,$(wildcard *.xml))
 
