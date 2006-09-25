@@ -31,7 +31,9 @@
       </head>
       <body>
         <div class="header">
-          <xsl:apply-templates select="/page/header" />
+          <a href="index.xml">
+            <xsl:apply-templates select="/page/header" />
+            </a>
         </div>
         <table cellpadding="0" cellspacing="0"><tr><td valign="top">
         <div class="menu">
