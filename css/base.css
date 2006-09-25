@@ -1,13 +1,12 @@
-
 body {
 	margin: 0px;
 }
 
-.header , .menu, .outline {
+.header  , .menu,.outline {
 	background: #dff6f6;
 	background: #eee;
 	background: #ddd;
-        background: #ffe;
+	background: #ffe;
 }
 
 .header {
@@ -31,7 +30,7 @@ body {
 	border: 0px;
 }
 
-.menu, .outline {
+.menu,.outline {
 	padding: 5px;
 	padding-left: 20px;
 	border: 2px solid black;
@@ -39,7 +38,7 @@ body {
 	vertical-align: top;
 }
 
-.menu , .menu a {
+.menu  , .menu a {
 	font-weight: bold;
 	color: dodgerblue;
 	text-decoration: none;
@@ -53,7 +52,7 @@ body {
 	color: black;
 }
 
-.outline h1, .outline h2 {
+.outline h1,.outline h2 {
 	font-size: small;
 	margin: 0px;
 	margin-left: 5px;
@@ -83,14 +82,25 @@ body {
 	float: right;
 }
 
-.content h1, .content h2 {
+.whyOmiscid b, .whyOmiscidStrong b {
+	font-weight: normal;
+	border: 1px solid white;
+	font-style: italic;
+}
+
+.whyOmiscidStrong b {
+	border: 1px solid black;
+	background: #ff8;
+}
+
+.content h1,.content h2 {
 	border: 2px solid #444;
-        padding-left: 8px;
-        background: #ddf;
-        margin-left: 0px;
+	padding-left: 8px;
+	background: #ddf;
+	margin-left: 0px;
 }
 
 .content h2 {
-        border-width: 1px;
-        margin-left: 10px;
+	border-width: 1px;
+	margin-left: 10px;
 }

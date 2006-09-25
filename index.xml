@@ -8,15 +8,26 @@
   <currentMenu id="Main"/>
 
   <content>
-    <h1><omiscid/> Description</h1>
+    <h1>Description</h1>
+    <h2>General Description</h2>
     <p><omiscid/> stands for <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>nspection and <b>D</b>iscovery.</p>
     <p><omiscid/> has been implemented so far in C++, Java and Tcl. See <a href="download.html">the download page</a> to obtain the desired release. Services developed using any of the implementation can seemlessly interoperate together.</p>
+    <h2
+    onmouseover="document.getElementById('whyOmiscid').className = 'whyOmiscidStrong';"
+    onmouseout="document.getElementById('whyOmiscid').className = 'whyOmiscid';"
+    >Why use <omiscid/></h2>
+    <p><omiscid/> can be really helpfull in the following cases:<ul class="whyOmiscid" id="whyOmiscid">
+      <li>you are looking for an <b>easy</b> way to design an application with a <b>Service Oriented Architecture</b></li>
+      <li>you want to design peer to peer or client/server <b>distributed applications</b></li>
+      <li>you need a <b>cross-platform cross-language</b> library for network <b>communications</b> and <b>service advertisement and discovery</b></li>
+      <li>you want a <b>cross-platform C++</b> library for <b>threads</b>, containers (lists, maps, ...) and network <b>sockets</b></li>
+    </ul></p>
 
-    <h1><omiscid/> History</h1>
+    <h1>History</h1>
     <p><omiscid/> is born in the <a href="http://www-prima.inrialpes.fr/">PRIMA project</a> from <a href="http://www.inrialpes.fr/">INRIA Rhône-Alpes</a>.</p>
     <p>It is release under a non-sticky opensource licence: see <a href="licence.xml">the licence page</a> for details.</p>
 
-    <h1><omiscid/> Other Names</h1>
+    <h1>Other Names</h1>
     <p><omiscid/> is also known as:
       <ul>
         <li>Omiscid for short use (in APIs for example)</li>

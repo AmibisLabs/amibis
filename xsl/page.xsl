@@ -4,7 +4,8 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xl="http://www.w3.org/2000/10/xlink-ns"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xi="http://www.w3.org/2001/XInclude">
+  xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <xsl:output method="html" encoding="UTF-8" version="1.0" media-type="text/html" />
 
   <xsl:template match="/">
@@ -108,11 +109,11 @@
   </xsl:template>
 
   <xsl:template match="/page/content/h1">
-    <h1><xsl:call-template name="addAnchor" /></h1>
+    <h1><xsl:copy-of select="attribute::*" /><xsl:call-template name="addAnchor" /></h1>
   </xsl:template>
 
   <xsl:template match="/page/content/h2">
-    <h2><xsl:call-template name="addAnchor" /></h2>
+    <h2><xsl:copy-of select="attribute::*" /><xsl:call-template name="addAnchor" /></h2>
   </xsl:template>
 
   <xsl:template name="addAnchor">
@@ -144,11 +145,11 @@
   </xsl:template>
   
   <xsl:template match="//h1" mode="outline">
-    <h1><xsl:call-template name="outline-content"/></h1>
+    <h1><xsl:copy-of select="attribute::*" /><xsl:call-template name="outline-content"/></h1>
   </xsl:template>
 
   <xsl:template match="//h2" mode="outline">
-    <h2><xsl:call-template name="outline-content"/></h2>
+    <h2><xsl:copy-of select="attribute::*" /><xsl:call-template name="outline-content"/></h2>
   </xsl:template>
   
   <xsl:template name="outline-content">
