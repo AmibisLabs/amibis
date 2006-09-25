@@ -37,9 +37,11 @@
         <div class="menu">
           <xsl:apply-templates select="/page/menu" />
         </div>
+        <xsl:if test="count(/page/content/h1) + count(/page/content/h2) != 0">
         <div class="outline">
           <xsl:apply-templates select="/page/content/h1 | /page/content/h2" mode="outline" />
         </div>
+        </xsl:if>
         </td><td valign="top" width="100%">
         <div class="content">
           <xsl:apply-templates select="/page/content" />

@@ -22,7 +22,7 @@
     <h2>Availability</h2>
     <p>Cross-platform C++ and Java versions are available for download on the <a href="http://gforge.inria.fr/frs/?group_id=363">forge</a>. Tcl implementation availability is postponed.</p>
     
-    <h1>Installation &amp; Tutorials</h1>
+    <h1>Documentations</h1>
     <p>Documentation on how to install <omiscid/> and tutorials are available on the <a href="documentation.xml">documentation page</a>.</p>
 
   </content>
