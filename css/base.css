@@ -36,7 +36,6 @@ body {
 .header a {
 	color: black;
 	text-decoration: none;
-	vertical-align: middle;
 }
 
 .header b {
@@ -45,6 +44,7 @@ body {
 
 .header img {
 	border: 0px;
+	vertical-align: middle;
 }
 
 .menu,.outline {
@@ -88,7 +88,6 @@ body {
 }
 
 .content {
-	fill: horizontal;
 	padding: 10px;
 	margin-left: 10px;
 }
@@ -112,7 +111,7 @@ body {
 }
 
 .content h1,.content h2 {
-	border-bottom: 2px solid #444; //
+	border-bottom: 2px solid #444;
 	background: #f8f8f8;
 }
 
