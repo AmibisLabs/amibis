@@ -14,7 +14,7 @@ release: all-html patch-javadoc
 #	cd ${OUT}/download && wget http://oberon/release/omiscidGui.jar
 #	find ${OUT} -name .svn -exec rm -rf {} \; || true
 
-export: release
+export:
 	rsync -avz --delete --exclude=.svn $(OUT)/ $(DISTON)
 
 export-gforge:

@@ -20,7 +20,7 @@
       <li>you are looking for an <b>easy</b> way to design an application with a <b>Service Oriented Architecture</b></li>
       <li>you want to design peer to peer or client/server <b>distributed applications</b></li>
       <li>you need a <b>cross-platform cross-language</b> library for network <b>communications</b> and <b>service advertisement and discovery</b></li>
-      <li>you want a <b>cross-platform C++</b> library for <b>threads</b>, containers (lists, maps, ...) and network <b>sockets</b></li>
+      <li>you want a <b>cross-platform C++</b> library for system abstraction (<b>threads</b>, <b>Mutex</b>, ...), containers (lists, ...) and network <b>Sockets</b> (UDP and TCP)</li>
     </ul></p>
 
     <h1>History</h1>
