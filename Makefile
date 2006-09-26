@@ -19,6 +19,8 @@ export:
 
 export-gforge:
 	rsync -avzOI --no-p --exclude=.svn --exclude=.xml --delete $(OUT)/ omiscid.gforge.inria.fr:/home/groups/omiscid/htdocs || echo "!!! code 23 is normal !!!"
+	ssh omiscid.gforge.inria.fr chgrp -R omiscid /home/groups/omiscid/htdocs
+	ssh omiscid.gforge.inria.fr chmod -R g+rw /home/groups/omiscid/htdocs/\*
 
 all-html: $(patsubst %.xml,%.html,$(wildcard *.xml))
 
