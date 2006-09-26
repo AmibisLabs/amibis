@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer>
-Last update 2006-09-25.
+Last update 2006-09-26.
 <!--
+added some right padding to the menu to avoid change in size between pages
+made outline left-er and of color link-blue
+added one more link to the javadoc
+
+Last update 2006-09-25.
 added a "why omiscid" section in the index page
 shorted h2 titles to avoid sblurbing of the menu
 filled osgi holes with coming soon ...

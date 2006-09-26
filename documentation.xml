@@ -39,6 +39,7 @@
       </p>
     <h2>Java</h2>
       <p>As the C++ and Java APIs are almost identical (modulo the languages specifity), you can probably take the C++ tutorials as a basis. Your favorite IDE will probably allow you to cope with the slight differences between the C++ and Java APIs.</p>
+      <p>You can access the <a href="download/doc-java/javadoc/index.html">javadoc of the user centered API</a> on this website.</p>
     <h2>OSGi</h2>
       <p>2006-09-25: Coming very soon ... refactoring in progress, contact us if you want the current version</p>
     
