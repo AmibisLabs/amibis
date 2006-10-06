@@ -10,6 +10,7 @@
   <content>
     <h1><omiscid/> Release</h1>
     <p>Access to the sources will be provided through a "forge". The <a href="http://gforge.inria.fr/frs/?group_id=363">download page in the <omiscid/> forge</a> is where you can find <omiscid/> releases.</p>
+	<p>You can also consult the <a href="http://gforge.inria.fr/news/?group_id=363"><omiscid/> news</a> or subscribe to <a href="http://gforge.inria.fr/export/rss_sfnews.php?group_id=363">the <omiscid/> news feed</a>.</p>
 
     <!--h2>Specificities</h2>
     <h3>Java implementation</h3>
