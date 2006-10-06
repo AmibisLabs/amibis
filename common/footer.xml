@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer>
-Last update 2006-09-26.
+Last update 2006-10-06.
 <!--
+added a link to omiscid news on the forge
+
+Last update 2006-09-26.
 added some right padding to the menu to avoid change in size between pages
 made outline left-er and of color link-blue
 added one more link to the javadoc
