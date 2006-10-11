@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer>
-Last update 2006-10-06.
+Last update 2006-10-11.
 <!--
+added a placeholder page for the faq
+changed makefile to have time preserved on the server
+
+Last update 2006-10-06.
 added a link to omiscid news on the forge
 
 Last update 2006-09-26.
