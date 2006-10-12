@@ -5,18 +5,21 @@
   xmlns:xl="http://www.w3.org/2000/10/xlink-ns"
   xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xi="http://www.w3.org/2001/XInclude"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:x="http://www.w3.org/1999/xhtml"
+  xmlns:p="http://custom"
+  xmlns="http://www.w3.org/1999/xhtml">
   <xsl:output method="html" encoding="UTF-8" version="1.0" media-type="text/html" />
 
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <title>
-          <xsl:value-of select="/page/title" />
+          <xsl:value-of select="/p:page/p:title" />
         </title>
         <xsl:choose>
-          <xsl:when test="count(/page/css) != 0">
-            <xsl:for-each select="/page/css">
+          <xsl:when test="count(/p:page/css) != 0">
+            <xsl:for-each select="/p:page/css">
               <link rel="stylesheet" type="text/css">
                 <xsl:attribute name="href">
                   <xsl:apply-templates />
@@ -32,36 +35,36 @@
       <body>
         <div class="header">
           <a href="index.xml">
-            <xsl:apply-templates select="/page/header" />
+            <xsl:apply-templates select="/p:page/p:header" />
             </a>
         </div>
         <table cellpadding="0" cellspacing="0"><tr><td valign="top">
         <div class="menu">
-          <xsl:apply-templates select="/page/menu" />
+          <xsl:apply-templates select="/p:page/p:menu" />
         </div>
-        <xsl:if test="count(/page/content/h1) + count(/page/content/h2) != 0">
+        <xsl:if test="count(/p:page/p:content/x:h1) + count(/p:page/p:content/x:h2) != 0">
         <div class="outline">
-          <xsl:apply-templates select="/page/content/h1 | /page/content/h2" mode="outline" />
+          <xsl:apply-templates select="/p:page/p:content/x:h1 | /p:page/p:content/x:h2" mode="outline" />
         </div>
         </xsl:if>
         </td><td valign="top" width="100%">
         <div class="content">
-          <xsl:apply-templates select="/page/content" />
+          <xsl:apply-templates select="/p:page/p:content" />
         </div>
         </td></tr><tr><td colspan="2" align="right">
         <div class="footer">
-          <xsl:apply-templates select="/page/footer" />
+          <xsl:apply-templates select="/p:page/p:footer" />
         </div>
         </td></tr></table>
       </body>
     </html>
   </xsl:template>
 
-  <xsl:template match="/page/menu">
-    <xsl:for-each select="item">
+  <xsl:template match="/p:page/p:menu">
+    <xsl:for-each select="p:item">
       <xsl:variable name="itemId" select="@id"/>
       <xsl:choose>
-        <xsl:when test="/page/currentMenu[@id=$itemId]">
+        <xsl:when test="/p:page/currentMenu[@id=$itemId]">
           <div class="currentmenuitem">
             <xsl:call-template name="globalReplace">
               <xsl:with-param name="outputString" select="text()" />
@@ -88,7 +91,7 @@
     </xsl:for-each>
   </xsl:template>
 
-  <xsl:template match="//omiscid">
+  <xsl:template match="//p:omiscid | //x:omiscid">
     <span class="omiscid">
       <xsl:text>O</xsl:text>
       <sup>3</sup>
@@ -104,26 +107,25 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="/page/content//* | /page/footer//* | /page/header//*">
+  <xsl:template match="/p:page/p:content//* | /p:page/p:footer//* | /p:page/p:header//*">
     <xsl:call-template name="copyme" />
   </xsl:template>
 
-  <xsl:template match="/page/content | /page/footer | /page/header">
+  <xsl:template match="/p:page/p:content | /p:page/p:footer | /p:page/p:header">
     <xsl:apply-templates />
   </xsl:template>
 
-  <xsl:template match="/page/content/h1">
+  <xsl:template match="/p:page/p:content/x:h1">
     <h1><xsl:copy-of select="attribute::*" /><xsl:call-template name="addAnchor" /></h1>
   </xsl:template>
 
-  <xsl:template match="/page/content/h2">
+  <xsl:template match="/p:page/p:content/x:h2">
     <h2><xsl:copy-of select="attribute::*" /><xsl:call-template name="addAnchor" /></h2>
   </xsl:template>
 
   <xsl:template name="addAnchor">
     <a>
-      <xsl:attribute name="name">
-        a-<xsl:number count="h1 | h2" format="1-1" from="document" level="multiple"/>
+      <xsl:attribute name="name">a-<xsl:number count="x:h1 | x:h2" format="1-1" from="document" level="multiple"/>
       </xsl:attribute>
       <xsl:apply-templates />
     </a>
@@ -148,18 +150,17 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="//h1" mode="outline">
+  <xsl:template match="//x:h1" mode="outline">
     <h1><xsl:copy-of select="attribute::*" /><xsl:call-template name="outline-content"/></h1>
   </xsl:template>
 
-  <xsl:template match="//h2" mode="outline">
+  <xsl:template match="//x:h2" mode="outline">
     <h2><xsl:copy-of select="attribute::*" /><xsl:call-template name="outline-content"/></h2>
   </xsl:template>
   
   <xsl:template name="outline-content">
       <a>
-      <xsl:attribute name="href">
-        #a-<xsl:number count="h1 | h2" format="1-1" from="document" level="multiple"/>
+      <xsl:attribute name="href">#a-<xsl:number count="x:h1 | x:h2" format="1-1" from="document" level="multiple"/>
       </xsl:attribute>
       <xsl:call-template name="globalReplace">
         <xsl:with-param name="outputString">

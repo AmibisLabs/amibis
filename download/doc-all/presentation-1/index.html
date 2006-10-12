@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>S5: An Introduction</title>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20061005" />
+<meta name="author" content="Rémi Emonet" />
+<meta name="company" content="INRIA: PRIMA project" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+	<!-- configuration parameters : slideshow|outline -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+  <!--style type="text/css">
+    .slide h1
+    {text-shadow:  black  3px 3px 1px; }
+  </style-->
+<link rel="stylesheet" href="ui/rem/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+  <style type="text/css">
+/*    .slide h1
+    {color:  black; }
+*/
+    div#header, div#footer {background: black;}
+  </style>
+
+
+<!-- S5 JS + intelligent shadows for firefox -->
+<script src="ui/rem/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header">
+<!--div id="headerbg"><img src="ui/rem/top.png"/></div-->
+</div>
+<div id="footer">
+ <h1 class="shadow">Orange FT / 2006-10-05</h1>
+ <h2 class="shadow">O<sup>3</sup>MiSCID, Rémi Emonet, PRIMA</h2>
+ <!--div id="footerbg"><img src="ui/rem/bottom.png"/></div-->
+</div>
+
+</div>
+
+
+<div class="presentation">
+<div class="slide">
+<h1>O<sup>3</sup>MiSCID, a Middleware<br/> for pervasive computing</h1>
+<h4>PRIMA - INRIA Rhône-Alpes</h4>
+</div>
+
+<div class="slide">
+<h1>Motivations</h1>
+	<ul>
+		<li>Stimulating synergy in/between research teams
+			<ul>
+				<li>Software reuse</li>
+				<li>Software interoperability</li>
+			</ul>
+		</li>
+		<li>Simplifying conception of distributed applications
+			<ul>
+				<li>Unified communication means</li>
+				<li>Programmatic facilities</li>
+			</ul>
+		</li>
+		<li>Enabling higher level concepts</li>
+	</ul>
+</div>
+
+<div class="slide outline">
+<h1>Outline</h1>
+	<ul>
+		<li class="menuHighlight">Requirements</li>
+		<li>Middleware presentation
+			<ul>
+				<li>Abstract architecture</li>
+				<li>Detailed architecture</li>
+			</ul>
+		</li>
+		<li>Examples</li>
+		<li>Summary</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>Middleware Requirements</h1>
+	<ul>
+		<li>Attractiveness and availability
+			<ul>
+				<li>Available to everyone</li>
+				<li>Low threshold, high ceiling</li>
+			</ul>
+		</li>
+		<li>Network efficiency
+			<ul>
+				<li>High bandwidth</li>
+				<li>Low latency</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>Middleware Requirements</h1>
+	<ul>
+		<li>Robustness</li>
+		<li>Ease of configuration</li>
+		<li>Extensibility
+			<ul>
+				<li>Context awareness</li>
+				<li>Autonomous computing</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="slide outline">
+<h1>Outline</h1>
+	<ul>
+		<li>Requirements</li>
+		<li>Middleware presentation
+			<ul>
+				<li class="menuHighlight">Abstract architecture</li>
+				<li>Detailed architecture</li>
+			</ul>
+		</li>
+		<li>Examples</li>
+		<li>Summary</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>O<sup>3</sup>MiSCID</h1>
+	<ul>
+		<li><em>O</em>bject-<em>O</em>riented</li>
+		<li><em>O</em>pensource</li>
+		<li><em>Mi</em>ddleware for</li>
+		<li><em>S</em>ervice <em>C</em>onnection</li>
+		<li><em>I</em>nspection and</li>
+		<li><em>D</em>iscovery</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>Abstract Layered Architecture</h1>
+	<ul>
+		<li>Layer 1: Network Communications
+			<ul>
+				<li>Splitting network streams in messages</li>
+				<li>Arbitrary message content</li>
+			</ul>
+		</li>
+		<li>Layer 2: Services
+			<ul>
+				<li>Service declaration and advertisement</li>
+				<li>Service discovery and inspection</li>
+			</ul>
+		</li>
+		<li>Layer 3: Ontology
+			<ul>
+				<li>Semantic service description</li>
+			</ul>
+		</li>
+	</ul>
+	<div class="bottomright"><img src="archi.png"/></div>
+</div>
+
+<div class="slide">
+<h1>Architecture</h1>
+	<img class="imageSlide" src="archi.png"/>
+</div>
+
+
+<div class="slide outline">
+<h1>Outline</h1>
+	<ul>
+		<li>Requirements</li>
+		<li>Middleware presentation
+			<ul>
+				<li>Abstract architecture</li>
+				<li class="menuHighlight">Detailed architecture</li>
+			</ul>
+		</li>
+		<li>Examples</li>
+		<li>Summary</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>L1: Network Communications</h1>
+	<ul>
+		<li>Basic Interconnection Protocol (BIP)
+			<ul>
+				<li>Splits the communication stream into messages</li>
+				<li>34-byte header</li>
+				<li>Allows arbitrary content type</li>
+			</ul>
+		</li>
+		<li>Programmatic facilities
+			<ul>
+				<li>Communication channel instantiation</li>
+				<li>Message interpretation:<br/>string, xml, binary</li>
+			</ul>
+		</li>
+	</ul>
+	<div class="bottomright"><img src="archi.png"/></div>
+</div>
+
+<div class="slide">
+<h1>L2: Services - Declaration</h1>
+	<ul>
+		<li>Black box software unit</li>
+		<li>Communication channels
+			<ul>
+				<li>Input, output, bidirectional</li>
+			</ul>
+		</li>
+		<li>Variables
+			<ul>
+				<li>Access rights</li>
+				<li>Remote modifications, modification subscription</li>
+			</ul>
+		</li>
+		<li>Control channel
+			<ul>
+				<li>Inspection, variable related queries</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>Example Services</h1>
+	<img width="100%" class="imageSlide" src="example-service.png"/>
+</div>
+
+<div class="slide">
+<h1>Example Declaration</h1>
+	<img width="100%" right="40%" src="example-service.png"/>
+	<pre>
+service = factory.<b>create</b>("Camera");
+
+service.<b>addConnector</b>("videoOutput",
+                     "Frame by frame output",
+                     ConnectorType.OUTPUT);
+
+service.<b>addVariable</b>("calibration",
+                    "Matrix4x4",
+                    VariableAccessType.READ);
+...
+	</pre>
+</div>
+
+<div class="slide">
+<h1>L2: Services - Discovery</h1>
+	<ul>
+		<li>DNS-SD over multicast DNS
+			<ul>
+				<li>Distributed service advertisement</li>
+				<li>Quick connection/disconnection notifications</li>
+			</ul>
+		</li>
+		<li>Service selection using filters on
+			<ul>
+				<li>Service name, hostname, owner</li>
+				<li>Channel presence, description</li>
+				<li>Variable presence, value</li>
+				<li>Custom condition</li>
+			</ul>
+		</li>
+	</ul>
+	<div class="bottomright"><img src="archi.png"/></div>
+</div>
+
+<div class="slide">
+<h1>Example Discovery</h1>
+	<img width="100%" right="40%" src="example-service.png"/>
+	<pre>
+service.<b>addConnectorListener</b>( "videoInput", this);
+
+cameraProxy = service.<b>findService</b>( <b>and</b>(
+                                       <b>nameIs</b>("Camera"),
+                                       <b>ownerIs</b>("John")));
+
+service.<b>connectTo</b>("videoInput", cameraProxy, "videoOutput");
+	</pre>
+</div>
+
+<div class="slide">
+<h1>L3: Ontology, Work In Progress ...</h1>
+	<ul>
+		<li>Semantic description of services</li>
+		<li>Currently: Simple class hierarchy
+			<ul>
+				<li>Single inheritance</li>
+				<li>Single class belonging</li>
+				<li>Class fields (variables)</li>
+			</ul>
+		</li>
+		<li>Service lookup based on
+			<ul>
+				<li>Service class</li>
+				<li>Service fields values</li>
+			</ul>
+		</li>
+	</ul>
+	<div class="bottomright"><img src="archi.png"/></div>
+</div>
+
+<div class="slide">
+<h1>Implementation</h1>
+	<ul>
+		<li>Cross-language and cross-platform
+			<ul>
+				<li>Java and OSGi bundle</li>
+				<li>Portable C++ (Windows, Linux, MacOSX)</li>
+				<li>Tcl</li>
+			</ul>
+		<li>APIs (programming interfaces)
+			<ul>
+				<li>Close to each other</li>
+				<li>Exploiting particularities of each language</li>
+				<li>User centered abstractions</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="slide outline">
+<h1>Outline</h1>
+	<ul>
+		<li>Requirements</li>
+		<li>Middleware presentation
+			<ul>
+				<li>Abstract architecture</li>
+				<li>Detailed architecture</li>
+			</ul>
+		</li>
+		<li class="menuHighlight">Examples</li>
+		<li>Summary</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>Plotting Room Configuration</h1>
+	<ul>
+		<li>Browse for interesting hardware services</li>
+		<li>Query interesting parameters (position, orientation, ...)</li>
+		<li>Render the room with its hardware</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1> </h1>
+	<img class="imageSlide" style="margin-left:6em;" src="smart-room.png"/>
+</div>
+
+<div class="slide">
+<h1>3D Tracking System</h1>
+	<ul>
+		<li>Services
+			<ul>
+				<li>One detector/estimator per camera</li>
+				<li>A 3D Tracker service</li>
+			</ul>
+		</li>
+		<li>Distributed processing</li>
+		<li>Set up using service discovery</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1> </h1>
+	<img class="imageSlide" src="3d-tracker.png"/>
+        <div style="float:right;"><a href="videoTracker3dColor.mpg">¡ Show !</a></div>
+</div>
+
+<div class="slide">
+<h1>System Monitoring</h1>
+	<ul>
+		<li>Browse for interesting services</li>
+		<li>Inspect their interconnections</li>
+		<li>Automatically generate a graph</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1> </h1>
+	<img style="width:180%; position:absolute; left:-50%;" src="monitoring.png"/>
+</div>
+
+<div class="slide outline">
+<h1>Outline</h1>
+	<ul>
+		<li>Requirements</li>
+		<li>Middleware presentation
+			<ul>
+				<li>Abstract architecture</li>
+				<li>Detailed architecture</li>
+			</ul>
+		</li>
+		<li>Examples</li>
+		<li class="menuHighlight">Summary</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>Summary</h1>
+	<ul>
+		<li>Motivations
+			<ul>
+				<li>Stimulate synergy in/between research teams</li>
+				<li>Simplify distributed application design</li>
+			</ul>
+		</li>
+		<li>Layered architecture
+			<ul>
+				<li>L1: Network communications</li>
+				<li>L2: Services declaration and discovery</li>
+				<li>L3: Semantic service description</li>
+			</ul>
+		</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>Summary (Cont'd)</h1>
+	<ul>
+		<li>Implementation
+			<ul>
+				<li>User centered design (ease of use, high availability)</li>
+				<li>Open source release (publicly available)</li>
+			</ul>
+		</li>
+		<li>Status
+			<ul>
+				<li>Upper layer (L3) is work in progress, lower ones are stable</li>
+				<li>Good adoption rate</li>
+			</ul>
+		</li>
+		<li>Good base for future work</li>
+	</ul>
+</div>
+
+<div class="slide">
+<h1>Thank You For Your Attention</h1>
+	<ul>
+		<li>URL: <a href="http://omiscid.gforge.inria.fr/">http://omiscid.gforge.inria.fr/</a></li>
+		<li>Main contributors (non-ordered):
+			<ul>
+				<li>Dominique Vaufreydaz</li>
+				<li>Sébastien Pesnel</li>
+				<li>Rémi Emonet</li>
+				<li>Julien Letessier</li>
+				<li>Patrick Reignier</li>
+			</ul>
+		</li>
+		<li>¿ Questions ?</li>
+	</ul>
+</div>
+
+</div>
+
+</body>
+</html>

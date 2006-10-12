@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<menu>
+<menu xmlns="http://custom">
   <item id="Main" link="index.xml">Home Page</item>
   <item id="Documentation" link="documentation.xml">Documentation</item>
   <item id="Licence" link="licence.xml">Licence</item>

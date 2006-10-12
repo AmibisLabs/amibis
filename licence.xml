@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/page.xsl" ?>
 
-<page xmlns:xi="http://www.w3.org/2001/XInclude">
+<page xmlns="http://custom" xmlns:custom="http://custom" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="common/common.xml#xpointer(//*)" />
 
   <title>OMiSCID Licence Page</title>
   <currentMenu id="Licence"/>
 
-  <content>
-    <h2><omiscid/> Licence</h2>
+  <custom:content xmlns="http://www.w3.org/1999/xhtml">
+    <h1><omiscid/> Licence</h1>
     <p><omiscid/> is released under an MIT-like licence that is described below.</p>
     <pre>
 Copyright© 2005-2006 INRIA/Université Pierre Mendès-France/Université Joseph Fourier.
@@ -35,6 +35,6 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
      </pre>
-  </content>
+  </custom:content>
 
 </page>

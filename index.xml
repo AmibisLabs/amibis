@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/page.xsl" ?>
 
-<page xmlns:xi="http://www.w3.org/2001/XInclude">
+<page xmlns="http://custom" xmlns:custom="http://custom" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="common/common.xml#xpointer(//*)" />
 
   <title>OMiSCID Main Page</title>
   <currentMenu id="Main"/>
 
-  <content>
+  <custom:content xmlns="http://www.w3.org/1999/xhtml">
     <h1>Description</h1>
     <h2>General Description</h2>
     <p><omiscid/> stands for <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>nspection and <b>D</b>iscovery.</p>
@@ -34,6 +34,6 @@
         <li>BIP because before having its name, we used to call it as its underlying protocol (Basic Interconnection Protocol).</li>
       </ul>
     </p>
-  </content>
+  </custom:content>
 
 </page>

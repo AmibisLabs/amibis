@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/page.xsl" ?>
 
-<page xmlns:xi="http://www.w3.org/2001/XInclude">
+<page xmlns="http://custom" xmlns:custom="http://custom" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="common/common.xml#xpointer(//*)" />
 
   <title>OMiSCID Documentation Page</title>
   <currentMenu id="Documentation"/>
 
-  <content>
+  <custom:content xmlns="http://www.w3.org/1999/xhtml">
     <h1>Installation</h1>
     
     <h2>General Information</h2>
@@ -42,9 +42,12 @@
       <p>You can access the <a href="download/doc-java/javadoc/index.html">javadoc of the user centered API</a> on this website.</p>
     <h2>OSGi</h2>
       <p>2006-09-25: Coming very soon ... refactoring in progress, contact us if you want the current version</p>
+
+    <h1>Presentations</h1>
+    <p>If you want to look at some slides presenting <omiscid/>, you can just watch <a href="download/doc-all/presentation-1/index.html">an html presentation of <omiscid/></a>.</p>
     
     <h1>Publications</h1>
     <p>For a detailled description of <omiscid/> architecture and design goals, see this <a href="http://www-prima.inrialpes.fr/prima/pub/Publications/2006/EVRL06/">paper presented at the IEEE workshop SIPE-2006</a>.</p>
-  </content>
+  </custom:content>
 
 </page>

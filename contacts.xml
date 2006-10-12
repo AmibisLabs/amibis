@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="xsl/page.xsl" ?>
 
-<page xmlns:xi="http://www.w3.org/2001/XInclude">
+<page xmlns="http://custom" xmlns:custom="http://custom" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="common/common.xml#xpointer(//*)" />
 
   <title>OMiSCID Contacts Page</title>
   <currentMenu id="Contacts"/>
 
-  <content>
+  <custom:content xmlns="http://www.w3.org/1999/xhtml">
     <p>
       For all remarks and questions, feel free to contact us:
       <a href="mailto:Omiscid-info@no@spam@lists.gforge.inria.fr">Omiscid-info@no@spam@lists.gforge.inria.fr</a>
     </p>
-  </content>
+  </custom:content>
 
 </page>
