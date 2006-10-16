@@ -114,7 +114,7 @@ function currentSlide() {
 	} else {
 		cs.style.visibility = 'visible';
 	}
-        textShadows();
+//        textShadows();
 }
 
 function go(step) {
