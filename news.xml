@@ -4,11 +4,11 @@
 <page xmlns="http://custom" xmlns:custom="http://custom" xmlns:xi="http://www.w3.org/2001/XInclude">
   <xi:include href="common/common.xml#xpointer(//*)" />
 
-  <title>OMiSCID FAQ Page</title>
-  <currentMenu id="Faq"/>
+  <title>OMiSCID News Page</title>
+  <currentMenu id="News"/>
 
   <custom:content xmlns="http://www.w3.org/1999/xhtml">
-    <p>This page will contain the frequently asked questions about <omiscid/> and the associated answers. Feel free to <a href="contacts.xml">contact us</a> if you are thinking of something that should be added here.</p>
+	<p>You can consult the <a href="http://gforge.inria.fr/news/?group_id=363"><omiscid/> news</a> or subscribe to <a href="http://gforge.inria.fr/export/rss_sfnews.php?group_id=363">the <omiscid/> news feed</a>.</p>
   </custom:content>
 
 </page>

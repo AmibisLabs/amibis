@@ -64,7 +64,7 @@
     <xsl:for-each select="p:item">
       <xsl:variable name="itemId" select="@id"/>
       <xsl:choose>
-        <xsl:when test="/p:page/currentMenu[@id=$itemId]">
+        <xsl:when test="/p:page/p:currentMenu[@id=$itemId]">
           <div class="currentmenuitem">
             <xsl:call-template name="globalReplace">
               <xsl:with-param name="outputString" select="text()" />
