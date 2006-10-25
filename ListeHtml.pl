@@ -9,9 +9,21 @@ sub WorkOnFile()
 
 	if ( $FileName =~ /\.html?$/ )
 	{
-		$FileName =~ s/^out\///;
+		$FileName =~ s/^$UserData//;
 		print "<url  href=\"http://omiscid.gforge.inria.fr/$FileName\"  />\n";
 	}
 }
 
-&RecurseWork::RecurseWork('out/');
+if ( ! defined $ARGV[0] || ! -e $ARGV[0] || ! -d $ARGV[0] )
+{
+	die "Bad parameter\n";
+}
+
+$Rep = $ARGV[0];
+
+if ( $Rep =~ /[^\/]$/ )
+{
+	$Rep .= '/';
+}
+
+&RecurseWork::RecurseWork($Rep,$Rep);
