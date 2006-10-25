@@ -8,6 +8,7 @@ release: all-html patch-javadoc
 	rm -rf ${OUT}
 	mkdir ${OUT}
 	cp -r css image download *.html ${OUT}
+	cp sitemap.xml.in ${OUT}/sitemap.xml
 #	cp -r Documents/Doc/ Documents/OMiSCID-C++Tutorial.pdf ${OUT}/download/
 #	rm -rf ${OUT}/download/Doc/.svn  ${OUT}/css/.svn  ${OUT}/download/.svn ${OUT}/image/.svn
 #	cd ${OUT}/download && wget http://oberon/release/omiscid.jar

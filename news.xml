@@ -8,7 +8,7 @@
   <currentMenu id="News"/>
 
   <custom:content xmlns="http://www.w3.org/1999/xhtml">
-	<p>You can consult the <a href="http://gforge.inria.fr/news/?group_id=363"><omiscid/> news</a> or subscribe to <a href="http://gforge.inria.fr/export/rss_sfnews.php?group_id=363">the <omiscid/> news feed</a>.</p>
+	<newsinfo/>
   </custom:content>
 
 </page>

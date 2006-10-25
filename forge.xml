@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="xsl/page.xsl" ?>
+
+<page xmlns="http://custom" xmlns:custom="http://custom" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <xi:include href="common/common.xml#xpointer(//*)" />
+  
+  <title>OMiSCID Forge Page</title>
+  <currentMenu id="Forge access"/>
+
+  <custom:content xmlns="http://www.w3.org/1999/xhtml">
+    <h1><omiscid/> Forge access</h1>
+    <h2>Forums</h2>
+    <p>You can access to our <a href="http://gforge.inria.fr/forum/?group_id=363">forums</a> in order to ask question about <omiscid/>.</p>
+    <h2>Tracking System</h2>
+    <p>You can use to our <a href="http://gforge.inria.fr/tracker/?group_id=363">Tracking system</a> to report bugs for example.</p>
+    <h2>Mailing lists</h2>
+    <p>You may want to register to our <a href="http://gforge.inria.fr/mail/?group_id=363">mailing-lists</a>.</p>
+    <h2>News</h2>
+    <newsinfo/>
+    <h2>Download</h2>
+    <p>You can get information about the <a href="Download.xml">download section</a> or directly access to the <a href="http://gforge.inria.fr/frs/?group_id=363">download area of the forge</a></p>
+
+  
+  </custom:content>
+
+</page>

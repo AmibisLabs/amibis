@@ -91,11 +91,18 @@
     </xsl:for-each>
   </xsl:template>
 
-  <xsl:template match="//p:omiscid | //x:omiscid">
+  <xsl:template name="omiscid" match="//p:omiscid | //x:omiscid">
     <span class="omiscid">
       <xsl:text>O</xsl:text>
       <sup>3</sup>
       <xsl:text>MiSCID</xsl:text>
+    </span>
+    <xsl:text></xsl:text>
+  </xsl:template>
+  
+  <xsl:template match="//p:newsinfo | //x:newsinfo">
+    <span class="newsinfo">
+      <p>You can consult the <a href="http://gforge.inria.fr/news/?group_id=363"><xsl:call-template name="omiscid"/> news</a> or subscribe to <a href="http://gforge.inria.fr/export/rss_sfnews.php?group_id=363">the <xsl:call-template name="omiscid"/> news feed</a>.</p>
     </span>
     <xsl:text></xsl:text>
   </xsl:template>
