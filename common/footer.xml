@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer xmlns="http://custom">
-Last update 2006-10-16.
+Last update 2006-10-26.
 <!--
+updated the version of castor in the text
+added the forge access page
+added hints for the google crawler
+
+Last update 2006-10-16.
 added the news page
 fixed missing highlight of the current menu item
 

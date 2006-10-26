@@ -18,8 +18,8 @@
       <p>The Java version of <omiscid/> requires a DNSSD implementation to be installed. For example, you will need to install mDNSResponder (Apple Bonjour) together with its Java bindings. See the OSGi tutorial for more details about this installation.</p>
       <p>The developement using the non-OSGi version of omiscid just requires to have the following jars in your classpath:
         <ul>
-          <li>omiscid.jar: the omiscid library</li>
-          <li>xerces-J_1.4.0.jar, commons-logging.jar, castor-1.0.1-xml.jar, log4j-1.2.8.jar: the base libraries required by <a href="http://www.castor.org/xml-framework.html">Castor XML</a></li>
+          <li>omiscid-1.?.?.jar: the omiscid library</li>
+          <li>xerces-J_1.4.0.jar, commons-logging.jar, castor-1.0.4-xml.jar, log4j-1.2.8.jar: the base libraries required by <a href="http://www.castor.org/xml-framework.html">Castor XML</a></li>
           <li>jakarta-oro-2.0.8.jar: the <a href="http://jakarta.apache.org/oro/">apache jakarta oro library</a> required by some Castor XML features</li>
         </ul>
         Note that all the dependencies to Castor will probably be replaced when Java 6 will be released and widely available.
