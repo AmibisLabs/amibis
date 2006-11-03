@@ -18,7 +18,7 @@
     <h2>News</h2>
     <newsinfo/>
     <h2>Download</h2>
-    <p>You can get information about the <a href="Download.xml">download section</a> or directly access to the <a href="http://gforge.inria.fr/frs/?group_id=363">download area of the forge</a></p>
+    <p>You can get information about the <a href="download.xml">download section</a> or directly access to the <a href="http://gforge.inria.fr/frs/?group_id=363">download area of the forge</a></p>
 
   
   </custom:content>
