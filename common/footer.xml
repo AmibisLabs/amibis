@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer xmlns="http://custom">
-Last update 2006-12-20.
+Last update 2006-04-20.
 <!--
+added some documentation about settable environment variables
+added some description of the jars contained in omiscid releases
+updated javadoc
 
 Last update 2006-12-20.
 updated the version of castor in the text

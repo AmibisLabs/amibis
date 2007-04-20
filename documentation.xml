@@ -16,11 +16,13 @@
       <p>In order to compile your <omiscid/> source code, you will need to have Bonjour, libxml with their C++ headers and libs for bindings.</p>
     <h2>Java</h2>
       <p>The Java version of <omiscid/> requires a DNSSD implementation to be installed. For example, you will need to install mDNSResponder (Apple Bonjour) together with its Java bindings. See the OSGi tutorial for more details about this installation.</p>
-      <p>The developement using the non-OSGi version of omiscid just requires to have the following jars in your classpath:
+      <p>The developement using the non-OSGi version of omiscid just requires to have the following jars in your classpath (all bundled with omiscid releases):
         <ul>
           <li>omiscid-1.?.?.jar: the omiscid library</li>
           <li>castor-1.0.5-xml.jar, xerces.jar, commons-logging-1.1.jar: the base libraries required by <a href="http://www.castor.org/xml-framework.html">Castor XML</a></li>
           <li>jakarta-oro-2.0.8.jar: the <a href="http://jakarta.apache.org/oro/">apache jakarta oro library</a> required by some Castor XML features</li>
+          <li>(optional) jmdns.jar: <a href="http://jmdns.sourceforge.net/">jmdns jar, a pure Java implementation of DNSSD</a> for an alternative DNSSD access</li>
+          <li>(optional) dbus*.jar, debug-*.jar, hexdump*.jar, unix*.jar and libunix-java.so: for an alternative DNSSD access using <a href="http://avahi.org/">avahi</a> accessed through <a href="http://dbus.freedesktop.org/">dbus</a></li>
         </ul>
       </p>
       <p>
@@ -45,6 +47,21 @@
       <p>You can access the <a href="download/doc-java/javadoc/index.html">javadoc of the user centered API</a> on this website.</p>
     <h2>OSGi</h2>
       <p>Here is a <a href="download/doc-osgi/tutorial.pdf">pre-final release</a> of the <omiscid/> OSGi tutorial. The tutorial references some files that can be found in <a href="download/doc-osgi/curves.zip">a zip of the "curves" files</a>.</p>
+
+    <h1>Custom Settings</h1>
+    <h2>Working domain name</h2>
+      <p><omiscid/> services are registered under DNSSD in a dedicated domain. By default this domain is <code>_bip._tcp</code> but one can choose the domain in which <omiscid/> will declare and look for services. This can be done by setting the <code>OMISCID_WORKING_DOMAIN</code> environment variable, for example to <code>_bip_test._tcp</code>.</p>
+    <h2>Name resolution</h2>
+      <p>By default, <omiscid/> uses standard DNS for host name resolution. In some configurations such as Ad-Hoc networks, where there is no DNS server or not all hosts are known by the DNS server, one can use DNSSD for name resolution. This can be done by setting the <code>OMISCIDNS_USE_MDNS_NAME_SOLVING</code> environment variable to any value, for example to <code>true</code>.</p>
+    <h2>DNSSD implementation</h2>
+      <p>Java (and OSGi) version of <omiscid/> allows the user to choose how to access DNSSD. This can be controlled using the <code>OMISCID_DNSSD_FACTORY</code> environment variable. By default, <omiscid/> tries to find the best implementation given its runtime environment, it is however possible to force <omiscid/> to try a given method first. The environment variable can take the following values:
+        <ul>
+          <li><code>mdns</code>: this uses mDNSResponder from Apple. Apple Java binding are known to have some bugs that can affect <omiscid/> in some cases (e.g. big service descriptions).</li>
+          <li><code>jmdns</code>: this uses a 100% pure Java implementation of DNSSD. This implementation has a long warm up time.</li>
+          <li><code>avahi</code>: this uses a running avahi daemon. This requires to have an avahi daemon running (present in all recent linux distributions). <omiscid/> accesses the daemon through the gnome software bus: dbus.</li>
+        </ul>
+      </p>
+
     <h1>Presentations</h1>
     <p>If you want to look at some slides presenting <omiscid/>, you can just watch <a href="download/doc-all/presentation-1/index.html">an html presentation of <omiscid/></a>.</p>
     
