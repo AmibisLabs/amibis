@@ -117,7 +117,7 @@ Interface Service</H2>
              <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a new connector to the Bip service.</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a new connector to the service.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -146,7 +146,7 @@ Interface Service</H2>
             <A HREF="../../../../../fr/prima/omiscid/user/variable/VariableAccessType.html" title="enum in fr.prima.omiscid.user.variable">VariableAccessType</A>&nbsp;accessType)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a new Bip Variable</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a new variable for this service.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -245,6 +245,46 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendReplyToMessage(byte[], fr.prima.omiscid.user.connector.Message)">sendReplyToMessage</A></B>(byte[]&nbsp;msg,
+                   <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to all the clients connected to the service.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendReplyToMessage(byte[], fr.prima.omiscid.user.connector.Message, boolean)">sendReplyToMessage</A></B>(byte[]&nbsp;msg,
+                   <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message,
+                   boolean&nbsp;unreliableButFastSend)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message back to the sender of a message just received.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendReplyToMessage(java.lang.String, byte[], fr.prima.omiscid.user.connector.Message)">sendReplyToMessage</A></B>(java.lang.String&nbsp;connectorName,
+                   byte[]&nbsp;msg,
+                   <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to all the clients connected to the service.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendReplyToMessage(java.lang.String, byte[], fr.prima.omiscid.user.connector.Message, boolean)">sendReplyToMessage</A></B>(java.lang.String&nbsp;connectorName,
+                   byte[]&nbsp;msg,
+                   <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message,
+                   boolean&nbsp;unreliableButFastSend)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message back to the sender of a message just received.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToAllClients(java.lang.String, byte[])">sendToAllClients</A></B>(java.lang.String&nbsp;connectorName,
                  byte[]&nbsp;msg)</CODE>
 
@@ -335,7 +375,7 @@ Interface Service</H2>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#stop()">stop</A></B>()</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stops the bip service : closes all the connections and unregisters the service</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stops the service : closes all the connections and unregisters the service</TD>
 </TR>
 </TABLE>
 &nbsp;
@@ -361,7 +401,7 @@ void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
                          java.io.IOException,
                          <A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></PRE>
 <DL>
-<DD>Adds a new connector to the Bip service.
+<DD>Adds a new connector to the service.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector<DD><CODE>connectorDescription</CODE> - the description of the connector<DD><CODE>connectorKind</CODE> - connector type. This can be input, output or input-output
@@ -410,7 +450,7 @@ stop</H3>
 <PRE>
 void <B>stop</B>()</PRE>
 <DL>
-<DD>Stops the bip service : closes all the connections and unregisters the service
+<DD>Stops the service : closes all the connections and unregisters the service
 <P>
 <DD><DL>
 </DL>
@@ -430,7 +470,7 @@ void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
 <DD>Sends a message to a particular client. This client is identified by its Peer id (pid).
  This method is usually used to answer a request coming from another service that
  has requested a connexion with us. We know this service from its pid inside its request message. We
- do not have a bipServiceProxy for it because we have not found this service to initiate the connexion.
+ do not have a ServiceProxy for it because we have not found this service to initiate the connexion.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector that will send the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>pid</CODE> - peer id : the identification of the client that must receive the message<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
@@ -451,7 +491,7 @@ void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
 <DD>Sends a message to a particular client. This client is identified by its Peer id (pid).
  This method is usually used to answer a request coming from another service that
  has requested a connexion with us. We know this service from its pid inside its request message. We
- do not have a bipServiceProxy for it because we have not found this service to initiate the connexion.
+ do not have a ServiceProxy for it because we have not found this service to initiate the connexion.
  Defaults to reliable send.
 <P>
 <DD><DL>
@@ -515,7 +555,6 @@ void <B>sendToAllClients</B>(java.lang.String&nbsp;connectorName,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
 <DT><B>Throws:</B>
-<DD><CODE>UnknownBipService</CODE> - thrown if serviceId is not a declared service
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
 </DD>
 </DL>
@@ -534,7 +573,84 @@ void <B>sendToAllClients</B>(java.lang.String&nbsp;connectorName,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send
 <DT><B>Throws:</B>
-<DD><CODE>UnknownBipService</CODE> - thrown if serviceId is not a declared service
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="sendReplyToMessage(java.lang.String, byte[], fr.prima.omiscid.user.connector.Message, boolean)"><!-- --></A><H3>
+sendReplyToMessage</H3>
+<PRE>
+void <B>sendReplyToMessage</B>(java.lang.String&nbsp;connectorName,
+                        byte[]&nbsp;msg,
+                        <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message,
+                        boolean&nbsp;unreliableButFastSend)
+                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+<DL>
+<DD>Sends a message back to the sender of a message just received.
+ Allows to specify on which connector to send the answer.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="sendReplyToMessage(java.lang.String, byte[], fr.prima.omiscid.user.connector.Message)"><!-- --></A><H3>
+sendReplyToMessage</H3>
+<PRE>
+void <B>sendReplyToMessage</B>(java.lang.String&nbsp;connectorName,
+                        byte[]&nbsp;msg,
+                        <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)
+                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+<DL>
+<DD>Sends a message to all the clients connected to the service.
+ Allows to specify on which connector to send the answer.
+ Defaults to reliable send.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="sendReplyToMessage(byte[], fr.prima.omiscid.user.connector.Message, boolean)"><!-- --></A><H3>
+sendReplyToMessage</H3>
+<PRE>
+void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
+                        <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message,
+                        boolean&nbsp;unreliableButFastSend)</PRE>
+<DL>
+<DD>Sends a message back to the sender of a message just received.
+ The message is sent on the connector on which the message to reply to
+ was received.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="sendReplyToMessage(byte[], fr.prima.omiscid.user.connector.Message)"><!-- --></A><H3>
+sendReplyToMessage</H3>
+<PRE>
+void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
+                        <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</PRE>
+<DL>
+<DD>Sends a message to all the clients connected to the service.
+ Defaults to reliable send.
+ The message is sent on the connector on which the message to reply to
+ was received.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to
+<DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
 </DD>
 </DL>
@@ -586,7 +702,7 @@ void <B>addVariable</B>(java.lang.String&nbsp;varName,
                  throws <A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A>,
                         <A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></PRE>
 <DL>
-<DD>Creates a new Bip Variable
+<DD>Creates a new variable for this service.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>varName</CODE> - the variable name<DD><CODE>type</CODE> - the variable type (or null if no type is associated)<DD><CODE>description</CODE> - the variable description<DD><CODE>accessType</CODE> - the access type of the variable

@@ -186,7 +186,7 @@ create</H3>
 <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A> <B>create</B>(java.lang.String&nbsp;serviceName)</PRE>
 <DL>
 <DD>Creates a new Omiscid service. This service is not yet advertised in DSN-SD. It must
- be first launched (see <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#start()"><CODE>Service.start()</CODE></A>). 
+ be first launched (see <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#start()"><CODE>Service.start()</CODE></A>).
  <BR>
  <B>Caution :</B> As long as the service is not started, it is still possible to add connectors
  or variables . Adding connectors or variables to a started service will trigger an exception.
@@ -206,7 +206,7 @@ create</H3>
                java.lang.String&nbsp;className)</PRE>
 <DL>
 <DD>Creates a new Omiscid service. This service is not yet advertised in DSN-SD. It must
- be first launched (see <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#start()"><CODE>Service.start()</CODE></A>). 
+ be first launched (see <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#start()"><CODE>Service.start()</CODE></A>).
  <BR>
  <B>Caution :</B> As long as the service is not started, it is still possible to add connectors
  or variables . Adding connectors or variables to a started service will trigger an exception.
@@ -228,7 +228,7 @@ createFromXML</H3>
 <DD>Creates a new Omiscid service from an XML description. This service is not yet advertised in DSN-SD. It must
  first be launched (see <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#start()"><CODE>Service.start()</CODE></A>)
  <BR>
- <B>Caution :</B> As long as the service is not started, it is still possible to add connectors 
+ <B>Caution :</B> As long as the service is not started, it is still possible to add connectors
  or variables. Adding connectors or variables to a started service will trigger an exception.
 <P>
 <DD><DL>
@@ -266,7 +266,7 @@ createServiceRepositoy</H3>
 <DD>Creates a new <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service"><CODE>ServiceRepository</CODE></A>.
  A service repository is used to mainting automatically a list of running services and can notify of services apparition and disapparition.
  If you are only willing to look for services at a given instant, using <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#findService(fr.prima.omiscid.user.service.ServiceFilter)"><CODE>Service.findService(fr.prima.omiscid.user.service.ServiceFilter)</CODE></A> methods is simpler.
- 
+
  A new <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service"><CODE>Service</CODE></A> instance will be hiddenly created. If you already have a <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service"><CODE>Service</CODE></A> instance, you should probably prefer <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepositoy(fr.prima.omiscid.user.service.Service)"><CODE>createServiceRepositoy(Service)</CODE></A>.
  Connections that may be necessary for the service repository will be done in the name of the hiddenly created service.
 <P>

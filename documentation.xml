@@ -43,7 +43,8 @@
         </ul>
       </p>
     <h2>Java</h2>
-      <p>As the C++ and Java APIs are almost identical (modulo the languages specifity), you can probably take the C++ tutorials as a basis. Your favorite IDE will probably allow you to cope with the slight differences between the C++ and Java APIs.</p>
+      <!--p>An <omiscid/> starting guide for Java developpers can be found on the <a href="java-tutorial.xml">Java tutorial page</a>.</p-->
+      <p>As the C++ and Java APIs are almost identical (modulo the languages specifity), you can also have a look at the C++ tutorials. Your favorite IDE will probably allow you to cope with the slight differences between the C++ and Java APIs.</p>
       <p>You can access the <a href="download/doc-java/javadoc/index.html">javadoc of the user centered API</a> on this website.</p>
     <h2>OSGi</h2>
       <p>Here is a <a href="download/doc-osgi/tutorial.pdf">pre-final release</a> of the <omiscid/> OSGi tutorial. The tutorial references some files that can be found in <a href="download/doc-osgi/curves.zip">a zip of the "curves" files</a>.</p>
