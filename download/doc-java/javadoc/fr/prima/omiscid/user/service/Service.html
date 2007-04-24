@@ -249,7 +249,7 @@ Interface Service</H2>
                    <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to all the clients connected to the service.</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message back to the sender of a message just received.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -269,7 +269,7 @@ Interface Service</H2>
                    <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to all the clients connected to the service.</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message back to the sender of a message just received.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -280,7 +280,7 @@ Interface Service</H2>
                    boolean&nbsp;unreliableButFastSend)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message back to the sender of a message just received.</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows to specify on which connector to send the answer.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -587,8 +587,7 @@ void <B>sendReplyToMessage</B>(java.lang.String&nbsp;connectorName,
                         boolean&nbsp;unreliableButFastSend)
                         throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
 <DL>
-<DD>Sends a message back to the sender of a message just received.
- Allows to specify on which connector to send the answer.
+<DD>Allows to specify on which connector to send the answer.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
@@ -606,7 +605,7 @@ void <B>sendReplyToMessage</B>(java.lang.String&nbsp;connectorName,
                         <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)
                         throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
 <DL>
-<DD>Sends a message to all the clients connected to the service.
+<DD>Sends a message back to the sender of a message just received.
  Allows to specify on which connector to send the answer.
  Defaults to reliable send.
 <P>
@@ -643,7 +642,7 @@ sendReplyToMessage</H3>
 void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
                         <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</PRE>
 <DL>
-<DD>Sends a message to all the clients connected to the service.
+<DD>Sends a message back to the sender of a message just received.
  Defaults to reliable send.
  The message is sent on the connector on which the message to reply to
  was received.
