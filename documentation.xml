@@ -15,7 +15,6 @@
     <h2>C++</h2>
       <p>In order to compile your <omiscid/> source code, you will need to have Bonjour, libxml with their C++ headers and libs for bindings.</p>
     <h2>Java</h2>
-      <p>The Java version of <omiscid/> requires a DNSSD implementation to be installed. For example, you will need to install mDNSResponder (Apple Bonjour) together with its Java bindings. See the OSGi tutorial for more details about this installation.</p>
       <p>The developement using the non-OSGi version of omiscid just requires to have the following jars in your classpath (all bundled with omiscid releases):
         <ul>
           <li>omiscid-1.?.?.jar: the omiscid library</li>
@@ -27,9 +26,10 @@
       </p>
       <p>
         Both Castor (and its dependencies) and Oro are now bundled with the <omiscid/> release.
-        Note that all the dependencies to Castor will perhaps be replaced when Java 6 will be released and widely available.
+        Note that all the dependencies to Castor will perhaps be replaced when Java 6 will be widely used.
       </p>
       <p>You can access the <a href="download/doc-java/javadoc/index.html">javadoc of the user centered API</a> on this website.</p>
+      <p>The Java version of <omiscid/> may use a DNSSD implementation installed on your computer. It can also used a pure Java implementation, <a href="http://jmdns.sourceforge.net/">jmdns</a>, if it is in the application classpath. It is bundled with <omiscid/> (<a href="#dnssd-impl">see details about choosing DNSSD implementation</a>). The OSGi tutorial explains how to install and use mDNSResponder (Apple Bonjour) together with its Java bindings.</p>
     <h2>OSGi</h2>
       <p>The OSGi bundle version of <omiscid/> has been tested on the Oscar OSGi platform. To install it, you also need to install the castor bundle available in <a href="http://gforge.inria.fr/frs/?group_id=363">the download section</a>.</p>
       <p>For further details, you can look at the OSGi tutorial below.</p>
@@ -55,6 +55,7 @@
     <h2>Name resolution</h2>
       <p>By default, <omiscid/> uses standard DNS for host name resolution. In some configurations such as Ad-Hoc networks, where there is no DNS server or not all hosts are known by the DNS server, one can use DNSSD for name resolution. This can be done by setting the <code>OMISCIDNS_USE_MDNS_NAME_SOLVING</code> environment variable to any value, for example to <code>true</code>.</p>
     <h2>DNSSD implementation</h2>
+      <a name="dnssd-impl"/>
       <p>Java (and OSGi) version of <omiscid/> allows the user to choose how to access DNSSD. This can be controlled using the <code>OMISCID_DNSSD_FACTORY</code> environment variable. By default, <omiscid/> tries to find the best implementation given its runtime environment, it is however possible to force <omiscid/> to try a given method first. The environment variable can take the following values:
         <ul>
           <li><code>mdns</code>: this uses mDNSResponder from Apple. Apple Java binding are known to have some bugs that can affect <omiscid/> in some cases (e.g. big service descriptions).</li>
@@ -62,6 +63,7 @@
           <li><code>avahi</code>: this uses a running avahi daemon. This requires to have an avahi daemon running (present in all recent linux distributions). <omiscid/> accesses the daemon through the gnome software bus: dbus.</li>
         </ul>
       </p>
+      <p>One can set the <code>OMISCID_DNSSD_FACTORY_VERBOSE_MODE</code> environment variable (to any value) to have <omiscid/> display the implementations being tried (the last shown will be the one used).</p>
 
     <h1>Presentations</h1>
     <p>If you want to look at some slides presenting <omiscid/>, you can just watch <a href="download/doc-all/presentation-1/index.html">an html presentation of <omiscid/></a>.</p>
