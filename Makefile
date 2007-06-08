@@ -9,6 +9,8 @@ release: all-html patch-javadoc
 	mkdir ${OUT}
 	cp -r css image download *.html ${OUT}
 	cp sitemap.xml.in ${OUT}/sitemap.xml
+	#make import-screencasts
+
 #	cp -r Documents/Doc/ Documents/OMiSCID-C++Tutorial.pdf ${OUT}/download/
 #	rm -rf ${OUT}/download/Doc/.svn  ${OUT}/css/.svn  ${OUT}/download/.svn ${OUT}/image/.svn
 #	cd ${OUT}/download && wget http://oberon/release/omiscid.jar
@@ -39,3 +41,6 @@ import-javadoc:
 patch-javadoc:
 	cp css/javadoc.css download/doc-java/javadoc/stylesheet.css
 
+import-screencasts:
+	mkdir ${OUT}/screencasts
+	cp -r ../OMiSCIDDoc/* ${OUT}/screencasts/
