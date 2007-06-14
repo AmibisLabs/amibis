@@ -174,7 +174,15 @@ Interface ServiceProxy</H2>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html#getPeerId()">getPeerId</A></B>()</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Peer Id of the remote bip service</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The peer identifier of the remote service.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html#getPeerIdAsString()">getPeerIdAsString</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The peer identifier of the remote service as a hexadecimal string.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -350,7 +358,23 @@ getPeerId</H3>
 <PRE>
 int <B>getPeerId</B>()</PRE>
 <DL>
-<DD>The Peer Id of the remote bip service
+<DD>The peer identifier of the remote service.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>the peer id</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPeerIdAsString()"><!-- --></A><H3>
+getPeerIdAsString</H3>
+<PRE>
+java.lang.String <B>getPeerIdAsString</B>()</PRE>
+<DL>
+<DD>The peer identifier of the remote service as a hexadecimal string.
+ The peer identifier is formated as a 8 character long string
+ containing the lower case hexadecimal representation of the integer peer id.
 <P>
 <DD><DL>
 
@@ -459,7 +483,7 @@ java.lang.String <B>findConnector</B>(int&nbsp;peerId)
 <DT><B>Parameters:</B><DD><CODE>peerId</CODE> - the remote connector perrId
 <DT><B>Returns:</B><DD>the remote connector name
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE><DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorListener.html#messageReceived(fr.prima.omiscid.user.service.Service, java.lang.String, fr.prima.omiscid.user.connector.Message)"><CODE>ConnectorListener.messageReceived(Service, String, fr.prima.omiscid.user.connector.Message)</CODE></A></DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE><DT><B>See Also:</B><DD><CODE>ConnectorListener#messageReceived(Service, String, fr.prima.omiscid.user.connector.Message)</CODE></DL>
 </DD>
 </DL>
 <!-- ========= END OF CLASS DATA ========= -->

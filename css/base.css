@@ -131,4 +131,5 @@ body {
 
 .content p {
 	margin-left: 15px;
+        text-align: justify;
 }

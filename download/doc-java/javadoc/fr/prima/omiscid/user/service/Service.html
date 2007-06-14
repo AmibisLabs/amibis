@@ -194,6 +194,22 @@ Interface Service</H2>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getPeerId()">getPeerId</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The peer identifier of the local service.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getPeerIdAsString()">getPeerIdAsString</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The peer identifier of the local service as a hexadecimal string.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;java.lang.String</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableAccessType(java.lang.String)">getVariableAccessType</A></B>(java.lang.String&nbsp;varName)</CODE>
 
@@ -911,6 +927,36 @@ java.util.HashMap&lt;<A HREF="../../../../../fr/prima/omiscid/user/service/Servi
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>filters</CODE> - the filters that specifies the list of services that we search. Each filter in the array is associated to a requested service.<DD><CODE>timeout</CODE> - maximum delay (in ms) to find all the requested services.
 <DT><B>Returns:</B><DD>the list of associated services proxy<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html" title="interface in fr.prima.omiscid.user.service"><CODE>ServiceProxy</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPeerId()"><!-- --></A><H3>
+getPeerId</H3>
+<PRE>
+int <B>getPeerId</B>()</PRE>
+<DL>
+<DD>The peer identifier of the local service.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>the peer id</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getPeerIdAsString()"><!-- --></A><H3>
+getPeerIdAsString</H3>
+<PRE>
+java.lang.String <B>getPeerIdAsString</B>()</PRE>
+<DL>
+<DD>The peer identifier of the local service as a hexadecimal string.
+ The peer identifier is formated as a 8 character long string
+ containing the lower case hexadecimal representation of the integer peer id.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>the peer id</DL>
 </DD>
 </DL>
 <!-- ========= END OF CLASS DATA ========= -->

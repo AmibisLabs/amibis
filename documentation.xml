@@ -10,12 +10,13 @@
   <custom:content xmlns="http://www.w3.org/1999/xhtml">
     <h1>Installation</h1>
     
-    <h2>General Information</h2>
-      <p>The current version of <omiscid/> requires DNSSD to be installed and running. For example, you can use mDNSResponder (Bonjour from Apple).</p>
     <h2>C++</h2>
-      <p>In order to compile your <omiscid/> source code, you will need to have Bonjour, libxml with their C++ headers and libs for bindings.</p>
+      <p>Current version of <omiscid/> requires DNSSD to be installed and running. For example, you can use mDNSResponder (Bonjour from Apple) or avahi (only available under linux).</p>
+      <p>In order to compile your <omiscid/> source code, you will need to have Bonjour, libxml with their C++ headers and libs for bindings (see "README" file from the release for more details).</p>
     <h2>Java</h2>
-      <p>The developement using the non-OSGi version of omiscid just requires to have the following jars in your classpath (all bundled with omiscid releases):
+      <p>Development using non-OSGi <omiscid/> version just requires to have some jars in your classpath (all bundled with <omiscid/> releases). See tutorial section for details on how to build an omiscid service from scratch.</p>
+      <p>Java version of <omiscid/> may use a DNSSD implementation installed on your computer (like C++ version). It can also use a 100% pure Java implementation, included in the release (<a href="#dnssd-impl">see details about choosing DNSSD implementation</a>). OSGi <omiscid/> tutorial explains how to install and use mDNSResponder (Apple Bonjour) together with its Java bindings.</p>
+      <p>Plain Java <omiscid/> download provides the following files:</p>
         <ul>
           <li>omiscid-1.?.?.jar: the omiscid library</li>
           <li>castor-1.0.5-xml.jar, xerces.jar, commons-logging-1.1.jar: the base libraries required by <a href="http://www.castor.org/xml-framework.html">Castor XML</a></li>
@@ -23,15 +24,12 @@
           <li>(optional) jmdns.jar: <a href="http://jmdns.sourceforge.net/">jmdns jar, a pure Java implementation of DNSSD</a> for an alternative DNSSD access</li>
           <li>(optional) dbus*.jar, debug-*.jar, hexdump*.jar, unix*.jar and libunix-java.so: for an alternative DNSSD access using <a href="http://avahi.org/">avahi</a> accessed through <a href="http://dbus.freedesktop.org/">dbus</a></li>
         </ul>
-      </p>
       <p>
         Both Castor (and its dependencies) and Oro are now bundled with the <omiscid/> release.
-        Note that all the dependencies to Castor will perhaps be replaced when Java 6 will be widely used.
+        Note that dependencies to Castor will perhaps be replaced when Java 6 will be widely used.
       </p>
-      <p>You can access the <a href="download/doc-java/javadoc/index.html">javadoc of the user centered API</a> on this website.</p>
-      <p>The Java version of <omiscid/> may use a DNSSD implementation installed on your computer. It can also used a pure Java implementation, <a href="http://jmdns.sourceforge.net/">jmdns</a>, if it is in the application classpath. It is bundled with <omiscid/> (<a href="#dnssd-impl">see details about choosing DNSSD implementation</a>). The OSGi tutorial explains how to install and use mDNSResponder (Apple Bonjour) together with its Java bindings.</p>
     <h2>OSGi</h2>
-      <p>The OSGi bundle version of <omiscid/> has been tested on the Oscar OSGi platform. To install it, you also need to install the castor bundle available in <a href="http://gforge.inria.fr/frs/?group_id=363">the download section</a>.</p>
+      <p>OSGi bundle version of <omiscid/> has been tested on the Oscar OSGi platform. To install it, you also need to install the castor bundle available in <a href="http://gforge.inria.fr/frs/?group_id=363">the download section</a>.</p>
       <p>For further details, you can look at the OSGi tutorial below.</p>
     
     <h1>Tutorials</h1>
@@ -43,9 +41,11 @@
         </ul>
       </p>
     <h2>Java</h2>
-      <!--p>An <omiscid/> starting guide for Java developpers can be found on the <a href="java-tutorial.xml">Java tutorial page</a>.</p-->
-      <p>As the C++ and Java APIs are almost identical (modulo the languages specifity), you can also have a look at the C++ tutorials. Your favorite IDE will probably allow you to cope with the slight differences between the C++ and Java APIs.</p>
+      <p>Some tutorial screencasts show how to easily create <omiscid/> services. Starting with only the files downloaded from <a href="http://gforge.inria.fr/frs/?group_id=363">gforge download page</a> (plain Java release), one can learn to code, run and view an <omiscid/> service in less than 3 minutes (see <a href="screencasts/screencasts.xml#netbeans/empty-omiscid-service">minimal service screencast</a> and its dependencies).</p>
+      <p>You can find all <omiscid/> screencasts on <a href="screencasts/screencasts.xml">the <omiscid/> screencasts page</a>.</p>
       <p>You can access the <a href="download/doc-java/javadoc/index.html">javadoc of the user centered API</a> on this website.</p>
+      <p>As the C++ and Java APIs are almost identical (modulo the languages specifity), you can also have a look at the C++ tutorials. Your favorite IDE will probably allow you to cope with the slight differences between the C++ and Java APIs.</p>
+      <p>You can also have a look at the OSGi tutorial. In fact, OSGi version of <omiscid/> uses directly the Java version most code from the OSGi tutorial is plain <omiscid/> Java code (only deployment and life cycle management differ between Java and OSGi versions).</p>
     <h2>OSGi</h2>
       <p>Here is a <a href="download/doc-osgi/tutorial.pdf">pre-final release</a> of the <omiscid/> OSGi tutorial. The tutorial references some files that can be found in <a href="download/doc-osgi/curves.zip">a zip of the "curves" files</a>.</p>
 

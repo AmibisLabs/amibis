@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer xmlns="http://custom">
-Last update 2006-04-24.
+Last update 2006-06-14.
 <!--
+added screencasts for netbeans simple creation of omiscid projects
+
+Last update 2006-04-24.
 added some documentation about settable environment variables
 added some description of the jars contained in omiscid releases
 updated javadoc

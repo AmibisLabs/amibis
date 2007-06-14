@@ -113,7 +113,7 @@ Interface LocalVariableListener</H2>
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;boolean</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/variable/LocalVariableListener.html#isValid(fr.prima.omiscid.user.service.Service, java.lang.String, java.lang.String)">isValid</A></B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A>&nbsp;service,
-        java.lang.String&nbsp;currentValue,
+        java.lang.String&nbsp;variableName,
         java.lang.String&nbsp;newValue)</CODE>
 
 <BR>
@@ -123,7 +123,7 @@ Interface LocalVariableListener</H2>
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/variable/LocalVariableListener.html#variableChanged(fr.prima.omiscid.user.service.Service, java.lang.String, java.lang.String)">variableChanged</A></B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A>&nbsp;service,
-                java.lang.String&nbsp;name,
+                java.lang.String&nbsp;variableName,
                 java.lang.String&nbsp;value)</CODE>
 
 <BR>
@@ -148,14 +148,14 @@ Interface LocalVariableListener</H2>
 variableChanged</H3>
 <PRE>
 void <B>variableChanged</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A>&nbsp;service,
-                     java.lang.String&nbsp;name,
+                     java.lang.String&nbsp;variableName,
                      java.lang.String&nbsp;value)</PRE>
 <DL>
 <DD>This method is called when the value of a variable
  changes
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>service</CODE> - the service owning the variable<DD><CODE>name</CODE> - the variable name<DD><CODE>value</CODE> - the new variable value</DL>
+<DT><B>Parameters:</B><DD><CODE>service</CODE> - the service owning the variable<DD><CODE>variableName</CODE> - the variable name<DD><CODE>value</CODE> - the new variable value</DL>
 </DD>
 </DL>
 <HR>
@@ -164,7 +164,7 @@ void <B>variableChanged</B>(<A HREF="../../../../../fr/prima/omiscid/user/servic
 isValid</H3>
 <PRE>
 boolean <B>isValid</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A>&nbsp;service,
-                java.lang.String&nbsp;currentValue,
+                java.lang.String&nbsp;variableName,
                 java.lang.String&nbsp;newValue)</PRE>
 <DL>
 <DD>This method is called when a new value is requested on a variable.
@@ -173,7 +173,7 @@ boolean <B>isValid</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Ser
  as agreeing the change/returning true.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>service</CODE> - the service owning the variable<DD><CODE>currentValue</CODE> - the current value of the variable<DD><CODE>newValue</CODE> - the new requested value
+<DT><B>Parameters:</B><DD><CODE>service</CODE> - the service owning the variable<DD><CODE>variableName</CODE> - the name of the variable on which the modification requested is happening<DD><CODE>newValue</CODE> - the new requested value
 <DT><B>Returns:</B><DD>true if the new value is accepted, false if rejected.</DL>
 </DD>
 </DL>
