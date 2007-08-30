@@ -31,6 +31,10 @@
     <h2>OSGi</h2>
       <p>OSGi bundle version of <omiscid/> has been tested on the Oscar OSGi platform. To install it, you also need to install the castor bundle available in <a href="http://gforge.inria.fr/frs/?group_id=363">the download section</a>.</p>
       <p>For further details, you can look at the OSGi tutorial below.</p>
+    <h2><omiscid/> GUI</h2>
+      <p>In replacement for the old <omiscid/> gui that is bundled with the plain java version of <omiscid/>, one can use the new <omiscid/> GUI. This new version is a standalone application that can be easily extended by adding some modules or plugins.</p>
+      <p>To run the new GUI you need to download <a href="download/omiscidgui/omiscid.zip"><omiscid/> GUI zip file</a> on this website, unzip it and run executable present in bin folder.</p>
+      <p>You can access basic functionalities by right clicking on service connectors and variables in tree on the right. Plugins for the GUI can add some actions to the possible ones appearing in the context menu. You can manage installed plugins through the Tool->Plugins menu entry.</p>
     
     <h1>Tutorials</h1>
     <h2>C++</h2>
