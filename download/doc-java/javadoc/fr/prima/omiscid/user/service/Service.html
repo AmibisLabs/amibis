@@ -151,6 +151,14 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#closeAllConnections()">closeAllConnections</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closes all connections on all connectors.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#closeAllConnections(java.lang.String)">closeAllConnections</A></B>(java.lang.String&nbsp;localConnector)</CODE>
 
 <BR>
@@ -158,9 +166,18 @@ Interface Service</H2>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
-<CODE>&nbsp;void</CODE></FONT></TD>
+<CODE>&nbsp;boolean</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#closeConnection(java.lang.String, int)">closeConnection</A></B>(java.lang.String&nbsp;localConnector,
                 int&nbsp;peerId)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closes a connection on a given connector to a given remote peer.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#closeConnection(java.lang.String, fr.prima.omiscid.user.service.ServiceProxy)">closeConnection</A></B>(java.lang.String&nbsp;localConnector,
+                <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html" title="interface in fr.prima.omiscid.user.service">ServiceProxy</A>&nbsp;serviceProxy)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closes a connection on a given connector to a given remote peer.</TD>
@@ -256,6 +273,14 @@ Interface Service</H2>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the variable value</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#removeAllConnectorListeners()">removeAllConnectorListeners</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Removes all listeners on all connectors.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -993,14 +1018,33 @@ java.lang.String <B>getPeerIdAsString</B>()</PRE>
 <A NAME="closeConnection(java.lang.String, int)"><!-- --></A><H3>
 closeConnection</H3>
 <PRE>
-void <B>closeConnection</B>(java.lang.String&nbsp;localConnector,
-                     int&nbsp;peerId)
-                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+boolean <B>closeConnection</B>(java.lang.String&nbsp;localConnector,
+                        int&nbsp;peerId)
+                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
 <DL>
 <DD>Closes a connection on a given connector to a given remote peer.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which connection will be closed<DD><CODE>peerId</CODE> - the id of the remote peer which connection is to be closed
+<DT><B>Returns:</B><DD>whether the connection existed and have been closed
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="closeConnection(java.lang.String, fr.prima.omiscid.user.service.ServiceProxy)"><!-- --></A><H3>
+closeConnection</H3>
+<PRE>
+boolean <B>closeConnection</B>(java.lang.String&nbsp;localConnector,
+                        <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html" title="interface in fr.prima.omiscid.user.service">ServiceProxy</A>&nbsp;serviceProxy)
+                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+<DL>
+<DD>Closes a connection on a given connector to a given remote peer.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which connection will be closed<DD><CODE>serviceProxy</CODE> - the ServiceProxy which connection is to be closed
+<DT><B>Returns:</B><DD>whether the connection existed and have been closed
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
 </DD>
@@ -1023,6 +1067,19 @@ void <B>closeAllConnections</B>(java.lang.String&nbsp;localConnector)
 </DL>
 <HR>
 
+<A NAME="closeAllConnections()"><!-- --></A><H3>
+closeAllConnections</H3>
+<PRE>
+void <B>closeAllConnections</B>()</PRE>
+<DL>
+<DD>Closes all connections on all connectors.
+<P>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
 <A NAME="removeAllConnectorListeners(java.lang.String)"><!-- --></A><H3>
 removeAllConnectorListeners</H3>
 <PRE>
@@ -1035,6 +1092,19 @@ void <B>removeAllConnectorListeners</B>(java.lang.String&nbsp;localConnector)
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which listeners will be removed.
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="removeAllConnectorListeners()"><!-- --></A><H3>
+removeAllConnectorListeners</H3>
+<PRE>
+void <B>removeAllConnectorListeners</B>()</PRE>
+<DL>
+<DD>Removes all listeners on all connectors.
+<P>
+<DD><DL>
+</DL>
 </DD>
 </DL>
 <!-- ========= END OF CLASS DATA ========= -->
