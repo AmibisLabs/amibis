@@ -25,11 +25,15 @@ export-gforge:
 	ssh omiscid.gforge.inria.fr chgrp -R omiscid /home/groups/omiscid/htdocs
 #	ssh omiscid.gforge.inria.fr chmod -R g+rw /home/groups/omiscid/htdocs/\*
 
+# HTML FILES GENERATION
+
 all-html: $(patsubst %.xml,%.html,$(wildcard *.xml))
 
 %.html: %.xml $(wildcard xsl/*.xsl) $(wildcard common/*.xml)
 	xsltproc --xinclude --output $@ xsl/page.xsl $<
 	sed -i -e "s@[.]xml@.html@g" $@
+
+# JAVADOC IMPORT
 
 import-javadoc:
 	cd ../jOMiSCID/ && ant website-javadoc
@@ -40,6 +44,8 @@ import-javadoc:
 
 patch-javadoc:
 	cp css/javadoc.css download/doc-java/javadoc/stylesheet.css
+
+# SCREENCASTS IMPORT
 
 import-screencasts:
 	rm -rf ${OUT}/screencasts

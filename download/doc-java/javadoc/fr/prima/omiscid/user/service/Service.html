@@ -151,6 +151,23 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#closeAllConnections(java.lang.String)">closeAllConnections</A></B>(java.lang.String&nbsp;localConnector)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closes all connections on a given connector.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#closeConnection(java.lang.String, int)">closeConnection</A></B>(java.lang.String&nbsp;localConnector,
+                int&nbsp;peerId)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closes a connection on a given connector to a given remote peer.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#connectTo(java.lang.String, fr.prima.omiscid.user.service.ServiceProxy, java.lang.String)">connectTo</A></B>(java.lang.String&nbsp;localConnector,
           <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html" title="interface in fr.prima.omiscid.user.service">ServiceProxy</A>&nbsp;proxy,
           java.lang.String&nbsp;remoteConnector)</CODE>
@@ -239,6 +256,14 @@ Interface Service</H2>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the variable value</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#removeAllConnectorListeners(java.lang.String)">removeAllConnectorListeners</A></B>(java.lang.String&nbsp;localConnector)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Removes all listeners on a given connector.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -415,7 +440,8 @@ void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
                   <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind)
                   throws <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A>,
                          java.io.IOException,
-                         <A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></PRE>
+                         <A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A>,
+                         <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorLimitReached.html" title="class in fr.prima.omiscid.user.exception">ConnectorLimitReached</A></PRE>
 <DL>
 <DD>Adds a new connector to the service.
 <P>
@@ -424,7 +450,8 @@ void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A></CODE> - thrown if we try to recreate an already existing connector
 <DD><CODE>java.io.IOException</CODE> - thrown if there is an error in the tcp socket creation
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></CODE> - It is not possible to add a new connector if the service is already running. You have to stop it before</DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></CODE> - It is not possible to add a new connector if the service is already running. You have to stop it before
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorLimitReached.html" title="class in fr.prima.omiscid.user.exception">ConnectorLimitReached</A></CODE> - when no more connectors can be added to the service.</DL>
 </DD>
 </DL>
 <HR>
@@ -866,9 +893,11 @@ void <B>connectTo</B>(java.lang.String&nbsp;localConnector,
 <DT><B>Parameters:</B><DD><CODE>localConnector</CODE> - <DD><CODE>proxy</CODE> - the proxy of the remote service<DD><CODE>remoteConnector</CODE> - the name of the remote connector on the remote service
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if one of the connector does not exist
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the coonnectors cannot connect : for instance : trying to connect an input
- connector on another input connector.
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectionRefused.html" title="class in fr.prima.omiscid.user.exception">ConnectionRefused</A></CODE></DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the coonnectors cannot connect:
+ for instance : trying to connect an input connector on another input connector.
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectionRefused.html" title="class in fr.prima.omiscid.user.exception">ConnectionRefused</A></CODE> - when connection is refused by remote host. This
+ can because of network problem or to remote service (it can have been stopped
+ since it has been found or it can have refused the connection really fast).</DL>
 </DD>
 </DL>
 <HR>
@@ -957,6 +986,55 @@ java.lang.String <B>getPeerIdAsString</B>()</PRE>
 <DD><DL>
 
 <DT><B>Returns:</B><DD>the peer id</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="closeConnection(java.lang.String, int)"><!-- --></A><H3>
+closeConnection</H3>
+<PRE>
+void <B>closeConnection</B>(java.lang.String&nbsp;localConnector,
+                     int&nbsp;peerId)
+                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+<DL>
+<DD>Closes a connection on a given connector to a given remote peer.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which connection will be closed<DD><CODE>peerId</CODE> - the id of the remote peer which connection is to be closed
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="closeAllConnections(java.lang.String)"><!-- --></A><H3>
+closeAllConnections</H3>
+<PRE>
+void <B>closeAllConnections</B>(java.lang.String&nbsp;localConnector)
+                         throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+<DL>
+<DD>Closes all connections on a given connector.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which connections will be closed
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="removeAllConnectorListeners(java.lang.String)"><!-- --></A><H3>
+removeAllConnectorListeners</H3>
+<PRE>
+void <B>removeAllConnectorListeners</B>(java.lang.String&nbsp;localConnector)
+                                 throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+<DL>
+<DD>Removes all listeners on a given connector.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which listeners will be removed.
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
 </DD>
 </DL>
 <!-- ========= END OF CLASS DATA ========= -->
