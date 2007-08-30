@@ -13,14 +13,41 @@
    height="1052.3622047"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.44.1"
+   inkscape:version="0.45.1"
    sodipodi:docbase="/home/prometheus/emonet/projects/OMiSCID-WebSite/image"
    sodipodi:docname="logo.svg"
    inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
    inkscape:export-xdpi="64"
-   inkscape:export-ydpi="64">
+   inkscape:export-ydpi="64"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Send"
+       style="overflow:visible;">
+      <path
+         id="path3299"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) rotate(180) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path3293"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient3014">
@@ -101,6 +128,116 @@
        fx="547.2074"
        fy="745.95624"
        r="148.83567" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3014"
+       id="radialGradient2293"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.266025,0,0,1.195,-145.571,-145.4613)"
+       cx="547.2074"
+       cy="745.95624"
+       fx="547.2074"
+       fy="745.95624"
+       r="148.83567" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3014"
+       id="radialGradient2405"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.266025,0,0,1.195,-145.571,-145.4613)"
+       cx="547.2074"
+       cy="745.95624"
+       fx="547.2074"
+       fy="745.95624"
+       r="148.83567" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2873"
+       id="radialGradient2407"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.957399,0,21.23122)"
+       cx="239.25"
+       cy="498.375"
+       fx="239.25"
+       fy="498.375"
+       r="111.5" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3014"
+       id="radialGradient3423"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.266025,0,0,1.195,-541.09368,189.45741)"
+       cx="547.2074"
+       cy="745.95624"
+       fx="547.2074"
+       fy="745.95624"
+       r="148.83567" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3014"
+       id="radialGradient3425"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.266025,0,0,1.195,-145.571,-145.4613)"
+       cx="547.2074"
+       cy="745.95624"
+       fx="547.2074"
+       fy="745.95624"
+       r="148.83567" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2873"
+       id="radialGradient3427"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.957399,0,21.23122)"
+       cx="239.25"
+       cy="498.375"
+       fx="239.25"
+       fy="498.375"
+       r="111.5" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2301">
+      <rect
+         y="836.48572"
+         x="-165.60776"
+         height="48"
+         width="48"
+         id="rect2303"
+         style="opacity:1;color:#000000;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3469">
+      <rect
+         style="opacity:1;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3471"
+         width="16"
+         height="16"
+         x="527.31909"
+         y="936.41595" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3492">
+      <rect
+         style="opacity:1;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3494"
+         width="16"
+         height="16"
+         x="525.08398"
+         y="936.41595" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3496">
+      <rect
+         style="opacity:1;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect3498"
+         width="16"
+         height="16"
+         x="529.6225"
+         y="955.1875" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -109,9 +246,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6288254"
-     inkscape:cx="470.27754"
-     inkscape:cy="284.08607"
+     inkscape:zoom="3.9999998"
+     inkscape:cx="563.23699"
+     inkscape:cy="63.201643"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:window-width="1280"
@@ -847,5 +984,527 @@
            id="path1967" />
       </g>
     </g>
+    <g
+       id="g2339"
+       transform="translate(129.36796,-121.55379)">
+      <rect
+         inkscape:export-ydpi="90.129997"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-filename="/tmp/g1973.png"
+         y="769.92767"
+         x="-123.33652"
+         height="267.72232"
+         width="290.87668"
+         id="rect2263"
+         style="opacity:1;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.04657602;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         transform="translate(-531.56278,148.41153)"
+         inkscape:export-ydpi="90.129997"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-filename="/tmp/g1973.png"
+         clip-path="url(#clipPath3011)"
+         id="path2269"
+         d="M 552.71875,606.03125 C 519.32456,605.4395 493.33353,642.34373 502.375,673.84375 C 500.36409,683.0353 491.05485,690.55824 481.59375,688.25 C 472.20379,682.84924 461.58779,679.13543 450.5625,680 C 426.38524,680.83628 402.66124,698.79293 399.51247,723.54706 C 394.52344,753.30793 419.38341,783.60342 449.21875,785.53125 C 457.73139,790.03825 463.97138,803.04355 456.9375,811.21875 C 430.45604,832.17795 432.90554,879.57974 462.25,896.875 C 488.76674,913.65524 528.31868,900.65886 540.03125,871.78125 C 545.86399,867.61183 553.72221,862.62806 560.53125,867.5625 C 565.84448,868.62461 569.48791,872.94588 570.6875,877.9375 C 586.78514,906.80386 632.46618,913.70927 654.875,888.59375 C 675.21748,867.31002 672.83407,829.11266 650.25,810.375 C 647.69105,803.88363 645.90235,794.27376 653.15625,790.03125 C 657.22853,785.05195 663.47006,784.03409 669.375,783.3125 C 700.55216,774.9866 718.93123,734.27188 701.65625,706.09375 C 687.13138,680.78815 650.46082,672.39311 625.9375,687.9375 C 620.38694,687.37107 611.21979,688.60388 609.5625,681.53125 C 606.50231,677.02661 602.79847,671.10271 605.875,665.6875 C 609.66947,635.57275 583.76183,604.40792 552.71875,606.03125 z "
+         style="opacity:1;color:#000000;fill:url(#radialGradient2405);fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <g
+         inkscape:export-ydpi="90.129997"
+         inkscape:export-xdpi="90.129997"
+         inkscape:export-filename="/tmp/g1973.png"
+         transform="translate(-528.61302,152.71892)"
+         id="g2271">
+        <path
+           style="opacity:1;color:#000000;fill:#ffdf26;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+           d="M 550.70143,642.01257 C 543.80214,641.91336 538.12221,647.43227 538.023,654.33156 C 537.94896,659.48124 540.99612,663.93047 545.41983,665.90785 L 525.13501,707.30799 L 525.10376,707.30754 C 518.20568,710.51157 512.02438,714.99102 506.85038,720.45271 L 461.40528,727.17502 C 460.95771,720.76451 455.67503,715.65394 449.13351,715.55988 C 442.23422,715.46068 436.55429,720.97959 436.45508,727.87887 C 436.35588,734.77816 441.87479,740.45809 448.77407,740.5573 C 452.31941,740.60828 455.55054,739.15359 457.8601,736.81254 L 490.9649,768.88557 C 491.94437,776.82687 494.48075,784.28831 498.27325,790.96168 L 490.75692,835.51447 C 489.84739,835.28902 488.89533,835.14392 487.91841,835.12987 C 481.01912,835.03066 475.33919,840.54957 475.23998,847.44886 C 475.14078,854.34815 480.65969,860.02808 487.55897,860.12728 C 494.45826,860.22649 500.13819,854.70758 500.2374,847.80829 C 500.26576,845.83569 499.82648,843.96176 499.03536,842.29044 L 540.29122,820.44384 L 540.32247,820.44429 C 543.27195,820.9373 546.29294,821.21771 549.37414,821.26201 C 553.5516,821.32208 557.63031,820.94792 561.57836,820.18736 L 602.6802,841.65552 C 601.8021,843.33382 601.28479,845.23846 601.25571,847.26062 C 601.15651,854.15991 606.67542,859.83984 613.5747,859.93905 C 620.47399,860.03825 626.15392,854.51934 626.25313,847.62006 C 626.35233,840.72077 620.83343,835.04084 613.93414,834.94163 C 613.14711,834.93031 612.36755,834.9985 611.61873,835.12711 L 603.50604,788.56816 C 606.37204,782.93555 608.37594,776.76998 609.33215,770.27503 L 643.56795,736.73254 C 645.79314,738.99122 648.87779,740.43426 652.29617,740.48342 C 659.19546,740.58262 664.87539,735.06371 664.9746,728.16443 C 665.0738,721.26514 659.55489,715.5852 652.65561,715.486 C 646.14556,715.39239 640.73098,720.2994 640.0563,726.64976 L 593.14787,719.94339 C 588.50376,715.14976 583.06318,711.14824 577.03499,708.11676 L 555.98618,665.716 C 560.09317,663.71542 562.95029,659.56812 563.02042,654.69099 C 563.11962,647.79171 557.60072,642.11177 550.70143,642.01257 z "
+           id="path2273"
+           inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+           inkscape:export-xdpi="48"
+           inkscape:export-ydpi="48" />
+        <path
+           sodipodi:type="inkscape:offset"
+           inkscape:radius="-3.7409604"
+           inkscape:original="M 238 388.875 C 231.1 388.875 225.5 394.475 225.5 401.375 C 225.5 406.52522 228.61082 410.93018 233.0625 412.84375 L 208 465.875 L 149.9375 475.3125 C 149.39781 468.90909 144.0422 463.875 137.5 463.875 C 130.6 463.875 125 469.475 125 476.375 C 125 483.275 130.6 488.875 137.5 488.875 C 141.0457 488.875 144.25559 487.37401 146.53125 485 L 189.6875 525.65625 L 180.84375 583.21875 C 179.93107 583.0064 178.97702 582.875 178 582.875 C 171.1 582.875 165.5 588.475 165.5 595.375 C 165.5 602.275 171.1 607.875 178 607.875 C 184.9 607.875 190.5 602.275 190.5 595.375 C 190.5 593.40219 190.03382 591.53477 189.21875 589.875 L 240.90625 561.5625 L 292.84375 587.75 C 291.98987 589.44075 291.5 591.35263 291.5 593.375 C 291.5 600.275 297.1 605.875 304 605.875 C 310.9 605.875 316.5 600.275 316.5 593.375 C 316.5 586.475 310.9 580.875 304 580.875 C 303.21289 580.875 302.43439 580.95439 301.6875 581.09375 L 290.875 523.9375 L 332.21875 482.25 C 334.47619 484.47646 337.58127 485.875 341 485.875 C 347.9 485.875 353.5 480.275 353.5 473.375 C 353.5 466.475 347.9 460.875 341 460.875 C 334.48928 460.875 329.14581 465.85935 328.5625 472.21875 L 270.53125 464.78125 L 243.625 412.5 C 247.7028 410.44058 250.5 406.25263 250.5 401.375 C 250.5 394.475 244.9 388.875 238 388.875 z "
+           style="opacity:1;color:#000000;fill:url(#radialGradient2407);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:9.99999639;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+           id="path2275"
+           d="M 238,392.625 C 233.12409,392.625 229.25,396.49909 229.25,401.375 C 229.25,405.01882 231.41228,408.06555 234.53125,409.40625 C 235.46304,409.80705 236.19215,410.56901 236.55153,411.51755 C 236.91092,412.46608 236.86976,413.51988 236.4375,414.4375 L 211.375,467.46875 C 210.84886,468.58175 209.80885,469.36468 208.59375,469.5625 L 150.53125,479 C 149.50548,479.16236 148.45838,478.89105 147.64053,478.25099 C 146.82268,477.61093 146.30767,476.65972 146.21875,475.625 C 145.83922,471.12194 142.12314,467.625 137.5,467.625 C 132.62409,467.625 128.75,471.49909 128.75,476.375 C 128.75,481.25091 132.62409,485.125 137.5,485.125 C 139.98993,485.125 142.23907,484.08028 143.84375,482.40625 C 145.26563,480.93708 147.60356,480.88142 149.09375,482.28125 L 192.25,522.9375 C 193.14001,523.78083 193.56032,525.00673 193.375,526.21875 L 184.53125,583.78125 C 184.37705,584.81099 183.8007,585.72989 182.94079,586.317 C 182.08088,586.90411 181.0152,587.10632 180,586.875 C 179.31601,586.71586 178.6416,586.625 178,586.625 C 173.12409,586.625 169.25,590.49909 169.25,595.375 C 169.25,600.25091 173.12409,604.125 178,604.125 C 182.87591,604.125 186.75,600.25091 186.75,595.375 C 186.75,593.99152 186.44947,592.70107 185.875,591.53125 C 184.9835,589.7407 185.65804,587.56565 187.40625,586.59375 L 239.09375,558.28125 C 240.17812,557.68225 241.48869,557.65885 242.59375,558.21875 L 294.53125,584.40625 C 295.41886,584.85298 296.09229,585.63446 296.403,586.57832 C 296.71371,587.52218 296.63618,588.55088 296.1875,589.4375 C 295.58565,590.62921 295.25,591.95673 295.25,593.375 C 295.25,598.25091 299.12409,602.125 304,602.125 C 308.87591,602.125 312.75,598.25091 312.75,593.375 C 312.75,588.49909 308.87591,584.625 304,584.625 C 303.46444,584.625 302.91295,584.68087 302.375,584.78125 C 301.39671,584.96627 300.38502,584.75373 299.5639,584.19067 C 298.74277,583.62761 298.17994,582.76049 298,581.78125 L 287.1875,524.625 C 286.96759,523.41855 287.35289,522.18093 288.21875,521.3125 L 329.5625,479.625 C 331.01383,478.16176 333.3752,478.14779 334.84375,479.59375 C 336.43775,481.16587 338.60151,482.125 341,482.125 C 345.87591,482.125 349.75,478.25091 349.75,473.375 C 349.75,468.49909 345.87591,464.625 341,464.625 C 336.39857,464.625 332.69099,468.09543 332.28125,472.5625 C 332.18972,473.57219 331.69234,474.50151 330.90298,475.13772 C 330.11361,475.77393 329.09984,476.06254 328.09375,475.9375 L 270.0625,468.5 C 268.84359,468.34098 267.78055,467.59335 267.21875,466.5 L 240.3125,414.21875 C 239.85162,413.33284 239.76404,412.29945 240.06925,411.34862 C 240.37445,410.39778 241.04712,409.60842 241.9375,409.15625 C 244.80811,407.7065 246.75,404.8224 246.75,401.375 C 246.75,396.49909 242.87591,392.625 238,392.625 z "
+           transform="matrix(0.999897,1.437743e-2,-1.437743e-2,0.999897,318.3171,249.7559)"
+           inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+           inkscape:export-xdpi="48"
+           inkscape:export-ydpi="48" />
+      </g>
+    </g>
+    <image
+       xlink:href="logo.svg-g2339-4294966411.png"
+       sodipodi:absref="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.svg-g2339-4294966411.png"
+       width="48"
+       height="44.205799"
+       id="image3393"
+       x="-215.99185"
+       y="730.9137" />
+    <image
+       xlink:href="logo.svg-g2339-4294967078.png"
+       sodipodi:absref="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.svg-g2339-4294967078.png"
+       width="48"
+       height="44.205799"
+       id="image2409"
+       x="-219.68797"
+       y="481.40009" />
+    <image
+       xlink:href="logo.svg-rect2263-4294967075.png"
+       sodipodi:absref="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.svg-rect2263-4294967075.png"
+       width="48"
+       height="45.24052"
+       id="image3386"
+       x="-287"
+       y="632.74194" />
+    <rect
+       style="opacity:1;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       id="rect3395"
+       width="290.87668"
+       height="267.72232"
+       x="12.95358"
+       y="956.68481"
+       inkscape:export-filename="/tmp/g1973.png"
+       inkscape:export-xdpi="90.129997"
+       inkscape:export-ydpi="90.129997" />
+    <path
+       style="opacity:1;color:#000000;fill:url(#radialGradient3425);fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+       d="M 552.71875,606.03125 C 519.32456,605.4395 493.33353,642.34373 502.375,673.84375 C 500.36409,683.0353 491.05485,690.55824 481.59375,688.25 C 472.20379,682.84924 461.58779,679.13543 450.5625,680 C 426.38524,680.83628 402.66124,698.79293 399.51247,723.54706 C 394.52344,753.30793 419.38341,783.60342 449.21875,785.53125 C 457.73139,790.03825 463.97138,803.04355 456.9375,811.21875 C 430.45604,832.17795 432.90554,879.57974 462.25,896.875 C 488.76674,913.65524 528.31868,900.65886 540.03125,871.78125 C 545.86399,867.61183 553.72221,862.62806 560.53125,867.5625 C 565.84448,868.62461 569.48791,872.94588 570.6875,877.9375 C 586.78514,906.80386 632.46618,913.70927 654.875,888.59375 C 675.21748,867.31002 672.83407,829.11266 650.25,810.375 C 647.69105,803.88363 645.90235,794.27376 653.15625,790.03125 C 657.22853,785.05195 663.47006,784.03409 669.375,783.3125 C 700.55216,774.9866 718.93123,734.27188 701.65625,706.09375 C 687.13138,680.78815 650.46082,672.39311 625.9375,687.9375 C 620.38694,687.37107 611.21979,688.60388 609.5625,681.53125 C 606.50231,677.02661 602.79847,671.10271 605.875,665.6875 C 609.66947,635.57275 583.76183,604.40792 552.71875,606.03125 z "
+       id="path3401"
+       clip-path="url(#clipPath3011)"
+       inkscape:export-filename="/tmp/g1973.png"
+       inkscape:export-xdpi="90.129997"
+       inkscape:export-ydpi="90.129997"
+       transform="translate(-395.27268,335.16861)" />
+    <g
+       id="g3403"
+       transform="translate(-392.32292,339.47601)"
+       inkscape:export-filename="/tmp/g1973.png"
+       inkscape:export-xdpi="90.129997"
+       inkscape:export-ydpi="90.129997">
+      <path
+         inkscape:export-ydpi="48"
+         inkscape:export-xdpi="48"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         id="path3405"
+         d="M 550.70143,642.01257 C 543.80214,641.91336 538.12221,647.43227 538.023,654.33156 C 537.94896,659.48124 540.99612,663.93047 545.41983,665.90785 L 525.13501,707.30799 L 525.10376,707.30754 C 518.20568,710.51157 512.02438,714.99102 506.85038,720.45271 L 461.40528,727.17502 C 460.95771,720.76451 455.67503,715.65394 449.13351,715.55988 C 442.23422,715.46068 436.55429,720.97959 436.45508,727.87887 C 436.35588,734.77816 441.87479,740.45809 448.77407,740.5573 C 452.31941,740.60828 455.55054,739.15359 457.8601,736.81254 L 490.9649,768.88557 C 491.94437,776.82687 494.48075,784.28831 498.27325,790.96168 L 490.75692,835.51447 C 489.84739,835.28902 488.89533,835.14392 487.91841,835.12987 C 481.01912,835.03066 475.33919,840.54957 475.23998,847.44886 C 475.14078,854.34815 480.65969,860.02808 487.55897,860.12728 C 494.45826,860.22649 500.13819,854.70758 500.2374,847.80829 C 500.26576,845.83569 499.82648,843.96176 499.03536,842.29044 L 540.29122,820.44384 L 540.32247,820.44429 C 543.27195,820.9373 546.29294,821.21771 549.37414,821.26201 C 553.5516,821.32208 557.63031,820.94792 561.57836,820.18736 L 602.6802,841.65552 C 601.8021,843.33382 601.28479,845.23846 601.25571,847.26062 C 601.15651,854.15991 606.67542,859.83984 613.5747,859.93905 C 620.47399,860.03825 626.15392,854.51934 626.25313,847.62006 C 626.35233,840.72077 620.83343,835.04084 613.93414,834.94163 C 613.14711,834.93031 612.36755,834.9985 611.61873,835.12711 L 603.50604,788.56816 C 606.37204,782.93555 608.37594,776.76998 609.33215,770.27503 L 643.56795,736.73254 C 645.79314,738.99122 648.87779,740.43426 652.29617,740.48342 C 659.19546,740.58262 664.87539,735.06371 664.9746,728.16443 C 665.0738,721.26514 659.55489,715.5852 652.65561,715.486 C 646.14556,715.39239 640.73098,720.2994 640.0563,726.64976 L 593.14787,719.94339 C 588.50376,715.14976 583.06318,711.14824 577.03499,708.11676 L 555.98618,665.716 C 560.09317,663.71542 562.95029,659.56812 563.02042,654.69099 C 563.11962,647.79171 557.60072,642.11177 550.70143,642.01257 z "
+         style="opacity:1;color:#000000;fill:#ffdf26;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" />
+      <path
+         inkscape:export-ydpi="48"
+         inkscape:export-xdpi="48"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         transform="matrix(0.999897,1.437743e-2,-1.437743e-2,0.999897,318.3171,249.7559)"
+         d="M 238,392.625 C 233.12409,392.625 229.25,396.49909 229.25,401.375 C 229.25,405.01882 231.41228,408.06555 234.53125,409.40625 C 235.46304,409.80705 236.19215,410.56901 236.55153,411.51755 C 236.91092,412.46608 236.86976,413.51988 236.4375,414.4375 L 211.375,467.46875 C 210.84886,468.58175 209.80885,469.36468 208.59375,469.5625 L 150.53125,479 C 149.50548,479.16236 148.45838,478.89105 147.64053,478.25099 C 146.82268,477.61093 146.30767,476.65972 146.21875,475.625 C 145.83922,471.12194 142.12314,467.625 137.5,467.625 C 132.62409,467.625 128.75,471.49909 128.75,476.375 C 128.75,481.25091 132.62409,485.125 137.5,485.125 C 139.98993,485.125 142.23907,484.08028 143.84375,482.40625 C 145.26563,480.93708 147.60356,480.88142 149.09375,482.28125 L 192.25,522.9375 C 193.14001,523.78083 193.56032,525.00673 193.375,526.21875 L 184.53125,583.78125 C 184.37705,584.81099 183.8007,585.72989 182.94079,586.317 C 182.08088,586.90411 181.0152,587.10632 180,586.875 C 179.31601,586.71586 178.6416,586.625 178,586.625 C 173.12409,586.625 169.25,590.49909 169.25,595.375 C 169.25,600.25091 173.12409,604.125 178,604.125 C 182.87591,604.125 186.75,600.25091 186.75,595.375 C 186.75,593.99152 186.44947,592.70107 185.875,591.53125 C 184.9835,589.7407 185.65804,587.56565 187.40625,586.59375 L 239.09375,558.28125 C 240.17812,557.68225 241.48869,557.65885 242.59375,558.21875 L 294.53125,584.40625 C 295.41886,584.85298 296.09229,585.63446 296.403,586.57832 C 296.71371,587.52218 296.63618,588.55088 296.1875,589.4375 C 295.58565,590.62921 295.25,591.95673 295.25,593.375 C 295.25,598.25091 299.12409,602.125 304,602.125 C 308.87591,602.125 312.75,598.25091 312.75,593.375 C 312.75,588.49909 308.87591,584.625 304,584.625 C 303.46444,584.625 302.91295,584.68087 302.375,584.78125 C 301.39671,584.96627 300.38502,584.75373 299.5639,584.19067 C 298.74277,583.62761 298.17994,582.76049 298,581.78125 L 287.1875,524.625 C 286.96759,523.41855 287.35289,522.18093 288.21875,521.3125 L 329.5625,479.625 C 331.01383,478.16176 333.3752,478.14779 334.84375,479.59375 C 336.43775,481.16587 338.60151,482.125 341,482.125 C 345.87591,482.125 349.75,478.25091 349.75,473.375 C 349.75,468.49909 345.87591,464.625 341,464.625 C 336.39857,464.625 332.69099,468.09543 332.28125,472.5625 C 332.18972,473.57219 331.69234,474.50151 330.90298,475.13772 C 330.11361,475.77393 329.09984,476.06254 328.09375,475.9375 L 270.0625,468.5 C 268.84359,468.34098 267.78055,467.59335 267.21875,466.5 L 240.3125,414.21875 C 239.85162,413.33284 239.76404,412.29945 240.06925,411.34862 C 240.37445,410.39778 241.04712,409.60842 241.9375,409.15625 C 244.80811,407.7065 246.75,404.8224 246.75,401.375 C 246.75,396.49909 242.87591,392.625 238,392.625 z "
+         id="path3407"
+         style="opacity:1;color:#000000;fill:url(#radialGradient3427);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:9.99999639;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         inkscape:original="M 238 388.875 C 231.1 388.875 225.5 394.475 225.5 401.375 C 225.5 406.52522 228.61082 410.93018 233.0625 412.84375 L 208 465.875 L 149.9375 475.3125 C 149.39781 468.90909 144.0422 463.875 137.5 463.875 C 130.6 463.875 125 469.475 125 476.375 C 125 483.275 130.6 488.875 137.5 488.875 C 141.0457 488.875 144.25559 487.37401 146.53125 485 L 189.6875 525.65625 L 180.84375 583.21875 C 179.93107 583.0064 178.97702 582.875 178 582.875 C 171.1 582.875 165.5 588.475 165.5 595.375 C 165.5 602.275 171.1 607.875 178 607.875 C 184.9 607.875 190.5 602.275 190.5 595.375 C 190.5 593.40219 190.03382 591.53477 189.21875 589.875 L 240.90625 561.5625 L 292.84375 587.75 C 291.98987 589.44075 291.5 591.35263 291.5 593.375 C 291.5 600.275 297.1 605.875 304 605.875 C 310.9 605.875 316.5 600.275 316.5 593.375 C 316.5 586.475 310.9 580.875 304 580.875 C 303.21289 580.875 302.43439 580.95439 301.6875 581.09375 L 290.875 523.9375 L 332.21875 482.25 C 334.47619 484.47646 337.58127 485.875 341 485.875 C 347.9 485.875 353.5 480.275 353.5 473.375 C 353.5 466.475 347.9 460.875 341 460.875 C 334.48928 460.875 329.14581 465.85935 328.5625 472.21875 L 270.53125 464.78125 L 243.625 412.5 C 247.7028 410.44058 250.5 406.25263 250.5 401.375 C 250.5 394.475 244.9 388.875 238 388.875 z "
+         inkscape:radius="-3.7409604"
+         sodipodi:type="inkscape:offset" />
+      <g
+         inkscape:export-ydpi="48"
+         inkscape:export-xdpi="48"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.png"
+         transform="translate(311.2759,253.4978)"
+         id="g3409">
+        <g
+           id="g3411"
+           transform="translate(-1.087094,0)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text3413"
+             y="509.36218"
+             x="182.5"
+             style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+             xml:space="preserve"><tspan
+               y="509.36218"
+               x="182.5"
+               id="tspan3415"
+               sodipodi:role="line">O MiSCID</tspan></text>
+          <text
+             sodipodi:linespacing="125%"
+             id="text3417"
+             y="493.36218"
+             x="198"
+             style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;opacity:1;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;font-family:Bitstream Vera Sans"
+             xml:space="preserve"><tspan
+               y="493.36218"
+               x="198"
+               id="tspan3419"
+               sodipodi:role="line">3</tspan></text>
+        </g>
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 186.05247,512.1326 L 292.82559,512.1326"
+           id="path3421" />
+      </g>
+    </g>
+    <g
+       id="g3259"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/icon.p"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="859.81543"
+         x="-189.47704"
+         height="48"
+         width="48"
+         id="rect2287"
+         style="opacity:1;color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/icon.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90" />
+      <image
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/icon.png"
+         y="838.94409"
+         x="-166.60779"
+         id="image3435"
+         height="43.08334"
+         width="48"
+         sodipodi:absref="/home/prometheus/emonet/projects/OMiSCID-WebSite/image/logo.svg-rect3395-4294967234.png"
+         xlink:href="logo.svg-rect3395-4294967234.png"
+         clip-path="url(#clipPath2301)"
+         transform="translate(-23.369263,23.329668)"
+         style="fill:#4d4d4d" />
+    </g>
+    <rect
+       style="opacity:0;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3473"
+       width="16"
+       height="16"
+       x="529.6225"
+       y="955.1875"
+       clip-path="url(#clipPath3496)"
+       inkscape:export-filename="/home/prometheus/emonet/inoutput.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="translate(-19.445437,-18.738331)" />
+    <rect
+       style="opacity:1;color:#000000;fill:#ffcdff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3475"
+       width="13.046211"
+       height="13.429923"
+       x="532.78424"
+       y="937.74738"
+       clip-path="url(#clipPath3492)"
+       transform="translate(-14.906933,3.3207482e-2)" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 524.35908,946.50275 L 513.08487,946.50275"
+       id="path3487"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 511.3805,942.50275 L 522.65471,942.50275"
+       id="path3489"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="opacity:0;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3500"
+       width="16"
+       height="16"
+       x="529.6225"
+       y="955.1875"
+       clip-path="url(#clipPath3496)"
+       transform="translate(4.9051802,-16.714559)"
+       inkscape:export-filename="/home/prometheus/emonet/input.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;color:#000000;fill:#ffcdff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3502"
+       width="13.046211"
+       height="13.429923"
+       x="532.78424"
+       y="937.74738"
+       clip-path="url(#clipPath3492)"
+       transform="translate(9.4436852,2.0569796)" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 535.73112,944.52653 L 547.00533,944.52653"
+       id="path3506"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="opacity:0;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3508"
+       width="16"
+       height="16"
+       x="529.6225"
+       y="955.1875"
+       clip-path="url(#clipPath3496)"
+       transform="translate(28.151317,-16.626171)"
+       inkscape:export-filename="/home/prometheus/emonet/output.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;color:#000000;fill:#ffcdff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3510"
+       width="13.046211"
+       height="13.429923"
+       x="532.78424"
+       y="937.74738"
+       clip-path="url(#clipPath3492)"
+       transform="translate(32.689821,2.1453671)" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 571.95583,948.61491 L 560.68162,948.61491"
+       id="path3512"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="opacity:0;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3520"
+       width="16"
+       height="16"
+       x="529.6225"
+       y="955.1875"
+       clip-path="url(#clipPath3496)"
+       transform="translate(20.127503,53.174683)"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCIDGui/OMiSCIDBrowser/src/fr/prima/omiscid/browser/icons/readwrite.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3522"
+       sodipodi:cx="530.125"
+       sodipodi:cy="994.36218"
+       sodipodi:rx="5.25"
+       sodipodi:ry="5.25"
+       d="M 535.375 994.36218 A 5.25 5.25 0 1 1  524.875,994.36218 A 5.25 5.25 0 1 1  535.375 994.36218 z"
+       transform="translate(29.125,23.25)" />
+    <rect
+       style="opacity:0;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3524"
+       width="16"
+       height="16"
+       x="529.6225"
+       y="955.1875"
+       clip-path="url(#clipPath3496)"
+       transform="translate(-11.747497,65.174683)"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCIDGui/OMiSCIDBrowser/src/fr/prima/omiscid/browser/icons/readonly.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3526"
+       sodipodi:cx="530.125"
+       sodipodi:cy="994.36218"
+       sodipodi:rx="5.25"
+       sodipodi:ry="5.25"
+       d="M 535.375 994.36218 A 5.25 5.25 0 1 1  524.875,994.36218 A 5.25 5.25 0 1 1  535.375 994.36218 z"
+       transform="translate(-2.7499997,35.25)" />
+    <rect
+       style="opacity:1;color:#000000;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3530"
+       width="5"
+       height="4.5652175"
+       x="519.23346"
+       y="1024.2766" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3533"
+       sodipodi:cx="514.0625"
+       sodipodi:cy="1022.4247"
+       sodipodi:rx="2.5"
+       sodipodi:ry="2.5"
+       d="M 511.5625,1022.4247 A 2.5,2.5 0 0 1 516.5625,1022.4247"
+       sodipodi:start="3.1415927"
+       sodipodi:end="6.2831853"
+       sodipodi:open="true"
+       transform="translate(7.6709595,1.451347)" />
+    <rect
+       style="opacity:0;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2319"
+       width="16"
+       height="16"
+       x="529.6225"
+       y="955.1875"
+       clip-path="url(#clipPath3496)"
+       transform="translate(-10.916311,39.323652)"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCIDGui/OMiSCIDBrowser/src/fr/prima/omiscid/browser/icons/constant.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:#00c7ff;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path2321"
+       sodipodi:cx="530.125"
+       sodipodi:cy="994.36218"
+       sodipodi:rx="5.25"
+       sodipodi:ry="5.25"
+       d="M 535.375 994.36218 A 5.25 5.25 0 1 1  524.875,994.36218 A 5.25 5.25 0 1 1  535.375 994.36218 z"
+       transform="translate(-1.9188131,9.398969)" />
+    <rect
+       style="opacity:1;color:#000000;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2323"
+       width="5"
+       height="4.5652175"
+       x="520.06464"
+       y="998.4256" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path2325"
+       sodipodi:cx="514.0625"
+       sodipodi:cy="1022.4247"
+       sodipodi:rx="2.5"
+       sodipodi:ry="2.5"
+       d="M 511.5625,1022.4247 A 2.5,2.5 0 0 1 516.5625,1022.4247"
+       sodipodi:start="3.1415927"
+       sodipodi:end="6.2831853"
+       sodipodi:open="true"
+       transform="translate(8.5021458,-24.399684)" />
+    <rect
+       style="opacity:0;color:#000000;fill:#00cdff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:3, 3;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2321"
+       width="16"
+       height="16"
+       x="529.6225"
+       y="955.1875"
+       clip-path="url(#clipPath3496)"
+       transform="translate(-41.034241,21.04968)"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCIDGui/OMiSCIDBrowser/src/fr/prima/omiscid/browser/icons/service.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;color:#000000;fill:#cdffec;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2324"
+       width="13.046211"
+       height="13.429923"
+       x="490.10193"
+       y="977.52222"
+       clip-path="none"
+       inkscape:export-filename="/home/prometheus/emonet/projects/OMiSCIDGui/OMiSCIDBrowser/src/fr/prima/omiscid/browser/icons/service.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       style="opacity:1;color:#000000;fill:#ffcdff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3297"
+       width="3"
+       height="3"
+       x="489.08826"
+       y="979.73718"
+       clip-path="none" />
+    <rect
+       style="opacity:1;color:#000000;fill:#ffcdff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3301"
+       width="3"
+       height="3"
+       x="489.08826"
+       y="985.73718"
+       clip-path="none" />
+    <rect
+       style="opacity:1;color:#000000;fill:#ffcdff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3303"
+       width="3"
+       height="3"
+       x="501.08826"
+       y="982.73718"
+       clip-path="none" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:#00c7ff;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3305"
+       sodipodi:cx="530.125"
+       sodipodi:cy="994.36218"
+       sodipodi:rx="1.5818834"
+       sodipodi:ry="1.5818834"
+       d="M 531.70688 994.36218 A 1.5818834 1.5818834 0 1 1  528.54312,994.36218 A 1.5818834 1.5818834 0 1 1  531.70688 994.36218 z"
+       transform="translate(-35.45486,-6.043119)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3307"
+       sodipodi:cx="530.125"
+       sodipodi:cy="994.36218"
+       sodipodi:rx="1.5818834"
+       sodipodi:ry="1.5818834"
+       d="M 531.70688 994.36218 A 1.5818834 1.5818834 0 1 1  528.54312,994.36218 A 1.5818834 1.5818834 0 1 1  531.70688 994.36218 z"
+       transform="translate(-35.45486,-14.043119)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3309"
+       sodipodi:cx="530.125"
+       sodipodi:cy="994.36218"
+       sodipodi:rx="1.5818834"
+       sodipodi:ry="1.5818834"
+       d="M 531.70688 994.36218 A 1.5818834 1.5818834 0 1 1  528.54312,994.36218 A 1.5818834 1.5818834 0 1 1  531.70688 994.36218 z"
+       transform="translate(-35.45486,-10.043119)" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.10445976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="496.92764"
+       y="980.92035"
+       id="text3311"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3313"
+         x="496.92764"
+         y="980.92035">freq</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.10445976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="496.92764"
+       y="988.92035"
+       id="text3319"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3321"
+         x="496.92764"
+         y="988.92035">owner</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.10445976px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1pt;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="496.92764"
+       y="984.92035"
+       id="text3323"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3325"
+         x="496.92764"
+         y="984.92035">lock</tspan></text>
+    <rect
+       style="opacity:1;color:#000000;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.24383214;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3327"
+       width="1.2191607"
+       height="1.1131467"
+       x="492.7742"
+       y="983.03955" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3329"
+       sodipodi:cx="514.0625"
+       sodipodi:cy="1022.4247"
+       sodipodi:rx="2.5"
+       sodipodi:ry="2.5"
+       d="M 511.5625,1022.4247 A 2.5,2.5 0 0 1 516.5625,1022.4247"
+       sodipodi:start="3.1415927"
+       sodipodi:end="6.2831853"
+       sodipodi:open="true"
+       transform="matrix(0.2438321,0,0,0.2438321,368.03883,733.64186)" />
+    <rect
+       style="opacity:1;color:#000000;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.24383214;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3331"
+       width="1.2191607"
+       height="1.1131467"
+       x="492.7742"
+       y="987.03955" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3333"
+       sodipodi:cx="514.0625"
+       sodipodi:cy="1022.4247"
+       sodipodi:rx="2.5"
+       sodipodi:ry="2.5"
+       d="M 511.5625,1022.4247 A 2.5,2.5 0 0 1 516.5625,1022.4247"
+       sodipodi:start="3.1415927"
+       sodipodi:end="6.2831853"
+       sodipodi:open="true"
+       transform="matrix(0.2438321,0,0,0.2438321,368.03883,737.64186)" />
   </g>
 </svg>
