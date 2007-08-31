@@ -44,6 +44,7 @@ import-javadoc:
 
 patch-javadoc:
 	cp css/javadoc.css download/doc-java/javadoc/stylesheet.css
+	sed -i -e 's@Generated Documentation (Untitled)@OMiSCID Java Documentation (javadoc)@g' download/doc-java/javadoc/index.html
 
 # SCREENCASTS IMPORT
 
