@@ -31,6 +31,10 @@
             <link href="css/base.css" rel="stylesheet" type="text/css" />
           </xsl:otherwise>
         </xsl:choose>
+        <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
+        <meta name="keywords" content="omiscid, o3miscid, O3MiSCID, OMiSCID, {/p:page/p:menu/p:item[@id = $itemId]/text()}"/>
+        <meta name="description" content="{/p:page/p:title/text()}"/>
+        <meta name="abstract" content="{/p:page/p:title/text()}"/>
       </head>
       <body>
         <div class="header">
