@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer xmlns="http://custom">
-Last update 2007-08-30.
+Last update 2007-12-03.
 <!--
+OMiSCID Gui introduction now links to the newly added forge download
+
+Last update 2007-08-30.
 added small introduction to the new OMiSCID Gui
 updated javadoc for version 1.3.0
 
