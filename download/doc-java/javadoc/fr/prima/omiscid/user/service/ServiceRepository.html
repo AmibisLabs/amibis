@@ -98,7 +98,7 @@ Interface ServiceRepository</H2>
 
 <P>
 Represents a service repository containing an up-to-date list of running services.
- Concrete ServiceRepository instances should be obtained from <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepositoy(fr.prima.omiscid.user.service.Service)"><CODE>ServiceFactory.createServiceRepositoy(Service)</CODE></A>.
+ Concrete ServiceRepository instances should be obtained from <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepository(fr.prima.omiscid.user.service.Service)"><CODE>ServiceFactory.createServiceRepository(Service)</CODE></A>.
  A service repository basic use case is to register some listeners to listen for appearing and disappearing services.
  A service repository can also be queried for a list of running services (a snapshot taken when the <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#getAllServices()"><CODE>getAllServices()</CODE></A> method is called.
  
@@ -121,10 +121,29 @@ Represents a service repository containing an up-to-date list of running service
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#addListener(fr.prima.omiscid.user.service.ServiceFilter, fr.prima.omiscid.user.service.ServiceRepositoryListener)">addListener</A></B>(<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFilter.html" title="interface in fr.prima.omiscid.user.service">ServiceFilter</A>&nbsp;filter,
+            <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service">ServiceRepositoryListener</A>&nbsp;listener)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a listener to be notified of service apparitions and disapparitions.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#addListener(fr.prima.omiscid.user.service.ServiceFilter, fr.prima.omiscid.user.service.ServiceRepositoryListener, boolean)">addListener</A></B>(<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFilter.html" title="interface in fr.prima.omiscid.user.service">ServiceFilter</A>&nbsp;filter,
+            <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service">ServiceRepositoryListener</A>&nbsp;listener,
+            boolean&nbsp;notifyOnlyNewEvents)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a listener to be notified of service apparitions and disapparitions.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#addListener(fr.prima.omiscid.user.service.ServiceRepositoryListener)">addListener</A></B>(<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service">ServiceRepositoryListener</A>&nbsp;listener)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a listener to be notified of service apparition and disapparition.</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a listener to be notified of service apparitions and disapparitions.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -133,7 +152,7 @@ Represents a service repository containing an up-to-date list of running service
             boolean&nbsp;notifyOnlyNewEvents)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a listener to be notified of service apparition and disapparition.</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a listener to be notified of service apparitions and disapparitions.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -187,7 +206,7 @@ addListener</H3>
 <PRE>
 void <B>addListener</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service">ServiceRepositoryListener</A>&nbsp;listener)</PRE>
 <DL>
-<DD>Adds a listener to be notified of service apparition and disapparition.
+<DD>Adds a listener to be notified of service apparitions and disapparitions.
  This listener will be notified of currently running services (see <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#addListener(fr.prima.omiscid.user.service.ServiceRepositoryListener, boolean)"><CODE>addListener(ServiceRepositoryListener, boolean)</CODE></A> for details).
  Behaves like calling <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#addListener(fr.prima.omiscid.user.service.ServiceRepositoryListener, boolean)"><CODE>addListener(ServiceRepositoryListener, boolean)</CODE></A> with false.
 <P>
@@ -203,7 +222,7 @@ addListener</H3>
 void <B>addListener</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service">ServiceRepositoryListener</A>&nbsp;listener,
                  boolean&nbsp;notifyOnlyNewEvents)</PRE>
 <DL>
-<DD>Adds a listener to be notified of service apparition and disapparition.
+<DD>Adds a listener to be notified of service apparitions and disapparitions.
  From this addition, the listener will be notified of each service event (see <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service"><CODE>ServiceRepositoryListener</CODE></A>).
  When a listener is added to the repository, this latter can already contain some services.
  The boolean parameter tells whether the listener should be notified of these services as if they were appearing.
@@ -214,13 +233,53 @@ void <B>addListener</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Se
 </DL>
 <HR>
 
+<A NAME="addListener(fr.prima.omiscid.user.service.ServiceFilter, fr.prima.omiscid.user.service.ServiceRepositoryListener)"><!-- --></A><H3>
+addListener</H3>
+<PRE>
+void <B>addListener</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFilter.html" title="interface in fr.prima.omiscid.user.service">ServiceFilter</A>&nbsp;filter,
+                 <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service">ServiceRepositoryListener</A>&nbsp;listener)</PRE>
+<DL>
+<DD>Adds a listener to be notified of service apparitions and disapparitions.
+ Apparition notifications will only happen for services matching given filter.
+ Disapparition notifications will only happen for services that have been notified of apparition.
+ 
+ This listener will be notified of currently running services (see <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#addListener(fr.prima.omiscid.user.service.ServiceFilter, fr.prima.omiscid.user.service.ServiceRepositoryListener, boolean)"><CODE>addListener(ServiceFilter, ServiceRepositoryListener, boolean)</CODE></A> for details).
+ Behaves like calling <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#addListener(fr.prima.omiscid.user.service.ServiceFilter, fr.prima.omiscid.user.service.ServiceRepositoryListener, boolean)"><CODE>addListener(ServiceFilter, ServiceRepositoryListener, boolean)</CODE></A> with false.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>filter</CODE> - the filter to apply to service apparition<DD><CODE>listener</CODE> - the listener that will be notified of service events</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="addListener(fr.prima.omiscid.user.service.ServiceFilter, fr.prima.omiscid.user.service.ServiceRepositoryListener, boolean)"><!-- --></A><H3>
+addListener</H3>
+<PRE>
+void <B>addListener</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFilter.html" title="interface in fr.prima.omiscid.user.service">ServiceFilter</A>&nbsp;filter,
+                 <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service">ServiceRepositoryListener</A>&nbsp;listener,
+                 boolean&nbsp;notifyOnlyNewEvents)</PRE>
+<DL>
+<DD>Adds a listener to be notified of service apparitions and disapparitions.
+ Apparition notifications will only happen for services matching given filter.
+ Disapparition notifications will only happen for services that have been notified of apparition.
+ 
+ From this addition, the listener will be notified of each service event (see <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service"><CODE>ServiceRepositoryListener</CODE></A>).
+ When a listener is added to the repository, this latter can already contain some services.
+ The boolean parameter tells whether the listener should be notified of these services as if they were appearing.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>filter</CODE> - the filter to apply to service apparition<DD><CODE>listener</CODE> - the listener that will be notified of service events<DD><CODE>notifyOnlyNewEvents</CODE> - a boolean used to ignore services running at the time of listener addition. Setting it to false will cause the listener to be immediately notified of services already present in the repository</DL>
+</DD>
+</DL>
+<HR>
+
 <A NAME="removeListener(fr.prima.omiscid.user.service.ServiceRepositoryListener)"><!-- --></A><H3>
 removeListener</H3>
 <PRE>
 void <B>removeListener</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepositoryListener.html" title="interface in fr.prima.omiscid.user.service">ServiceRepositoryListener</A>&nbsp;listener)</PRE>
 <DL>
 <DD>Removes a previously added listener.
- Behaves like calling <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#addListener(fr.prima.omiscid.user.service.ServiceRepositoryListener, boolean)"><CODE>addListener(ServiceRepositoryListener, boolean)</CODE></A> with false.
+ Behaves like calling <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html#removeListener(fr.prima.omiscid.user.service.ServiceRepositoryListener, boolean)"><CODE>removeListener(ServiceRepositoryListener, boolean)</CODE></A> with false.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>listener</CODE> - the listener to be removed</DL>

@@ -145,7 +145,7 @@ Interface ServiceFactory</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service">ServiceRepository</A></CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepositoy()">createServiceRepositoy</A></B>()</CODE>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepository()">createServiceRepository</A></B>()</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a new <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service"><CODE>ServiceRepository</CODE></A>.</TD>
@@ -153,7 +153,7 @@ Interface ServiceFactory</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service">ServiceRepository</A></CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepositoy(fr.prima.omiscid.user.service.Service)">createServiceRepositoy</A></B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A>&nbsp;service)</CODE>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepository(fr.prima.omiscid.user.service.Service)">createServiceRepository</A></B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A>&nbsp;service)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creates a new <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service"><CODE>ServiceRepository</CODE></A> based on a already created service.</TD>
@@ -241,10 +241,10 @@ createFromXML</H3>
 </DL>
 <HR>
 
-<A NAME="createServiceRepositoy(fr.prima.omiscid.user.service.Service)"><!-- --></A><H3>
-createServiceRepositoy</H3>
+<A NAME="createServiceRepository(fr.prima.omiscid.user.service.Service)"><!-- --></A><H3>
+createServiceRepository</H3>
 <PRE>
-<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service">ServiceRepository</A> <B>createServiceRepositoy</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A>&nbsp;service)</PRE>
+<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service">ServiceRepository</A> <B>createServiceRepository</B>(<A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service">Service</A>&nbsp;service)</PRE>
 <DL>
 <DD>Creates a new <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service"><CODE>ServiceRepository</CODE></A> based on a already created service.
  A service repository is used to mainting automatically a list of running services and can notify of services apparition and disapparition.
@@ -258,16 +258,16 @@ createServiceRepositoy</H3>
 </DL>
 <HR>
 
-<A NAME="createServiceRepositoy()"><!-- --></A><H3>
-createServiceRepositoy</H3>
+<A NAME="createServiceRepository()"><!-- --></A><H3>
+createServiceRepository</H3>
 <PRE>
-<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service">ServiceRepository</A> <B>createServiceRepositoy</B>()</PRE>
+<A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service">ServiceRepository</A> <B>createServiceRepository</B>()</PRE>
 <DL>
 <DD>Creates a new <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceRepository.html" title="interface in fr.prima.omiscid.user.service"><CODE>ServiceRepository</CODE></A>.
  A service repository is used to mainting automatically a list of running services and can notify of services apparition and disapparition.
  If you are only willing to look for services at a given instant, using <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#findService(fr.prima.omiscid.user.service.ServiceFilter)"><CODE>Service.findService(fr.prima.omiscid.user.service.ServiceFilter)</CODE></A> methods is simpler.
 
- A new <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service"><CODE>Service</CODE></A> instance will be hiddenly created. If you already have a <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service"><CODE>Service</CODE></A> instance, you should probably prefer <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepositoy(fr.prima.omiscid.user.service.Service)"><CODE>createServiceRepositoy(Service)</CODE></A>.
+ A new <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service"><CODE>Service</CODE></A> instance will be hiddenly created. If you already have a <A HREF="../../../../../fr/prima/omiscid/user/service/Service.html" title="interface in fr.prima.omiscid.user.service"><CODE>Service</CODE></A> instance, you should probably prefer <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceFactory.html#createServiceRepository(fr.prima.omiscid.user.service.Service)"><CODE>createServiceRepository(Service)</CODE></A>.
  Connections that may be necessary for the service repository will be done in the name of the hiddenly created service.
 <P>
 <DD><DL>

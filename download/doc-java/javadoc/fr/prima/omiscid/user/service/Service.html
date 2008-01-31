@@ -122,6 +122,17 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addConnector(java.lang.String, java.lang.String, fr.prima.omiscid.user.connector.ConnectorType, int)">addConnector</A></B>(java.lang.String&nbsp;connectorName,
+             java.lang.String&nbsp;connectorDescription,
+             <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind,
+             int&nbsp;port)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a new connector to the service specifying a preferred tcp port for it.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addConnectorListener(java.lang.String, fr.prima.omiscid.user.connector.ConnectorListener)">addConnectorListener</A></B>(java.lang.String&nbsp;connectorName,
                      <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorListener.html" title="interface in fr.prima.omiscid.user.connector">ConnectorListener</A>&nbsp;msgListener)</CODE>
 
@@ -191,6 +202,16 @@ Interface Service</H2>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connects a local connector to a remote connector of a remote service</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#connectTo(java.lang.String, java.lang.String, int)">connectTo</A></B>(java.lang.String&nbsp;localConnector,
+          java.lang.String&nbsp;hostName,
+          int&nbsp;tcpPort)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -464,6 +485,7 @@ void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
                   java.lang.String&nbsp;connectorDescription,
                   <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind)
                   throws <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A>,
+                         <A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A>,
                          java.io.IOException,
                          <A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A>,
                          <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorLimitReached.html" title="class in fr.prima.omiscid.user.exception">ConnectorLimitReached</A></PRE>
@@ -474,7 +496,35 @@ void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector<DD><CODE>connectorDescription</CODE> - the description of the connector<DD><CODE>connectorKind</CODE> - connector type. This can be input, output or input-output
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A></CODE> - thrown if we try to recreate an already existing connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A></CODE> - thrown if there is already a variable with this name
 <DD><CODE>java.io.IOException</CODE> - thrown if there is an error in the tcp socket creation
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></CODE> - It is not possible to add a new connector if the service is already running. You have to stop it before
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorLimitReached.html" title="class in fr.prima.omiscid.user.exception">ConnectorLimitReached</A></CODE> - when no more connectors can be added to the service.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="addConnector(java.lang.String, java.lang.String, fr.prima.omiscid.user.connector.ConnectorType, int)"><!-- --></A><H3>
+addConnector</H3>
+<PRE>
+void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
+                  java.lang.String&nbsp;connectorDescription,
+                  <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind,
+                  int&nbsp;port)
+                  throws <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A>,
+                         <A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A>,
+                         java.io.IOException,
+                         <A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A>,
+                         <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorLimitReached.html" title="class in fr.prima.omiscid.user.exception">ConnectorLimitReached</A></PRE>
+<DL>
+<DD>Adds a new connector to the service specifying a preferred tcp port for it.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector<DD><CODE>connectorDescription</CODE> - the description of the connector<DD><CODE>connectorKind</CODE> - connector type. This can be input, output or input-output<DD><CODE>port</CODE> - the preferred port number
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A></CODE> - thrown if we try to recreate an already existing connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A></CODE> - thrown if there is already a variable with this name
+<DD><CODE>java.io.IOException</CODE> - thrown if there is an error in the tcp socket creation (e.g. port already in use)
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></CODE> - It is not possible to add a new connector if the service is already running. You have to stop it before
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorLimitReached.html" title="class in fr.prima.omiscid.user.exception">ConnectorLimitReached</A></CODE> - when no more connectors can be added to the service.</DL>
 </DD>
@@ -766,7 +816,8 @@ void <B>addVariable</B>(java.lang.String&nbsp;varName,
                  java.lang.String&nbsp;type,
                  java.lang.String&nbsp;description,
                  <A HREF="../../../../../fr/prima/omiscid/user/variable/VariableAccessType.html" title="enum in fr.prima.omiscid.user.variable">VariableAccessType</A>&nbsp;accessType)
-                 throws <A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A>,
+                 throws <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A>,
+                        <A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A>,
                         <A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></PRE>
 <DL>
 <DD>Creates a new variable for this service.
@@ -775,7 +826,8 @@ void <B>addVariable</B>(java.lang.String&nbsp;varName,
 <DT><B>Parameters:</B><DD><CODE>varName</CODE> - the variable name<DD><CODE>type</CODE> - the variable type (or null if no type is associated)<DD><CODE>description</CODE> - the variable description<DD><CODE>accessType</CODE> - the access type of the variable
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A></CODE> - thrown if a variable with the same name has already been declated.
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></CODE> - It is not possible to add a new connector if the service is already running. You have to stop it before.</DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></CODE> - It is not possible to add a new connector if the service is already running. You have to stop it before.
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A></CODE></DL>
 </DD>
 </DL>
 <HR>
@@ -926,6 +978,24 @@ void <B>connectTo</B>(java.lang.String&nbsp;localConnector,
 </DL>
 <HR>
 
+<A NAME="connectTo(java.lang.String, java.lang.String, int)"><!-- --></A><H3>
+connectTo</H3>
+<PRE>
+void <B>connectTo</B>(java.lang.String&nbsp;localConnector,
+               java.lang.String&nbsp;hostName,
+               int&nbsp;tcpPort)
+               throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                      <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectionRefused.html" title="class in fr.prima.omiscid.user.exception">ConnectionRefused</A></PRE>
+<DL>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>localConnector</CODE> - <DD><CODE>hostName</CODE> - the host name of the remote service<DD><CODE>tcpPort</CODE> - the port number for the remote connector
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectionRefused.html" title="class in fr.prima.omiscid.user.exception">ConnectionRefused</A></CODE> - thrown in case of connection problem</DL>
+</DD>
+</DL>
+<HR>
+
 <A NAME="findService(fr.prima.omiscid.user.service.ServiceFilter)"><!-- --></A><H3>
 findService</H3>
 <PRE>
@@ -1024,7 +1094,7 @@ boolean <B>closeConnection</B>(java.lang.String&nbsp;localConnector,
 <DD>Closes a connection on a given connector to a given remote peer.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which connection will be closed<DD><CODE>peerId</CODE> - the id of the remote peer which connection is to be closed
+<DT><B>Parameters:</B><DD><CODE>localConnector</CODE> - the connector on which connection will be closed<DD><CODE>peerId</CODE> - the id of the remote peer which connection is to be closed
 <DT><B>Returns:</B><DD>whether the connection existed and have been closed
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
@@ -1042,7 +1112,7 @@ boolean <B>closeConnection</B>(java.lang.String&nbsp;localConnector,
 <DD>Closes a connection on a given connector to a given remote peer.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which connection will be closed<DD><CODE>serviceProxy</CODE> - the ServiceProxy which connection is to be closed
+<DT><B>Parameters:</B><DD><CODE>localConnector</CODE> - the connector on which connection will be closed<DD><CODE>serviceProxy</CODE> - the ServiceProxy which connection is to be closed
 <DT><B>Returns:</B><DD>whether the connection existed and have been closed
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
@@ -1059,7 +1129,7 @@ void <B>closeAllConnections</B>(java.lang.String&nbsp;localConnector)
 <DD>Closes all connections on a given connector.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which connections will be closed
+<DT><B>Parameters:</B><DD><CODE>localConnector</CODE> - the connector on which connections will be closed
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
 </DD>
@@ -1088,7 +1158,7 @@ void <B>removeAllConnectorListeners</B>(java.lang.String&nbsp;localConnector)
 <DD>Removes all listeners on a given connector.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the connector on which listeners will be removed.
+<DT><B>Parameters:</B><DD><CODE>localConnector</CODE> - the connector on which listeners will be removed.
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
 </DD>
