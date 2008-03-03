@@ -131,6 +131,14 @@ Interface ServiceProxy</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html#getConnectorDescription(java.lang.String)">getConnectorDescription</A></B>(java.lang.String&nbsp;connectorName)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the description of a connector.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html#getHostName()">getHostName</A></B>()</CODE>
 
 <BR>
@@ -194,6 +202,14 @@ Interface ServiceProxy</H2>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html#getVariableDescription(java.lang.String)">getVariableDescription</A></B>(java.lang.String&nbsp;varName)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the description of a remote variable.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;java.util.Set&lt;java.lang.String&gt;</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html#getVariables()">getVariables</A></B>()</CODE>
 
@@ -203,10 +219,18 @@ Interface ServiceProxy</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html#getVariableType(java.lang.String)">getVariableType</A></B>(java.lang.String&nbsp;varName)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the type of a remote variable.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html#getVariableValue(java.lang.String)">getVariableValue</A></B>(java.lang.String&nbsp;varName)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the value of a remote variable</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the value of a remote variable.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -224,7 +248,7 @@ Interface ServiceProxy</H2>
                  java.lang.String&nbsp;value)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the new value of a remote variable</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the new value of a remote variable.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -322,6 +346,23 @@ java.util.Set&lt;java.lang.String&gt; <B>getInputOutputConnectors</B>()</PRE>
 </DL>
 <HR>
 
+<A NAME="getConnectorDescription(java.lang.String)"><!-- --></A><H3>
+getConnectorDescription</H3>
+<PRE>
+java.lang.String <B>getConnectorDescription</B>(java.lang.String&nbsp;connectorName)
+                                         throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+<DL>
+<DD>Gets the description of a connector.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - 
+<DT><B>Returns:</B><DD>the description string
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE></DL>
+</DD>
+</DL>
+<HR>
+
 <A NAME="updateDescription()"><!-- --></A><H3>
 updateDescription</H3>
 <PRE>
@@ -390,7 +431,8 @@ void <B>setVariableValue</B>(java.lang.String&nbsp;varName,
                       java.lang.String&nbsp;value)
                       throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
-<DD>Sets the new value of a remote variable
+<DD>Sets the new value of a remote variable.
+ Remote service may accept this modification or not.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>varName</CODE> - the name of the remote variable<DD><CODE>value</CODE> - the value (String format)
@@ -406,11 +448,45 @@ getVariableValue</H3>
 java.lang.String <B>getVariableValue</B>(java.lang.String&nbsp;varName)
                                   throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
-<DD>Gets the value of a remote variable
+<DD>Gets the value of a remote variable.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>varName</CODE> - 
 <DT><B>Returns:</B><DD>the value
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getVariableType(java.lang.String)"><!-- --></A><H3>
+getVariableType</H3>
+<PRE>
+java.lang.String <B>getVariableType</B>(java.lang.String&nbsp;varName)
+                                 throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
+<DL>
+<DD>Gets the type of a remote variable.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>varName</CODE> - 
+<DT><B>Returns:</B><DD>the type string
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getVariableDescription(java.lang.String)"><!-- --></A><H3>
+getVariableDescription</H3>
+<PRE>
+java.lang.String <B>getVariableDescription</B>(java.lang.String&nbsp;varName)
+                                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
+<DL>
+<DD>Gets the description of a remote variable.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>varName</CODE> - 
+<DT><B>Returns:</B><DD>the description string
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE></DL>
 </DD>

@@ -114,7 +114,7 @@ Interface Service</H2>
 <CODE>&nbsp;void</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addConnector(java.lang.String, java.lang.String, fr.prima.omiscid.user.connector.ConnectorType)">addConnector</A></B>(java.lang.String&nbsp;connectorName,
              java.lang.String&nbsp;connectorDescription,
-             <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind)</CODE>
+             <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorType)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a new connector to the service.</TD>
@@ -124,7 +124,7 @@ Interface Service</H2>
 <CODE>&nbsp;void</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addConnector(java.lang.String, java.lang.String, fr.prima.omiscid.user.connector.ConnectorType, int)">addConnector</A></B>(java.lang.String&nbsp;connectorName,
              java.lang.String&nbsp;connectorDescription,
-             <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind,
+             <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorType,
              int&nbsp;port)</CODE>
 
 <BR>
@@ -137,12 +137,12 @@ Interface Service</H2>
                      <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorListener.html" title="interface in fr.prima.omiscid.user.connector">ConnectorListener</A>&nbsp;msgListener)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add a message listener to a connector</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adds a message listener to a connector</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addLocalVariableListener(java.lang.String, fr.prima.omiscid.user.variable.LocalVariableListener)">addLocalVariableListener</A></B>(java.lang.String&nbsp;varName,
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addLocalVariableListener(java.lang.String, fr.prima.omiscid.user.variable.LocalVariableListener)">addLocalVariableListener</A></B>(java.lang.String&nbsp;variableName,
                          <A HREF="../../../../../fr/prima/omiscid/user/variable/LocalVariableListener.html" title="interface in fr.prima.omiscid.user.variable">LocalVariableListener</A>&nbsp;listener)</CODE>
 
 <BR>
@@ -151,7 +151,7 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)">addVariable</A></B>(java.lang.String&nbsp;varName,
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)">addVariable</A></B>(java.lang.String&nbsp;variableName,
             java.lang.String&nbsp;type,
             java.lang.String&nbsp;description,
             <A HREF="../../../../../fr/prima/omiscid/user/variable/VariableAccessType.html" title="enum in fr.prima.omiscid.user.variable">VariableAccessType</A>&nbsp;accessType)</CODE>
@@ -250,6 +250,14 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getConnectorClientCount(java.lang.String)">getConnectorClientCount</A></B>(java.lang.String&nbsp;localConnectorName)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gets the number of clients currently connected to the given connector.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;int</CODE></FONT></TD>
 <TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getPeerId()">getPeerId</A></B>()</CODE>
 
 <BR>
@@ -266,7 +274,7 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;java.lang.String</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableAccessType(java.lang.String)">getVariableAccessType</A></B>(java.lang.String&nbsp;varName)</CODE>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableAccessType(java.lang.String)">getVariableAccessType</A></B>(java.lang.String&nbsp;variableName)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the variable access type</TD>
@@ -274,7 +282,7 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;java.lang.String</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableDescription(java.lang.String)">getVariableDescription</A></B>(java.lang.String&nbsp;varName)</CODE>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableDescription(java.lang.String)">getVariableDescription</A></B>(java.lang.String&nbsp;variableName)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the description associated to a variable</TD>
@@ -282,7 +290,7 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;java.lang.String</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableType(java.lang.String)">getVariableType</A></B>(java.lang.String&nbsp;varName)</CODE>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableType(java.lang.String)">getVariableType</A></B>(java.lang.String&nbsp;variableName)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the string version of the variable type</TD>
@@ -290,7 +298,7 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;java.lang.String</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableValue(java.lang.String)">getVariableValue</A></B>(java.lang.String&nbsp;varName)</CODE>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#getVariableValue(java.lang.String)">getVariableValue</A></B>(java.lang.String&nbsp;variableName)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the variable value</TD>
@@ -323,7 +331,7 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#removeLocalVariableListener(java.lang.String, fr.prima.omiscid.user.variable.LocalVariableListener)">removeLocalVariableListener</A></B>(java.lang.String&nbsp;varName,
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#removeLocalVariableListener(java.lang.String, fr.prima.omiscid.user.variable.LocalVariableListener)">removeLocalVariableListener</A></B>(java.lang.String&nbsp;variableName,
                             <A HREF="../../../../../fr/prima/omiscid/user/variable/LocalVariableListener.html" title="interface in fr.prima.omiscid.user.variable">LocalVariableListener</A>&nbsp;listener)</CODE>
 
 <BR>
@@ -433,8 +441,8 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#setVariableDescription(java.lang.String, java.lang.String)">setVariableDescription</A></B>(java.lang.String&nbsp;varName,
-                       java.lang.String&nbsp;varDescription)</CODE>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#setVariableDescription(java.lang.String, java.lang.String)">setVariableDescription</A></B>(java.lang.String&nbsp;variableName,
+                       java.lang.String&nbsp;variableDescription)</CODE>
 
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Associate a description to an existing variable</TD>
@@ -442,11 +450,21 @@ Interface Service</H2>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
 <CODE>&nbsp;void</CODE></FONT></TD>
-<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#setVariableValue(java.lang.String, java.lang.String)">setVariableValue</A></B>(java.lang.String&nbsp;varName,
-                 java.lang.String&nbsp;varValue)</CODE>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#setVariableValue(java.lang.String, java.lang.String)">setVariableValue</A></B>(java.lang.String&nbsp;variableName,
+                 java.lang.String&nbsp;variableValue)</CODE>
 
 <BR>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the value of a service variable</TD>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the value of a service variable.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#setVariableValue(java.lang.String, java.lang.String, boolean)">setVariableValue</A></B>(java.lang.String&nbsp;variableName,
+                 java.lang.String&nbsp;variableValue,
+                 boolean&nbsp;skipValidationPhase)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sets the value of a service variable.</TD>
 </TR>
 <TR BGCOLOR="white" CLASS="TableRowColor">
 <TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
@@ -483,7 +501,7 @@ addConnector</H3>
 <PRE>
 void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
                   java.lang.String&nbsp;connectorDescription,
-                  <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind)
+                  <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorType)
                   throws <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A>,
                          <A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A>,
                          java.io.IOException,
@@ -493,7 +511,7 @@ void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
 <DD>Adds a new connector to the service.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector<DD><CODE>connectorDescription</CODE> - the description of the connector<DD><CODE>connectorKind</CODE> - connector type. This can be input, output or input-output
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector<DD><CODE>connectorDescription</CODE> - the description of the connector<DD><CODE>connectorType</CODE> - connector type. This can be input, output or input-output
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A></CODE> - thrown if we try to recreate an already existing connector
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A></CODE> - thrown if there is already a variable with this name
@@ -509,7 +527,7 @@ addConnector</H3>
 <PRE>
 void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
                   java.lang.String&nbsp;connectorDescription,
-                  <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorKind,
+                  <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorType.html" title="enum in fr.prima.omiscid.user.connector">ConnectorType</A>&nbsp;connectorType,
                   int&nbsp;port)
                   throws <A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A>,
                          <A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A>,
@@ -520,7 +538,7 @@ void <B>addConnector</B>(java.lang.String&nbsp;connectorName,
 <DD>Adds a new connector to the service specifying a preferred tcp port for it.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector<DD><CODE>connectorDescription</CODE> - the description of the connector<DD><CODE>connectorKind</CODE> - connector type. This can be input, output or input-output<DD><CODE>port</CODE> - the preferred port number
+<DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector<DD><CODE>connectorDescription</CODE> - the description of the connector<DD><CODE>connectorType</CODE> - connector type. This can be input, output or input-output<DD><CODE>port</CODE> - the preferred port number
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectorAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">ConnectorAlreadyExisting</A></CODE> - thrown if we try to recreate an already existing connector
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A></CODE> - thrown if there is already a variable with this name
@@ -538,12 +556,30 @@ void <B>addConnectorListener</B>(java.lang.String&nbsp;connectorName,
                           <A HREF="../../../../../fr/prima/omiscid/user/connector/ConnectorListener.html" title="interface in fr.prima.omiscid.user.connector">ConnectorListener</A>&nbsp;msgListener)
                           throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
 <DL>
-<DD>Add a message listener to a connector
+<DD>Adds a message listener to a connector
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector<DD><CODE>msgListener</CODE> - the object that will handle messages sent to this connector
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getConnectorClientCount(java.lang.String)"><!-- --></A><H3>
+getConnectorClientCount</H3>
+<PRE>
+int <B>getConnectorClientCount</B>(java.lang.String&nbsp;localConnectorName)
+                            throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+<DL>
+<DD>Gets the number of clients currently connected to the given connector.
+ This number is indicative has there can be connections and disconnections at any time.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>localConnectorName</CODE> - the name of the local connector
+<DT><B>Returns:</B><DD>
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - if the service has not declared this connector</DL>
 </DD>
 </DL>
 <HR>
@@ -776,15 +812,36 @@ void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
 <A NAME="setVariableValue(java.lang.String, java.lang.String)"><!-- --></A><H3>
 setVariableValue</H3>
 <PRE>
-void <B>setVariableValue</B>(java.lang.String&nbsp;varName,
-                      java.lang.String&nbsp;varValue)
+void <B>setVariableValue</B>(java.lang.String&nbsp;variableName,
+                      java.lang.String&nbsp;variableValue)
                       throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A>,
                              <A HREF="../../../../../fr/prima/omiscid/user/exception/WrongVariableAccessType.html" title="class in fr.prima.omiscid.user.exception">WrongVariableAccessType</A></PRE>
 <DL>
-<DD>Sets the value of a service variable
+<DD>Sets the value of a service variable.
+ Defaults to setVariableValue with validation phase not skipped.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the variable name<DD><CODE>varValue</CODE> - the variable value
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name<DD><CODE>variableValue</CODE> - the variable value
+<DT><B>Throws:</B>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been created
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/WrongVariableAccessType.html" title="class in fr.prima.omiscid.user.exception">WrongVariableAccessType</A></CODE><DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setVariableValue(java.lang.String, java.lang.String, boolean)"><!-- --></A><H3>
+setVariableValue</H3>
+<PRE>
+void <B>setVariableValue</B>(java.lang.String&nbsp;variableName,
+                      java.lang.String&nbsp;variableValue,
+                      boolean&nbsp;skipValidationPhase)
+                      throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A>,
+                             <A HREF="../../../../../fr/prima/omiscid/user/exception/WrongVariableAccessType.html" title="class in fr.prima.omiscid.user.exception">WrongVariableAccessType</A></PRE>
+<DL>
+<DD>Sets the value of a service variable.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name<DD><CODE>variableName</CODE> - the variable value<DD><CODE>skipValidationPhase</CODE> - whether to prevent LocalVariableListener#isValid to be called
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been created
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/WrongVariableAccessType.html" title="class in fr.prima.omiscid.user.exception">WrongVariableAccessType</A></CODE><DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)</CODE></A></DL>
@@ -795,13 +852,13 @@ void <B>setVariableValue</B>(java.lang.String&nbsp;varName,
 <A NAME="getVariableValue(java.lang.String)"><!-- --></A><H3>
 getVariableValue</H3>
 <PRE>
-java.lang.String <B>getVariableValue</B>(java.lang.String&nbsp;varName)
+java.lang.String <B>getVariableValue</B>(java.lang.String&nbsp;variableName)
                                   throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
 <DD>Returns the variable value
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the variable name
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name
 <DT><B>Returns:</B><DD>the variable value
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been created<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)</CODE></A></DL>
@@ -812,7 +869,7 @@ java.lang.String <B>getVariableValue</B>(java.lang.String&nbsp;varName)
 <A NAME="addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><!-- --></A><H3>
 addVariable</H3>
 <PRE>
-void <B>addVariable</B>(java.lang.String&nbsp;varName,
+void <B>addVariable</B>(java.lang.String&nbsp;variableName,
                  java.lang.String&nbsp;type,
                  java.lang.String&nbsp;description,
                  <A HREF="../../../../../fr/prima/omiscid/user/variable/VariableAccessType.html" title="enum in fr.prima.omiscid.user.variable">VariableAccessType</A>&nbsp;accessType)
@@ -823,7 +880,7 @@ void <B>addVariable</B>(java.lang.String&nbsp;varName,
 <DD>Creates a new variable for this service.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the variable name<DD><CODE>type</CODE> - the variable type (or null if no type is associated)<DD><CODE>description</CODE> - the variable description<DD><CODE>accessType</CODE> - the access type of the variable
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name<DD><CODE>type</CODE> - the variable type (or null if no type is associated)<DD><CODE>description</CODE> - the variable description<DD><CODE>accessType</CODE> - the access type of the variable
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/VariableAlreadyExisting.html" title="class in fr.prima.omiscid.user.exception">VariableAlreadyExisting</A></CODE> - thrown if a variable with the same name has already been declated.
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ServiceRunning.html" title="class in fr.prima.omiscid.user.exception">ServiceRunning</A></CODE> - It is not possible to add a new connector if the service is already running. You have to stop it before.
@@ -835,14 +892,14 @@ void <B>addVariable</B>(java.lang.String&nbsp;varName,
 <A NAME="setVariableDescription(java.lang.String, java.lang.String)"><!-- --></A><H3>
 setVariableDescription</H3>
 <PRE>
-void <B>setVariableDescription</B>(java.lang.String&nbsp;varName,
-                            java.lang.String&nbsp;varDescription)
+void <B>setVariableDescription</B>(java.lang.String&nbsp;variableName,
+                            java.lang.String&nbsp;variableDescription)
                             throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
 <DD>Associate a description to an existing variable
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the var name<DD><CODE>varDescription</CODE> - the description
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the var name<DD><CODE>variableDescription</CODE> - the description
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been created</DL>
 </DD>
@@ -852,13 +909,13 @@ void <B>setVariableDescription</B>(java.lang.String&nbsp;varName,
 <A NAME="getVariableDescription(java.lang.String)"><!-- --></A><H3>
 getVariableDescription</H3>
 <PRE>
-java.lang.String <B>getVariableDescription</B>(java.lang.String&nbsp;varName)
+java.lang.String <B>getVariableDescription</B>(java.lang.String&nbsp;variableName)
                                         throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
 <DD>Returns the description associated to a variable
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the variable name
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name
 <DT><B>Returns:</B><DD>the description
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been created<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(String, String, String, VariableAccessType)</CODE></A></DL>
@@ -869,13 +926,13 @@ java.lang.String <B>getVariableDescription</B>(java.lang.String&nbsp;varName)
 <A NAME="getVariableAccessType(java.lang.String)"><!-- --></A><H3>
 getVariableAccessType</H3>
 <PRE>
-java.lang.String <B>getVariableAccessType</B>(java.lang.String&nbsp;varName)
+java.lang.String <B>getVariableAccessType</B>(java.lang.String&nbsp;variableName)
                                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
 <DD>Returns the variable access type
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the variable name
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name
 <DT><B>Returns:</B><DD>the access type (String version)
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been decladed<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(String, String, String, VariableAccessType)</CODE></A></DL>
@@ -886,13 +943,13 @@ java.lang.String <B>getVariableAccessType</B>(java.lang.String&nbsp;varName)
 <A NAME="getVariableType(java.lang.String)"><!-- --></A><H3>
 getVariableType</H3>
 <PRE>
-java.lang.String <B>getVariableType</B>(java.lang.String&nbsp;varName)
+java.lang.String <B>getVariableType</B>(java.lang.String&nbsp;variableName)
                                  throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
 <DD>Returns the string version of the variable type
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the variable name
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name
 <DT><B>Returns:</B><DD>the variable type
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been declared<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(String, String, String, VariableAccessType)</CODE></A></DL>
@@ -903,7 +960,7 @@ java.lang.String <B>getVariableType</B>(java.lang.String&nbsp;varName)
 <A NAME="addLocalVariableListener(java.lang.String, fr.prima.omiscid.user.variable.LocalVariableListener)"><!-- --></A><H3>
 addLocalVariableListener</H3>
 <PRE>
-void <B>addLocalVariableListener</B>(java.lang.String&nbsp;varName,
+void <B>addLocalVariableListener</B>(java.lang.String&nbsp;variableName,
                               <A HREF="../../../../../fr/prima/omiscid/user/variable/LocalVariableListener.html" title="interface in fr.prima.omiscid.user.variable">LocalVariableListener</A>&nbsp;listener)
                               throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
@@ -913,7 +970,7 @@ void <B>addLocalVariableListener</B>(java.lang.String&nbsp;varName,
   It will then be notified when the value has changed (see <A HREF="../../../../../fr/prima/omiscid/user/variable/LocalVariableListener.html#variableChanged(fr.prima.omiscid.user.service.Service, java.lang.String, java.lang.String)"><CODE>LocalVariableListener.variableChanged(Service,String,String)</CODE></A>)
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the varName<DD><CODE>listener</CODE> - the listener
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variableName<DD><CODE>listener</CODE> - the listener
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been declared<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(String, String, String, VariableAccessType)</CODE></A></DL>
 </DD>
@@ -923,14 +980,14 @@ void <B>addLocalVariableListener</B>(java.lang.String&nbsp;varName,
 <A NAME="removeLocalVariableListener(java.lang.String, fr.prima.omiscid.user.variable.LocalVariableListener)"><!-- --></A><H3>
 removeLocalVariableListener</H3>
 <PRE>
-void <B>removeLocalVariableListener</B>(java.lang.String&nbsp;varName,
+void <B>removeLocalVariableListener</B>(java.lang.String&nbsp;variableName,
                                  <A HREF="../../../../../fr/prima/omiscid/user/variable/LocalVariableListener.html" title="interface in fr.prima.omiscid.user.variable">LocalVariableListener</A>&nbsp;listener)
                                  throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></PRE>
 <DL>
 <DD>Removes a listener on a variable change
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>varName</CODE> - the varName<DD><CODE>listener</CODE> - the listener
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name<DD><CODE>listener</CODE> - the listener
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been declared<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(String, String, String, VariableAccessType)</CODE></A></DL>
 </DD>

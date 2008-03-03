@@ -1178,7 +1178,7 @@
        inkscape:export-filename="/home/prometheus/emonet/inoutput.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"
-       transform="translate(-19.445437,-18.738331)" />
+       transform="matrix(-1,0,0,1,1103.3963,-18.738331)" />
     <rect
        style="opacity:1;color:#000000;fill:#ffcdff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect3475"
@@ -1187,15 +1187,15 @@
        x="532.78424"
        y="937.74738"
        clip-path="url(#clipPath3492)"
-       transform="translate(-14.906933,3.3207482e-2)" />
+       transform="matrix(-1,0,0,1,1098.8578,3.3207482e-2)" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 524.35908,946.50275 L 513.08487,946.50275"
+       d="M 559.5918,946.50275 L 570.86601,946.50275"
        id="path3487"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 511.3805,942.50275 L 522.65471,942.50275"
+       d="M 572.57038,942.50275 L 561.29617,942.50275"
        id="path3489"
        sodipodi:nodetypes="cc" />
     <rect
@@ -1206,7 +1206,7 @@
        x="529.6225"
        y="955.1875"
        clip-path="url(#clipPath3496)"
-       transform="translate(4.9051802,-16.714559)"
+       transform="matrix(-1,0,0,1,1079.0457,-16.714559)"
        inkscape:export-filename="/home/prometheus/emonet/input.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -1218,10 +1218,10 @@
        x="532.78424"
        y="937.74738"
        clip-path="url(#clipPath3492)"
-       transform="translate(9.4436852,2.0569796)" />
+       transform="matrix(-1,0,0,1,1074.5072,2.0569796)" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 535.73112,944.52653 L 547.00533,944.52653"
+       d="M 548.21976,944.52653 L 536.94555,944.52653"
        id="path3506"
        sodipodi:nodetypes="cc" />
     <rect
@@ -1232,7 +1232,7 @@
        x="529.6225"
        y="955.1875"
        clip-path="url(#clipPath3496)"
-       transform="translate(28.151317,-16.626171)"
+       transform="matrix(-1,0,0,1,1055.7996,-16.626171)"
        inkscape:export-filename="/home/prometheus/emonet/output.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
@@ -1244,10 +1244,10 @@
        x="532.78424"
        y="937.74738"
        clip-path="url(#clipPath3492)"
-       transform="translate(32.689821,2.1453671)" />
+       transform="matrix(-1,0,0,1,1051.2611,2.1453671)" />
     <path
        style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 571.95583,948.61491 L 560.68162,948.61491"
+       d="M 511.99505,948.61491 L 523.26926,948.61491"
        id="path3512"
        sodipodi:nodetypes="cc" />
     <rect
