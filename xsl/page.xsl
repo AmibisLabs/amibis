@@ -51,6 +51,10 @@
         </div>
         <xsl:if test="count(/p:page/p:content/x:h1) + count(/p:page/p:content/x:h2) != 0">
         <div class="outline">
+          <div class="pagenameinoutline">
+            <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
+            <xsl:apply-templates select="/p:page/p:menu/p:item[@id=$itemId]"/>
+          </div>
           <xsl:apply-templates select="/p:page/p:content/x:h1 | /p:page/p:content/x:h2" mode="outline" />
         </div>
         </xsl:if>
