@@ -17,6 +17,9 @@ release: all-html patch-javadoc
 #	cd ${OUT}/download && wget http://oberon/release/omiscidGui.jar
 #	find ${OUT} -name .svn -exec rm -rf {} \; || true
 
+%-loop: %
+	while test true ;do make $< ; sleep 1; done 
+
 export:
 	rsync -avz --chmod=g+rw --delete --exclude=.svn $(OUT)/* $(DISTON)
 
