@@ -62,27 +62,35 @@ html, body {
 
 .layouttable {
         margin-left: -189px; /* configure:-w */
-        padding-Top: 70px; /* configure:h3 - h2 */
+        margin-bottom: 20px;
         background-image: url('../image/menu.gif');
         background-repeat: repeat-x;
         background-position: top;
 }
 
 .content {
-        margin-top: -40px; /* h2 - h3 + ...*/ 
+        margin-top: -50px; /* h2 - h3 + ...*/ 
+        margin-right: 10px;
+        padding-top: 80px; /* configure:h3 - h2 */
 }
 
-.menu, .outline {
-	padding: 5px;
-	margin-left: 60px;
-	border: 0px;
+.outline {
+	margin-left: 65px;
+        padding-top: 20px; /* configure:h3 - h2 */
 	vertical-align: top;
         text-align: left;
-        min-width: 180px; /* configure:-w12 */
+        min-width: 160px;
 }
 
-.menuitem, .currentmenuitem {
+.menu {
+        margin-left: 189px; /* configure:w */
+        margin-top: 9px;
+}        
+
+.menuitem a, .menuitem, .currentmenuitem {
         line-height: 1.1;
+        display: inline;
+        margin-right: 20px;
 }
 
 .pagenameinoutline {
@@ -147,17 +155,18 @@ h1, h2 {
 }
 
 .content {
-	padding: 10px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 .footer {
 	font-size: small;
-	background: black;
-        color: #CDF;
+        color: black;
         padding-left: 5px;
         padding-right: 5px;
         width: 100%;
+        background-image: url('../image/menu.gif');
+        background-repeat: repeat-x;
+        background-position: top;
 }
 
 .content h1 {
@@ -200,4 +209,22 @@ pre.licence {
 code {
         font-weight: normal;
         color: black;
+}
+
+.downloadtable {
+        border: 1px solid #777;
+}
+.downloadtable td, .downloadtable th {
+        border: 1px solid #CCC;
+}
+
+.downloadtable th {
+        color: black;
+        background: #EEE;
+        font-size: 120%;
+}
+
+.downloadtable {
+        margin-left: 5px;
+        margin-right: 5px;
 }

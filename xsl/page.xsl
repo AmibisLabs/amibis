@@ -45,10 +45,12 @@
         </div>
         <table class="layouttable" cellpadding="0" cellspacing="0">
 <!--           <tr><td colspan="2"></td></tr> -->
-          <tr><td valign="top">
+          <tr><td colspan="2">
         <div class="menu">
           <xsl:apply-templates select="/p:page/p:menu" />
         </div>
+          </td></tr>
+          <tr><td valign="top">
         <xsl:if test="count(/p:page/p:content/x:h1) + count(/p:page/p:content/x:h2) != 0">
         <div class="outline">
           <div class="pagenameinoutline">
