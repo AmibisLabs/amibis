@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <menu xmlns="http://custom">
-  <item id="Main" link="index.xml">Home Page</item>
+  <item id="Main" link="index.xml">Home</item>
   <item id="Documentation" link="documentation.xml">Documentation</item>
   <item id="Licence" link="licence.xml">Licence</item>
   <item id="Download" link="download.xml">Download</item>
   <item id="Faq" link="faq.xml">FAQ</item>
   <item id="News" link="news.xml">News</item>
-  <item id="Forge access" link="forge.xml">Forge access</item>
-  <item id="Contacts" link="contacts.xml">Contact Us</item>
+  <item id="Forge access" link="forge.xml">Forge</item>
+  <item id="Contacts" link="contacts.xml">Contact</item>
 </menu>
