@@ -87,10 +87,9 @@ html, body {
         margin-top: 9px;
 }        
 
-.menuitem a, .menuitem, .currentmenuitem {
-        line-height: 1.1;
+.menuitem, .currentmenuitem {
         display: inline;
-        margin-right: 20px;
+        margin-right: 40px;
 }
 
 .pagenameinoutline {
@@ -121,7 +120,7 @@ h1, h2 {
         color: black;
 }
 
-.menu a {
+.menu a, .pagenameinoutline {
         color: #7c7c7c;
 }
 
