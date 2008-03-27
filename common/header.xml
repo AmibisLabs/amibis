@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <custom:header xmlns:custom="http://custom" xmlns="http://www.w3.org/1999/xhtml">
-    <img class="logo" src="image/logo.png" />
-    An <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>nspection and <b>D</b>iscovery
+    <img class="logo" src="image/omiscid-logo.jpg" />
+    <div><!--An <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>nspection and <b>D</b>iscovery--></div>
 </custom:header>
