@@ -1,0 +1,135 @@
+body,p,table,td,th,ul,li,dd,dt,dl,h1,h2,h3,h4,h5,h6,div,span,input {
+	font-family: Verdana;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+p,ul,li,dt,dd,dl,table,td,th,#breadcrumbs,div,input,textarea {
+	font-size: small;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+body {
+	margin: 0px;
+}
+
+.menu,.outline {
+	background: #dff6f6;
+	background: #eee;
+	background: #ddd;
+	background: #ffe;
+}
+
+.header {
+	padding: 5px;
+	padding-left: 15px;
+	border-bottom: 3px solid black;
+	font-size: large;
+	background: #ffe;
+}
+
+.header a {
+	color: black;
+	text-decoration: none;
+}
+
+.header b {
+	text-decoration: underline;
+}
+
+.header img {
+	border: 0px;
+	vertical-align: middle;
+}
+
+.menu,.outline {
+	padding: 5px;
+	padding-left: 10px;
+	border: 2px solid black;
+	border-top: 0px;
+	vertical-align: top;
+	border-left-width: 0px;
+}
+
+.menu {
+	padding-right: 25px;
+}
+
+.menu,.menu a {
+	font-weight: bold;
+	color: dodgerblue;
+	text-decoration: none;
+}
+
+.menu a:hover, .outline a:hover {
+	color: red;
+}
+
+.menu .currentmenuitem {
+	color: black;
+}
+
+.outline h1,.outline h2 {
+	font-size: small;
+	margin: 0px;
+	padding: 0px;
+}
+
+.outline h2 {
+	font-size: x-small;
+	margin-left: 10px;
+}
+
+.outline a {
+	color: blue;
+	text-decoration: none;
+}
+
+.content {
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.footer {
+	font-size: small;
+	border: 1px solid #444;
+	background: #ddd;
+	float: right;
+}
+
+.whyOmiscid b,.whyOmiscidStrong b {
+	font-weight: normal;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/*
+.whyOmiscid b,.whyOmiscidStrong b {
+	font-weight: normal;
+	border: 1px solid white;
+	font-style: italic;
+}
+
+.whyOmiscidStrong b {
+	border: 1px solid black;
+	background: #ff8;
+}
+*/
+.content h1,.content h2 {
+	border-bottom: 2px solid #444;
+}
+
+.content h2 {
+	border-width: 1px;
+	margin-left: 5px;
+}
+
+.content p {
+	margin-left: 15px;
+        text-align: justify;
+}

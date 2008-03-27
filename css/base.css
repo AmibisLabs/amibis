@@ -14,64 +14,120 @@ h3 {
 	font-weight: bold;
 }
 
-body {
-	margin: 0px;
+html, body {
+        margin:0;
+        padding:0;
+        height:100%;
 }
 
-.menu,.outline {
-	background: #dff6f6;
-	background: #eee;
-	background: #ddd;
-	background: #ffe;
+#container {
+        position: relative;
+        min-height: 100%;
+}
+
+.footer {
+        clear: both;
+	position: absolute;
+	right:  0%;
+	bottom: 0%;
+
+}
+
+body {
+        color: #636363;
+        color: black;
+        background: #f1f1f1;
+        background: #fff;
+}
+
+a[href] {
+        color: #83a3fe;
+        color: #6383de;
+        color: #0155ff;
+        color: #2970ff;
+        color: #418eff;
+        color: #0149fb
+}
+
+.menu .currentmenuitem, .content h1, .content h2 {
+	color: #0340fa;
+        color: #0019d6;
+        color: black;
+        color: #0232c6;
+        color: #012aa8;
+}
+
+.currentmenuitem {
+        text-decoration: underline;
+}
+
+a[href]:hover {
+	color: black;
 }
 
 .header {
-	padding: 5px;
-	padding-left: 15px;
-	border-bottom: 3px solid black;
-	font-size: large;
-	background: #ffe;
+	background: black;
+	padding: 0px;
 }
 
-.header a {
+.header, .header a div {
+        height: 88px; /* configure:h2 */
+        clear: right;
+}
+
+.header a, .header a:hover {
 	color: black;
 	text-decoration: none;
 }
 
-.header b {
-	text-decoration: underline;
-}
-
-.header img {
+.header a img {
 	border: 0px;
-	vertical-align: middle;
+        float: left;
 }
 
-.menu,.outline {
+.header a div {
+        margin-left: 189px; /* configure:w */
+        background-image: url('../image/omiscid-title.jpg');
+        background-repeat: no-repeat;
+        background-position: left;
+	font-size: 1.5em;
+}
+
+.layouttable {
+        margin-left: -189px; /* configure:-w */
+        padding-Top: 70px; /* configure:h3 - h2 */
+        background-image: url('../image/menu.gif');
+        background-repeat: repeat-x;
+        background-position: top;
+}
+
+.content {
+        margin-top: -40px; /* h2 - h3 + ...*/ 
+}
+
+.menu, .outline {
 	padding: 5px;
-	padding-left: 10px;
-	border: 2px solid black;
-	border-top: 0px;
+	margin-left: 30px;
+	border: 0px;
 	vertical-align: top;
-	border-left-width: 0px;
+        text-align: left;
+        min-width: 180px; /* configure:-w12 */
+}
+
+.outline {
+/*	border: 1px solid black;
+	border-right: 0px;*/
+        border-top: 1px solid #777;
+        
 }
 
 .menu {
 	padding-right: 25px;
 }
 
-.menu,.menu a {
+.menu, .menu a, .outline a {
 	font-weight: bold;
-	color: dodgerblue;
 	text-decoration: none;
-}
-
-.menu a:hover, .outline a:hover {
-	color: red;
-}
-
-.menu .currentmenuitem {
-	color: black;
 }
 
 .outline h1,.outline h2 {
@@ -85,11 +141,6 @@ body {
 	margin-left: 10px;
 }
 
-.outline a {
-	color: blue;
-	text-decoration: none;
-}
-
 .content {
 	padding: 10px;
 	margin-left: 10px;
@@ -99,7 +150,6 @@ body {
 	font-size: small;
 	border: 1px solid #444;
 	background: #ddd;
-	float: right;
 }
 
 .whyOmiscid b,.whyOmiscidStrong b {
@@ -108,28 +158,23 @@ body {
 	font-style: italic;
 }
 
-/*
-.whyOmiscid b,.whyOmiscidStrong b {
-	font-weight: normal;
-	border: 1px solid white;
-	font-style: italic;
-}
-
-.whyOmiscidStrong b {
-	border: 1px solid black;
-	background: #ff8;
-}
-*/
 .content h1,.content h2 {
-	border-bottom: 2px solid #444;
+	border-bottom: 1px solid #ccc;
 }
 
 .content h2 {
-	border-width: 1px;
+	border-width: 0px;
 	margin-left: 5px;
 }
 
 .content p {
 	margin-left: 15px;
         text-align: justify;
+}
+
+
+/* page specific styling */
+pre.licence {
+        border: 1px solid #777;
+        padding: 10px;
 }
