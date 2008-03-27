@@ -4,6 +4,10 @@ body,p,table,td,th,ul,li,dd,dt,dl,h1,h2,h3,h4,h5,h6,div,input {
         font-weight: bold;
 }
 
+.menuitem, .currentmenuitem {
+        font-family: HansHand, "Lucida Grande", "Bitstream Charter", Arial, Verdana;
+}
+
 h1,h2,h3,h4,h5,h6 {
 }
 
@@ -83,13 +87,14 @@ html, body {
 }
 
 .menu {
-        margin-left: 189px; /* configure:w */
-        margin-top: 9px;
+        margin-left: 270px; /* configure:w+... */
+        margin-top: 7px;
 }        
 
 .menuitem, .currentmenuitem {
         display: inline;
-        margin-right: 40px;
+        margin-right: 35px;
+        font-size: 1em;
 }
 
 .pagenameinoutline {
@@ -121,7 +126,7 @@ h1, h2 {
 }
 
 .menu a, .pagenameinoutline {
-        color: #7c7c7c;
+        color: #444;
 }
 
 .menu .currentmenuitem {
@@ -134,7 +139,6 @@ h1, h2 {
 
 .menu a, .currentmenuitem {
 	font-weight: bold;
-        font-size: 1.3em;
 }
 
 .menu {
