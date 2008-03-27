@@ -37,15 +37,12 @@
         <meta name="abstract" content="{/p:page/p:title/text()}"/>
       </head>
       <body>
-        <div id="container">
         <div class="header">
           <a href="index.xml">
             <xsl:apply-templates select="/p:page/p:header" />
             </a>
         </div>
-        <table class="layouttable" cellpadding="0" cellspacing="0">
-<!--           <tr><td colspan="2"></td></tr> -->
-          <tr><td valign="top">
+        <table cellpadding="0" cellspacing="0"><tr><td valign="top">
         <div class="menu">
           <xsl:apply-templates select="/p:page/p:menu" />
         </div>
@@ -63,7 +60,6 @@
           <xsl:apply-templates select="/p:page/p:footer" />
         </div>
         </td></tr></table>
-        </div>
       </body>
     </html>
   </xsl:template>
