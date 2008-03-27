@@ -11,7 +11,7 @@
     <h1>Description</h1>
     <h2>General Description</h2>
     <p><omiscid/> stands for <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>nspection and <b>D</b>iscovery.</p>
-    <p><omiscid/> has been implemented so far in C++, Java and Tcl. See <a href="download.html">the download page</a> to obtain the desired release. Services developed using any of the implementation can seemlessly interoperate together.</p>
+    <p><omiscid/> has been implemented so far in C++, Java and Python (wrapper to the C++ version). See <a href="download.html">the download page</a> to obtain the desired release. Services developed using any of the implementation can seemlessly interoperate together.</p>
     <h2
     onmouseover="document.getElementById('whyOmiscid').className = 'whyOmiscidStrong';"
     onmouseout="document.getElementById('whyOmiscid').className = 'whyOmiscid';"
