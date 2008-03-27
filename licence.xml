@@ -10,7 +10,7 @@
   <custom:content xmlns="http://www.w3.org/1999/xhtml">
     <h1><omiscid/> Licence</h1>
     <p><omiscid/> is released under an MIT-like licence that is described below.</p>
-    <pre>
+    <pre class="licence">
 Copyright© 2005-2006 INRIA/Université Pierre Mendès-France/Université Joseph Fourier.
 
 O3MiSCID (aka OMiSCID) Software written by Sebastien Pesnel, Dominique
@@ -33,8 +33,7 @@ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-     </pre>
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</pre>
   </custom:content>
 
 </page>
