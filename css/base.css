@@ -185,3 +185,8 @@ pre.licence {
         padding: 10px;
         font-weight: normal;
 }
+
+code {
+        font-weight: normal;
+        color: black;
+}
