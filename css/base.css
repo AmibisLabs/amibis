@@ -147,22 +147,27 @@ h1, h2 {
 
 .footer {
 	font-size: small;
-	border: 1px solid #444;
-	background: white;
-        color: black;
+	background: black;
+        color: #CDF;
         padding-left: 5px;
         padding-right: 5px;
+        width: 100%;
 }
 
 .content h1 {
-        font-size: 2em;
+        font-size: 1.5em;
+        line-height: 0.5;
 }
 
 .content h2 {
-        font-size: 1.5em;
+        font-size: 1.25em;
 	border-bottom: 1px solid;
-	margin-left: 5px;
         border-bottom-color: #CCC;
+        margin-top: -5px;
+        margin-bottom: -10px;
+}
+.content h1 + h2 {
+        margin-top: 0px;
 }
 
 .content p {
