@@ -59,7 +59,7 @@ html, body {
 .content {
         margin-right: 10px;
         padding-left: 40px;
-        padding-top: 40px;
+        padding-top: 10px;
 }
 
 .outline {
@@ -67,13 +67,20 @@ html, body {
         padding-top: 10px;
 	vertical-align: top;
         text-align: left;
-        min-width: 160px;
+        min-width: 150px;
 }
 
 .pagenameinoutline {
         font-size: 1.7em;
         margin: 0px;
         margin-bottom: 30px;
+        visibility: hidden;
+}
+
+.pagenameincontent {
+        font-size: 1.7em;
+        margin: 0px;
+        margin-bottom: 80px;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - -
