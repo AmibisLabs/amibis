@@ -37,19 +37,33 @@
         <meta name="abstract" content="{/p:page/p:title/text()}"/>
       </head>
       <body>
+        <xsl:variable name="logoW" select="189"/>
+        <xsl:variable name="logoH" select="146"/>
+        <xsl:variable name="titleW" select="575"/>
+        <xsl:variable name="titleH" select="88"/>
         <div id="container">
-        <div class="header">
-          <a href="index.xml">
-            <xsl:apply-templates select="/p:page/p:header" />
-            </a>
-        </div>
-        <table class="layouttable" cellpadding="0" cellspacing="0">
-<!--           <tr><td colspan="2"></td></tr> -->
-          <tr><td colspan="2">
-        <div class="menu">
-          <xsl:apply-templates select="/p:page/p:menu" />
-        </div>
+        <table class="layouttable" border="0" cellpadding="0" cellspacing="0">
+          <tr class="header">
+            <td rowspan="2" class="logocorner" width="{$logoW}" height="{$logoH}">
+              <a href="index.xml">
+                <img width="{$logoW}" height="{$logoH}" src="image/omiscid-logo.jpg" alt="logo" />
+              </a>
+            </td>
+            <td class="titletop">
+              <a href="index.xml">
+                <img width="{$titleW}" height="{$titleH}" src="image/omiscid-title.jpg" alt="title" />
+              </a>
+            </td>
+            <td width="100%" class="filltitlecorner"> </td>
+          </tr>
+          <tr class="header">
+            <td colspan="2" height="{$logoH - $titleH}" valign="top">
+              <div class="menu">
+                <xsl:apply-templates select="/p:page/p:menu" />
+              </div>
           </td></tr>
+          <tr><td colspan="3" valign="top">
+        <table class="layouttable" cellpadding="0" cellspacing="0">
           <tr><td valign="top">
         <xsl:if test="count(/p:page/p:content/x:h1) + count(/p:page/p:content/x:h2) != 0">
         <div class="outline">
@@ -65,9 +79,10 @@
           <xsl:apply-templates select="/p:page/p:content" />
         </div>
         </td></tr><tr><td colspan="2" align="right">
-        <div class="footer">
+        </td></tr></table>
+        <tr><td colspan="3" class="footer">
           <xsl:apply-templates select="/p:page/p:footer" />
-        </div>
+        </td></tr>
         </td></tr></table>
         </div>
       </body>
