@@ -74,10 +74,10 @@
                       <xsl:apply-templates select="/p:page/p:content/x:h1 | /p:page/p:content/x:h2" mode="outline" />
                     </xsl:if>
                   </td><td class="content" valign="top" width="100%">
-                    <div class="pagenameincontent">
+                    <!--div class="pagenameincontent">
                       <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
                       <xsl:apply-templates select="/p:page/p:menu/p:item[@id=$itemId]"/>
-                    </div>
+                    </div-->
                     <xsl:apply-templates select="/p:page/p:content" />
                 </td></tr><tr><td colspan="2" align="right">
               </td></tr></table>
