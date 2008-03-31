@@ -10,7 +10,7 @@
   <custom:content xmlns="http://www.w3.org/1999/xhtml">
     <h1>Latest Releases</h1>
     <table class="downloadtable" cellpadding="10" cellspacing="0" style="text-align: center;" border="1">
-	    <tr><th width="1">Release</th><th width="1">Version</th><th width="1">Format</th><th width="1">Distribution</th><th width="1">Description</th></tr>
+	    <tr align="center"><th>Release</th><th>Version</th><th>Format</th><th width="200">Distribution</th><th width="300">Description</th></tr>
 	    <tr><td rowspan="2"><omiscid/> C++</td><td>1.4.0 (Mac OSX, Linux, Windows 32 bits)</td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/4316/Omiscid-1.4.0.zip">Omiscid-1.4.0.zip</a></td><td style="text-align: justify;">The C++ implementation of <omiscid/> containing the necessary files and instruction about how to build the library.</td></tr>
 	    <tr><td>1.4.0 (Debian package)</td><td>deb</td><td><a href="http://gforge.inria.fr/frs/download.php/4314/omiscid_1.4-6_i386.deb">omiscid_1.4-6_i386.deb</a><br /><a href="http://gforge.inria.fr/frs/download.php/4315/omiscid-dev_1.4-6_i386.deb">omiscid-dev_1.4-6_i386.deb</a></td><td style="text-align: justify;">A Debian package to install <omiscid/> using avahi (as there is no Debian package for MDNS from Apple). There are 2 versions: standard and developper.</td></tr>
 	    <tr><td><omiscid/> Java Library and old GUI (Java 5.0)</td><td>1.4.0</td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/4309/omiscid-lib-and-gui-1.4.0.zip">omiscid-lib-and-gui-1.4.0.zip</a></td><td style="text-align: justify;">The java implementation of <omiscid/> containing basic classes. This package also contains the old GUI.</td></tr>
