@@ -82,7 +82,12 @@
                 </td></tr><tr><td colspan="2" align="right">
               </td></tr></table>
               <tr><td colspan="3" class="footer">
-                  <xsl:apply-templates select="/p:page/p:footer" />
+                  <span>
+                    <xsl:apply-templates select="/p:page/p:footer" />
+                  </span>
+                  <div class="menu">
+                    <xsl:apply-templates select="/p:page/p:menu" />
+                  </div>
               </td></tr>
         </td></tr></table>
         </div>

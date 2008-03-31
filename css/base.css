@@ -24,8 +24,11 @@ html, body {
         height:100%;
 }
 
-#container, #container > .layouttable {
+#container {
         min-height: 100%;
+}
+
+#container > .layouttable {
         width: 100%;
 }
 
@@ -42,14 +45,26 @@ html, body {
         background: black;
 }        
 
-.menu {
-        padding-left: 30px;
-        padding-top: 10px;
-	padding-right: 189px;
+.header {
         background-image: url('../image/menu.gif');
         background-repeat: repeat-x;
         background-position: top;
+	padding-right: 189px;
+}
+
+.header .menu {
+        padding-left: 30px;
+        margin-top: 10px;
 }        
+
+.footer .menu {
+        display: inline;
+        padding-left: 150px;
+}
+
+.footer .menu .menuitem, .footer .menu .currentmenuitem {
+        font-size: small;
+}
 
 .menuitem, .currentmenuitem {
         display: inline;
@@ -135,11 +150,6 @@ h1, h2 {
 	font-weight: bold;
 }
 
-.menu {
-        border: 0px;
-        margin-bottom: 10px;
-}
-
 .outline h1 {
 	font-size: small;
 	margin: 0px;
@@ -211,6 +221,8 @@ h1, h2 {
 pre.licence {
         border: 1px solid #777;
         padding: 10px;
+        padding-right: 0px;
+        margin-left: 30px;
         font-weight: normal;
 }
 
@@ -229,10 +241,10 @@ code {
 .downloadtable th {
         color: black;
         background: #EEE;
-        font-size: 120%;
+/*        font-size: 120%;*/
 }
 
 .downloadtable {
         margin-left: 5px;
-        margin-right: 5px;
 }
+
