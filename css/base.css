@@ -45,6 +45,7 @@ html, body {
 .menu {
         padding-left: 30px;
         padding-top: 10px;
+	padding-right: 189px;
         background-image: url('../image/menu.gif');
         background-repeat: repeat-x;
         background-position: top;
@@ -57,9 +58,10 @@ html, body {
 }
 
 .content {
-        padding-right: 15px;
-        padding-left: 40px;
+        padding-right: 100px;
+        padding-left: 50px;
         padding-top: 10px;
+	padding-bottom: 50px;
 }
 
 .outline {
@@ -98,7 +100,7 @@ a[href] {
 }
 
 a[href]:hover {
-	color: #F77;
+	color: #001efc;
         text-decoration: underline;
 }
 
@@ -167,8 +169,10 @@ h1, h2 {
 
 .content h1 {
         font-size: 1.5em;
+	line-height: 26px;
 	border-bottom: 1px solid;
         border-bottom-color: #CCC;
+	margin-bottom:30px;
 }
 
 .content h2 {

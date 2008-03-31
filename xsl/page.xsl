@@ -57,8 +57,8 @@
             <td width="100%" class="filltitlecorner"> </td>
           </tr>
           <tr class="header">
-            <td colspan="2" height="{$logoH - $titleH}" valign="top">
-              <div class="menu">
+            <td colspan="2" height="{$logoH - $titleH}" valign="top" text-align="center">
+              <div class="menu" align="center">
                 <xsl:apply-templates select="/p:page/p:menu" />
               </div>
           </td></tr>
@@ -69,7 +69,7 @@
                       <div class="pagenameinoutline">
                         <!-- keep event if empty as a width-holder under IE -->
                         <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
-                        <!--xsl:apply-templates select="/p:page/p:menu/p:item[@id=$itemId]"/-->
+                        <xsl:apply-templates select="/p:page/p:menu/p:item[@id=$itemId]"/>
                       </div>
                       <xsl:apply-templates select="/p:page/p:content/x:h1 | /p:page/p:content/x:h2" mode="outline" />
                     </xsl:if>
