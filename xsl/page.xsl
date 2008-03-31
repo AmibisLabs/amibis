@@ -153,11 +153,11 @@
   </xsl:template>
 
   <xsl:template match="/p:page/p:content/x:h1">
-    <h1><xsl:copy-of select="attribute::*" /><xsl:call-template name="addAnchor" /></h1>
+    <h1><xsl:copy-of select="attribute::*" /><a class="gototop" href="" title="Page Top"/><xsl:call-template name="addAnchor" /></h1>
   </xsl:template>
 
   <xsl:template match="/p:page/p:content/x:h2">
-    <h2><xsl:copy-of select="attribute::*" /><xsl:call-template name="addAnchor" /></h2>
+    <h2><xsl:copy-of select="attribute::*" /><a class="gototop" href="" title="Page Top"/><xsl:call-template name="addAnchor" /></h2>
   </xsl:template>
 
   <xsl:template name="addAnchor">

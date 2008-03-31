@@ -86,6 +86,17 @@ html, body {
         margin-bottom: 80px;
 }
 
+
+h1 .gototop {
+        float: right;
+        margin-top: 5px;
+        height: 16px;
+        width: 16px;
+        background-image: url('../image/up.png');
+        background-repeat: no-repeat;
+        background-position: top;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - -
   mainly color related styling
  - - - - - - - - - - - - - - - - - - - - - */

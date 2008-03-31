@@ -577,7 +577,7 @@ int <B>getConnectorClientCount</B>(java.lang.String&nbsp;localConnectorName)
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>localConnectorName</CODE> - the name of the local connector
-<DT><B>Returns:</B><DD>
+<DT><B>Returns:</B><DD>the number of client connected to this connector
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - if the service has not declared this connector</DL>
 </DD>
@@ -841,7 +841,7 @@ void <B>setVariableValue</B>(java.lang.String&nbsp;variableName,
 <DD>Sets the value of a service variable.
 <P>
 <DD><DL>
-<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name<DD><CODE>variableName</CODE> - the variable value<DD><CODE>skipValidationPhase</CODE> - whether to prevent LocalVariableListener#isValid to be called
+<DT><B>Parameters:</B><DD><CODE>variableName</CODE> - the variable name<DD><CODE>variableValue</CODE> - the variable value<DD><CODE>skipValidationPhase</CODE> - whether to prevent LocalVariableListener#isValid to be called
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownVariable.html" title="class in fr.prima.omiscid.user.exception">UnknownVariable</A></CODE> - thrown if the variable has not been created
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/WrongVariableAccessType.html" title="class in fr.prima.omiscid.user.exception">WrongVariableAccessType</A></CODE><DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)"><CODE>addVariable(java.lang.String, java.lang.String, java.lang.String, fr.prima.omiscid.user.variable.VariableAccessType)</CODE></A></DL>
