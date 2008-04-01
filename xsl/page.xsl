@@ -61,34 +61,33 @@
               <div class="menu" align="center">
                 <xsl:apply-templates select="/p:page/p:menu" />
               </div>
-          </td></tr>
-          <tr><td colspan="3" valign="top">
-              <table class="layouttable" cellpadding="0" cellspacing="0">
-                <tr><td class="outline" valign="top">
-                    <xsl:if test="count(/p:page/p:content/x:h1) + count(/p:page/p:content/x:h2) != 0">
-                      <div class="pagenameinoutline">
-                        <!-- keep event if empty as a width-holder under IE -->
-                        <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
-                        <xsl:apply-templates select="/p:page/p:menu/p:item[@id=$itemId]"/>
-                      </div>
-                      <xsl:apply-templates select="/p:page/p:content/x:h1 | /p:page/p:content/x:h2" mode="outline" />
-                    </xsl:if>
-                  </td><td class="content" valign="top" width="100%">
-                    <!--div class="pagenameincontent">
-                      <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
-                      <xsl:apply-templates select="/p:page/p:menu/p:item[@id=$itemId]"/>
-                    </div-->
-                    <xsl:apply-templates select="/p:page/p:content" />
-                </td></tr><tr><td colspan="2" align="right">
-              </td></tr></table>
-              <tr><td colspan="3" class="footer">
-                  <span>
-                    <xsl:apply-templates select="/p:page/p:footer" />
-                  </span>
-                  <div class="menu">
-                    <xsl:apply-templates select="/p:page/p:menu" />
-                  </div>
-              </td></tr>
+        </td></tr></table>
+        <table class="layouttable" cellpadding="0" cellspacing="0">
+          <tr><td class="outline" valign="top">
+              <xsl:if test="count(/p:page/p:content/x:h1) + count(/p:page/p:content/x:h2) != 0">
+                <div class="pagenameinoutline">
+                  <!-- keep event if empty as a width-holder under IE -->
+                  <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
+                  <xsl:apply-templates select="/p:page/p:menu/p:item[@id=$itemId]"/>
+                </div>
+                <xsl:apply-templates select="/p:page/p:content/x:h1 | /p:page/p:content/x:h2" mode="outline" />
+              </xsl:if>
+            </td><td class="content" valign="top" width="100%">
+              <!--div class="pagenameincontent">
+                  <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
+                  <xsl:apply-templates select="/p:page/p:menu/p:item[@id=$itemId]"/>
+              </div-->
+              <xsl:apply-templates select="/p:page/p:content" />
+          </td></tr><tr><td colspan="2" align="right">
+        </td></tr></table>
+        <table class="layouttable" cellpadding="0" cellspacing="0">
+          <tr><td colspan="3" class="footer">
+              <span>
+                <xsl:apply-templates select="/p:page/p:footer" />
+              </span>
+              <div class="menu">
+                <xsl:apply-templates select="/p:page/p:menu" />
+              </div>
         </td></tr></table>
         </div>
       </body>
