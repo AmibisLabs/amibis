@@ -41,7 +41,7 @@ html, body {
         padding: 0;
 }
 
-.filltitlecorner {
+.filltitlecorner, .titletop {
         background: black;
 }        
 
