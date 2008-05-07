@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <footer xmlns="http://custom">
-Last update 2008-03-31.
+Last update 2008-05-07.
+
 <!--
+Updated documentation to refresh it a little and switch from castor to jaxb
+
+Last update 2008-03-31.
 new look
 added stuffs for version 1.4.0
 new download page

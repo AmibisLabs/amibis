@@ -130,7 +130,7 @@ a[href]:hover {
         text-decoration: underline;
 }
 
-h1, h2 {
+h1, h2, h3 {
         color: black;
 }
 
@@ -203,8 +203,10 @@ h1, h2 {
         margin-top: 0px;
 }
 
-.content p {
+.content p, h3 {
 	margin-left: 15px;
+}
+.content p {
         text-align: justify;
 }
 
