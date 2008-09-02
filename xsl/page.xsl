@@ -11,6 +11,10 @@
   xmlns="http://www.w3.org/1999/xhtml">
   <xsl:output method="html" encoding="UTF-8" version="1.0" media-type="text/html" />
 
+  <xsl:param name="param-site-url" select="'http://omiscid.gforge.inria.fr'"/>
+  <xsl:param name="param-news-url" select="'http://gforge.inria.fr/news/?group_id=363'"/>
+  <xsl:param name="param-news-feed-url" select="'http://gforge.inria.fr/export/rss_sfnews.php?group_id=363'"/>
+
   <xsl:template match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
@@ -72,6 +76,11 @@
                 </div>
                 <xsl:apply-templates select="/p:page/p:content/x:h1 | /p:page/p:content/x:h2" mode="outline" />
               </xsl:if>
+              <form class="search" method="get" action="http://www.google.com/search">
+                  <input type="text"   name="q" value="" />
+                  <input type="submit" value="Search" />
+                  <input type="hidden"  name="sitesearch" value="{$param-site-url}" />
+              </form>
             </td><td class="content" valign="top" width="100%">
               <!--div class="pagenameincontent">
                   <xsl:variable name="itemId" select="/p:page/p:currentMenu/@id"/>
@@ -136,7 +145,7 @@
   
   <xsl:template match="//p:newsinfo | //x:newsinfo">
     <span class="newsinfo">
-      <p>You can consult the <a href="http://gforge.inria.fr/news/?group_id=363"><xsl:call-template name="omiscid"/> news</a> or subscribe to <a href="http://gforge.inria.fr/export/rss_sfnews.php?group_id=363">the <xsl:call-template name="omiscid"/> news feed</a>.</p>
+      <p>You can consult the <a href="{$param-news-url}"><xsl:call-template name="omiscid"/> news</a> or subscribe to <a href="{$param-news-feed-url}">the <xsl:call-template name="omiscid"/> news feed</a>.</p>
     </span>
     <xsl:text></xsl:text>
   </xsl:template>

@@ -112,6 +112,10 @@ h1 .gototop {
         background-position: top;
 }
 
+.search {
+    padding-top: 30px;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - -
   mainly color related styling
  - - - - - - - - - - - - - - - - - - - - - */

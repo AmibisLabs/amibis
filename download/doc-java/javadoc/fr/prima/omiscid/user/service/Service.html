@@ -619,7 +619,8 @@ void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
                      byte[]&nbsp;msg,
                      int&nbsp;pid,
                      boolean&nbsp;unreliableButFastSend)
-                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                            <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message to a particular client. This client is identified by its Peer id (pid).
  This method is usually used to answer a request coming from another service that
@@ -629,7 +630,8 @@ void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector that will send the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>pid</CODE> - peer id : the identification of the client that must receive the message<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], fr.prima.omiscid.user.service.ServiceProxy)"><CODE>sendToOneClient(String, byte[], ServiceProxy)</CODE></A></DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], fr.prima.omiscid.user.service.ServiceProxy)"><CODE>sendToOneClient(String, byte[], ServiceProxy)</CODE></A></DL>
 </DD>
 </DL>
 <HR>
@@ -640,7 +642,8 @@ sendToOneClient</H3>
 void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
                      byte[]&nbsp;msg,
                      int&nbsp;pid)
-                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                            <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message to a particular client. This client is identified by its Peer id (pid).
  This method is usually used to answer a request coming from another service that
@@ -651,7 +654,8 @@ void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector that will send the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>pid</CODE> - peer id : the identification of the client that must receive the message
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], fr.prima.omiscid.user.service.ServiceProxy)"><CODE>sendToOneClient(String, byte[], ServiceProxy)</CODE></A></DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], fr.prima.omiscid.user.service.ServiceProxy)"><CODE>sendToOneClient(String, byte[], ServiceProxy)</CODE></A></DL>
 </DD>
 </DL>
 <HR>
@@ -663,7 +667,8 @@ void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
                      byte[]&nbsp;msg,
                      <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html" title="interface in fr.prima.omiscid.user.service">ServiceProxy</A>&nbsp;serviceProxy,
                      boolean&nbsp;unreliableButFastSend)
-                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                            <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message to a particular client. This client is identified by ServiceProxy because
  we have been looking for it to create the connexion.
@@ -671,7 +676,8 @@ void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector that will send the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>serviceProxy</CODE> - : the proxy of the remote service<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], int)"><CODE>sendToOneClient(String, byte[], int)</CODE></A></DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], int)"><CODE>sendToOneClient(String, byte[], int)</CODE></A></DL>
 </DD>
 </DL>
 <HR>
@@ -682,7 +688,8 @@ sendToOneClient</H3>
 void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
                      byte[]&nbsp;msg,
                      <A HREF="../../../../../fr/prima/omiscid/user/service/ServiceProxy.html" title="interface in fr.prima.omiscid.user.service">ServiceProxy</A>&nbsp;serviceProxy)
-                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+                     throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                            <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message to a particular client. This client is identified by ServiceProxy because
  we have been looking for it to create the connexion.
@@ -691,7 +698,8 @@ void <B>sendToOneClient</B>(java.lang.String&nbsp;connectorName,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector that will send the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>serviceProxy</CODE> - : the proxy of the remote service
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], int)"><CODE>sendToOneClient(String, byte[], int)</CODE></A></DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output<DT><B>See Also:</B><DD><A HREF="../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], int)"><CODE>sendToOneClient(String, byte[], int)</CODE></A></DL>
 </DD>
 </DL>
 <HR>
@@ -702,14 +710,16 @@ sendToAllClients</H3>
 void <B>sendToAllClients</B>(java.lang.String&nbsp;connectorName,
                       byte[]&nbsp;msg,
                       boolean&nbsp;unreliableButFastSend)
-                      throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+                      throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                             <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message to all the clients connected to the service.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output</DL>
 </DD>
 </DL>
 <HR>
@@ -719,7 +729,8 @@ sendToAllClients</H3>
 <PRE>
 void <B>sendToAllClients</B>(java.lang.String&nbsp;connectorName,
                       byte[]&nbsp;msg)
-                      throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+                      throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                             <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message to all the clients connected to the service.
  Defaults to reliable send.
@@ -727,7 +738,8 @@ void <B>sendToAllClients</B>(java.lang.String&nbsp;connectorName,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output</DL>
 </DD>
 </DL>
 <HR>
@@ -739,14 +751,16 @@ void <B>sendReplyToMessage</B>(java.lang.String&nbsp;connectorName,
                         byte[]&nbsp;msg,
                         <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message,
                         boolean&nbsp;unreliableButFastSend)
-                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                               <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Allows to specify on which connector to send the answer.
 <P>
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output</DL>
 </DD>
 </DL>
 <HR>
@@ -757,7 +771,8 @@ sendReplyToMessage</H3>
 void <B>sendReplyToMessage</B>(java.lang.String&nbsp;connectorName,
                         byte[]&nbsp;msg,
                         <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)
-                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></PRE>
+                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A>,
+                               <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message back to the sender of a message just received.
  Allows to specify on which connector to send the answer.
@@ -766,7 +781,8 @@ void <B>sendReplyToMessage</B>(java.lang.String&nbsp;connectorName,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>connectorName</CODE> - the name of the connector sending the message<DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output</DL>
 </DD>
 </DL>
 <HR>
@@ -776,7 +792,8 @@ sendReplyToMessage</H3>
 <PRE>
 void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
                         <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message,
-                        boolean&nbsp;unreliableButFastSend)</PRE>
+                        boolean&nbsp;unreliableButFastSend)
+                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message back to the sender of a message just received.
  The message is sent on the connector on which the message to reply to
@@ -785,7 +802,8 @@ void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to<DD><CODE>unreliableButFastSend</CODE> - not implemented yet
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connector is an output</DL>
 </DD>
 </DL>
 <HR>
@@ -794,7 +812,8 @@ void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
 sendReplyToMessage</H3>
 <PRE>
 void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
-                        <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</PRE>
+                        <A HREF="../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)
+                        throws <A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></PRE>
 <DL>
 <DD>Sends a message back to the sender of a message just received.
  Defaults to reliable send.
@@ -804,7 +823,8 @@ void <B>sendReplyToMessage</B>(byte[]&nbsp;msg,
 <DD><DL>
 <DT><B>Parameters:</B><DD><CODE>msg</CODE> - the message to send<DD><CODE>message</CODE> - the message to reply to
 <DT><B>Throws:</B>
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector</DL>
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if the service has not declared this connector
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE></DL>
 </DD>
 </DL>
 <HR>
@@ -1027,7 +1047,7 @@ void <B>connectTo</B>(java.lang.String&nbsp;localConnector,
 <DT><B>Parameters:</B><DD><CODE>localConnector</CODE> - <DD><CODE>proxy</CODE> - the proxy of the remote service<DD><CODE>remoteConnector</CODE> - the name of the remote connector on the remote service
 <DT><B>Throws:</B>
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/UnknownConnector.html" title="class in fr.prima.omiscid.user.exception">UnknownConnector</A></CODE> - thrown if one of the connector does not exist
-<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the coonnectors cannot connect:
+<DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/IncorrectConnectorType.html" title="class in fr.prima.omiscid.user.exception">IncorrectConnectorType</A></CODE> - thrown if the connectors cannot connect:
  for instance : trying to connect an input connector on another input connector.
 <DD><CODE><A HREF="../../../../../fr/prima/omiscid/user/exception/ConnectionRefused.html" title="class in fr.prima.omiscid.user.exception">ConnectionRefused</A></CODE> - when connection is refused by remote host. This
  can because of network problem.</DL>

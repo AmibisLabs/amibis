@@ -120,6 +120,107 @@ Uses of <A HREF="../../../../../../fr/prima/omiscid/user/exception/IncorrectConn
 <BR>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Connects a local connector to a remote connector of a remote service</TD>
 </TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendReplyToMessage(byte[], fr.prima.omiscid.user.connector.Message)">sendReplyToMessage</A></B>(byte[]&nbsp;msg,
+                   <A HREF="../../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message back to the sender of a message just received.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendReplyToMessage(byte[], fr.prima.omiscid.user.connector.Message, boolean)">sendReplyToMessage</A></B>(byte[]&nbsp;msg,
+                   <A HREF="../../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message,
+                   boolean&nbsp;unreliableButFastSend)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message back to the sender of a message just received.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendReplyToMessage(java.lang.String, byte[], fr.prima.omiscid.user.connector.Message)">sendReplyToMessage</A></B>(java.lang.String&nbsp;connectorName,
+                   byte[]&nbsp;msg,
+                   <A HREF="../../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message back to the sender of a message just received.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendReplyToMessage(java.lang.String, byte[], fr.prima.omiscid.user.connector.Message, boolean)">sendReplyToMessage</A></B>(java.lang.String&nbsp;connectorName,
+                   byte[]&nbsp;msg,
+                   <A HREF="../../../../../../fr/prima/omiscid/user/connector/Message.html" title="interface in fr.prima.omiscid.user.connector">Message</A>&nbsp;message,
+                   boolean&nbsp;unreliableButFastSend)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Allows to specify on which connector to send the answer.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendToAllClients(java.lang.String, byte[])">sendToAllClients</A></B>(java.lang.String&nbsp;connectorName,
+                 byte[]&nbsp;msg)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to all the clients connected to the service.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendToAllClients(java.lang.String, byte[], boolean)">sendToAllClients</A></B>(java.lang.String&nbsp;connectorName,
+                 byte[]&nbsp;msg,
+                 boolean&nbsp;unreliableButFastSend)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to all the clients connected to the service.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], int)">sendToOneClient</A></B>(java.lang.String&nbsp;connectorName,
+                byte[]&nbsp;msg,
+                int&nbsp;pid)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to a particular client.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], int, boolean)">sendToOneClient</A></B>(java.lang.String&nbsp;connectorName,
+                byte[]&nbsp;msg,
+                int&nbsp;pid,
+                boolean&nbsp;unreliableButFastSend)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to a particular client.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], fr.prima.omiscid.user.service.ServiceProxy)">sendToOneClient</A></B>(java.lang.String&nbsp;connectorName,
+                byte[]&nbsp;msg,
+                <A HREF="../../../../../../fr/prima/omiscid/user/service/ServiceProxy.html" title="interface in fr.prima.omiscid.user.service">ServiceProxy</A>&nbsp;serviceProxy)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to a particular client.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>Service.</B><B><A HREF="../../../../../../fr/prima/omiscid/user/service/Service.html#sendToOneClient(java.lang.String, byte[], fr.prima.omiscid.user.service.ServiceProxy, boolean)">sendToOneClient</A></B>(java.lang.String&nbsp;connectorName,
+                byte[]&nbsp;msg,
+                <A HREF="../../../../../../fr/prima/omiscid/user/service/ServiceProxy.html" title="interface in fr.prima.omiscid.user.service">ServiceProxy</A>&nbsp;serviceProxy,
+                boolean&nbsp;unreliableButFastSend)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sends a message to a particular client.</TD>
+</TR>
 </TABLE>
 &nbsp;
 <P>
