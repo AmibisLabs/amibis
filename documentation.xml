@@ -17,11 +17,11 @@
       <h3>Required files</h3>
       <p>Developing <omiscid/> services in plain Java requires to have some jars in your classpath. If you are using Java 6.0 or later, all dependencies are bundled in the <omiscid/> release available on the <a href="download.xml">download page</a>.
          Under Java 5.0, a <a href="https://jaxb.dev.java.net/">JAXB implementation</a> is also required: JAXB jars (jaxb-impl.jar, jaxb-api.jar, activation.jar, jsr173_1.0_api.jar) must be in the classpath when running <omiscid/> applications with Java 5.0.</p>
-      <p>See the tutorial section on this page for details on how to build an service from scratch.</p>
+      <p>See the tutorial section on this page for details on how to build a service from scratch.</p>
       
       <h3>DNSSD and bundled files</h3>
       <p>Java version of <omiscid/> may choose a DNSSD implementation installed on your computer at runtime. It can also use a 100% pure Java implementation, included in the release (<a href="#dnssd-impl">see details about choosing a DNSSD implementation</a>). OSGi <omiscid/> tutorial explains how to install and use mDNSResponder (Apple Bonjour) together with its Java bindings.</p>
-      <p>Since version 1.4.1, plain Java <omiscid/> provides the following files:</p>
+      <p>Since version 1.5.0, plain Java <omiscid/> provides the following files:</p>
         <ul>
           <li>omiscid-1.?.?.jar: the omiscid library</li>
           <li>(opt-dnssd) dbus*.jar, debug-*.jar, hexdump*.jar, unix*.jar and libunix-java.so: for an alternative DNSSD access using <a href="http://avahi.org/">avahi</a> accessed through <a href="http://dbus.freedesktop.org/">dbus</a></li>
