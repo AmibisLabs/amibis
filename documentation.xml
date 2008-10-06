@@ -36,8 +36,12 @@
         Note that dependencies to Castor will perhaps be replaced when Java 6 will be widely used.
       </p-->
     <h2>OSGi</h2>
+    <h3>Since 1.5.0</h3>
+      <p>Since version 1.5.0, the OSGi version of <omiscid/> is tested on the <a href="http://felix.apache.org/site/index.html">Felix</a> OSGi platform and it requires <a href="http://felix.apache.org/site/ipojo.html">iPOJO</a> and a Java 6 virtual machine. The castor bundle is <em>not</em> required <em>anymore</em>.</p>
+    <h3>Before 1.5.0</h3>
       <p>OSGi bundle version of <omiscid/> has been tested on the Oscar OSGi platform. To install it, you also need to install the castor bundle available on the <a href="download.xml">download page</a>.</p>
       <p>For further details, you can look at the OSGi tutorial below.</p>
+
     <h2><omiscid/> GUI</h2>
       <p>In replacement for the old <omiscid/> gui that is bundled with the plain java version of <omiscid/>, one can use the new <omiscid/> GUI. This new version is a standalone application that can be easily extended by adding some modules or plugins.</p>
       <p>To run the new GUI you need to download <omiscid/> GUI zip file on the <a href="download.xml">download page</a>, unzip it and run executable present in bin folder. MacOSX users, please feel free to contact us, we will provide you with a MacOSX version.</p>
