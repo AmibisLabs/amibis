@@ -18,6 +18,9 @@
 	    <tr><td><omiscid/> Java Library (Java 5.0)</td><td>1.5.0</td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/8099/omiscid-java-library-1.5.0.zip">omiscid-java-library-1.5.0.zip</a></td><td style="text-align: justify;">The java implementation of <omiscid/> containing basic classes (it also contains the old gui).</td></tr>
 	    <tr><td><omiscid/> OSGi</td><td>1.5.0</td><td>jar</td><td><a href="https://gforge.inria.fr/frs/download.php/8493/jomiscid-bundle-1.5.0.jar">jomiscid-bundle-1.5.0.jar</a></td><td style="text-align: justify;">An OSGi interface to <omiscid/>, requires Felix, iPOJO and Java 6.0.</td></tr>
 	    <tr><td><omiscid/> Python</td><td><font color="red">1.4.0</font></td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/4313/OMiSCID-Python-1.4.0.zip">OMiSCID-Python-1.4.0.zip</a></td><td style="text-align: justify;">A Python wrapper to the <omiscid/> C++ libraries. The version 1.5.0 is postponed to a couple of weeks.</td></tr>
+    </table>
+    <h1>Tools</h1>
+    <table class="downloadtable" cellpadding="10" cellspacing="0" style="text-align: center;" border="1">
 	    <tr align="center"><th>Tools</th><th>Version</th><th>Format</th><th width="200">Distribution</th><th width="300">Description</th></tr>
 	    <tr><td><omiscid/> GUI (Standalone)</td><td>2.0¹</td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/4340/omiscidgui-2.0.zip">omiscidgui-2.0.zip</a></td><td style="text-align: justify;">The current implementation of the <omiscid/> GUI.</td></tr>
     </table>
