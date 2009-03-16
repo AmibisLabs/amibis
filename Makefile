@@ -24,9 +24,9 @@ export:
 	rsync -avz --chmod=g+rw --delete --exclude=.svn $(OUT)/* $(DISTON)
 
 export-gforge:
-	rsync -avz --chmod=g+rw --exclude=.svn --exclude=.xml --exclude=download/omiscidgui/* --delete $(OUT)/* omiscid.gforge.inria.fr:/home/groups/omiscid/htdocs/
-	ssh omiscid.gforge.inria.fr chgrp -R omiscid /home/groups/omiscid/htdocs
-#	ssh omiscid.gforge.inria.fr chmod -R g+rw /home/groups/omiscid/htdocs/\*
+	rsync -avz --chmod=g+rw --exclude=.svn --exclude=.xml --exclude=download/omiscidgui/* --delete $(OUT)/* scm.gforge.inria.fr:/home/groups/omiscid/htdocs/
+#	ssh scm.gforge.inria.fr chgrp -R omiscid /home/groups/omiscid/htdocs
+#	ssh scm.gforge.inria.fr chmod -R g+rw /home/groups/omiscid/htdocs/\*
 
 # HTML FILES GENERATION
 
