@@ -134,6 +134,19 @@
     </xsl:for-each>
   </xsl:template>
 
+  <xsl:template match="//p:svg">
+      <a class="linktosvg" title="View Full SVG Version">
+          <xsl:attribute name="href">
+              <xsl:call-template name="globalReplace">
+                  <xsl:with-param name="outputString" select="preceding-sibling::x:img/@src" />
+                  <xsl:with-param name="target" select="'.jpg'" />
+                  <xsl:with-param name="replacement" select="'.svg'" />
+              </xsl:call-template>
+          </xsl:attribute>
+          <xsl:text>[svg]</xsl:text>
+      </a>
+  </xsl:template>
+
   <xsl:template name="omiscid" match="//p:omiscid | //x:omiscid">
     <span class="omiscid">
       <xsl:text>O</xsl:text>

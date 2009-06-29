@@ -11,7 +11,7 @@
     <h1>Description</h1>
     <h2>General Description</h2>
     <p><omiscid/> stands for <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>nspection and <b>D</b>iscovery.</p>
-    <p><omiscid/> has been implemented so far in C++, Java and Python (wrapper to the C++ version). See <a href="download.html">the download page</a> to obtain the desired release. Services developed using any of the implementation can seemlessly interoperate together.</p>
+    <p><omiscid/> has been implemented so far in C++, Java and Python (wrapper to the C++ version). See <a href="download.html">the download page</a> to obtain the desired release. Services developed using any of the implementation can seamlessly interoperate together.</p>
     <h2
     onmouseover="document.getElementById('whyOmiscid').className = 'whyOmiscidStrong';"
     onmouseout="document.getElementById('whyOmiscid').className = 'whyOmiscid';"
@@ -22,6 +22,15 @@
       <li>you need a <b>cross-platform cross-language</b> library for network <b>communications</b> and <b>service advertisement and discovery</b></li>
       <li>you want a <b>cross-platform C++</b> library for system abstraction (<b>threads</b>, <b>Mutex</b>, ...), containers (lists, ...) and network <b>Sockets</b> (UDP and TCP)</li>
     </ul></p>
+
+    <h2>OMiSCID Gui</h2>
+    <p>
+        An extensible graphical user interface has been designed to visualize, control and interact with <omiscid/> services.
+        Existing extensions range from generic service manipulators to dedicated service viewers and controllers.
+    </p>
+    <center>
+        <a href="omiscidgui.xml"><img src="image/main-gui.jpg" alt="OMiSCID Gui"/></a>
+    </center>
 
     <h1>History</h1>
     <p><omiscid/> is born in the <a href="http://www-prima.inrialpes.fr/">PRIMA project</a> from <a href="http://www.inrialpes.fr/">INRIA Rhône-Alpes</a>.</p>
