@@ -61,3 +61,5 @@ import-screencasts:
 	find ${OUT}/screencasts/ -name \*.xml -delete
 	find ${OUT}/screencasts/ -name \*\~ -delete
 
+#inkscape --export-png=image/main-gui.png -d 45 image/main-gui.svg
+#convert image/main-gui.png image/main-gui.jpg
