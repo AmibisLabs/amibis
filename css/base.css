@@ -36,6 +36,11 @@ a img {
 	border: 0px;
 }
 
+img.inline-icon {float:left;}
+
+.stack-content {display:block; float:left; text-align:center; padding-bottom: 2em;}
+.stack-content>br {line-height: 0px}
+
 .titletop, .logocorner, .header td {
         margin: 0;
         padding: 0;

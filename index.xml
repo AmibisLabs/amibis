@@ -19,11 +19,19 @@
     <p><omiscid/> can be really helpfull in the following cases:<ul class="whyOmiscid" id="whyOmiscid">
       <li>you are looking for an <b>easy</b> way to design an application with a <b>Service Oriented Architecture</b></li>
       <li>you want to design peer to peer or client/server <b>distributed applications</b></li>
-      <li>you need a <b>cross-platform cross-language</b> library for network <b>communications</b> and <b>service advertisement and discovery</b></li>
-      <li>you want a <b>cross-platform C++</b> library for system abstraction (<b>threads</b>, <b>Mutex</b>, ...), containers (lists, ...) and network <b>Sockets</b> (UDP and TCP)</li>
+      <li>you need a <b>cross-platform cross-language (Java, C++, Python, Matlab)</b> library for network <b>communications</b> and <b>service advertisement and discovery</b></li>
+      <li>you want a cross-platform <b>C++</b> library for system abstraction (<b>threads</b>, <b>Mutex</b>, ...), containers (lists, ...) and network <b>Sockets</b> (UDP and TCP)</li>
     </ul></p>
+    
+    <h1>Visual Site Index</h1>
+    <p>
+        <a href="documentation.xml"><span class="stack-content"><img src="image/main-documentation.jpg" alt="Documentation"/><br/>Documentation</span></a>
+        <a href="download.xml"><span class="stack-content"><img src="image/main-download.jpg" alt="Download"/><br/>Download</span></a>
+        <a href="omiscidgui.xml"><span class="stack-content"><img width="200px" src="image/main-gui.jpg" alt="OMiSCID Gui"/><br/>GUI</span></a>
+        <br clear="all"/>
+    </p>
 
-    <h2>OMiSCID Gui</h2>
+    <h1>OMiSCID Gui</h1>
     <p>
         An extensible graphical user interface has been designed to visualize, control and interact with <omiscid/> services.
         Existing extensions range from generic service manipulators to dedicated service viewers and controllers.
