@@ -170,12 +170,23 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="/p:page/p:content//* | /p:page/p:footer//* | /p:page/p:header//*">
+  <xsl:template match="/p:page//p:content//x:* | /p:page/p:footer//x:* | /p:page/p:header//x:*">
     <xsl:call-template name="copyme" />
   </xsl:template>
 
-  <xsl:template match="/p:page/p:content | /p:page/p:footer | /p:page/p:header">
+  <xsl:template match="/p:page//p:content | /p:page/p:footer | /p:page/p:header">
     <xsl:apply-templates />
+  </xsl:template>
+
+  <xsl:template match="p:news">
+      <div class="news"><xsl:apply-templates select="p:piece"/></div>
+  </xsl:template>
+
+  <xsl:template match="p:news/p:piece">
+      <h5 class="news"><span class="date">[<xsl:apply-templates select="p:date"/>]</span> <xsl:apply-templates select="p:title"/></h5>
+      <div class="news-details">
+          <xsl:apply-templates select="p:content"/>
+      </div>
   </xsl:template>
 
   <xsl:template match="/p:page/p:content/x:h1">

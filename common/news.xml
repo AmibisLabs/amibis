@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<news xmlns="http://custom" xmlns:x="http://www.w3.org/1999/xhtml">
+    <piece>
+        <date>2009-07-06</date>
+        <title>Work in progress: Omiscid Gui port to latest Netbeans platform</title>
+        <content>
+            <x:p>
+                With the release of Netbeans 6.7, Omiscid Gui is being ported to the new platform and to the Maven build system.
+                New Gui version will be available soon with an updated manual for writing modules (extensions, plugins) using Maven.
+            </x:p>
+        </content>
+    </piece>
+    <old-hidden/>
+</news>

@@ -8,6 +8,9 @@
   <currentMenu id="Main"/>
 
   <custom:content xmlns="http://www.w3.org/1999/xhtml">
+      <h1>Latest Quick News</h1>
+      <xi:include href="common/news.xml#xpointer(/*)" />
+
     <h1>Description</h1>
     <h2>General Description</h2>
     <p><omiscid/> stands for <b>O</b>bject <b>O</b>riented <b>O</b>pensource <b>Mi</b>ddleware for <b>S</b>ervice <b>C</b>ommunication <b>I</b>nspection and <b>D</b>iscovery.</p>

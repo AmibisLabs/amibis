@@ -61,6 +61,8 @@ img.inline-icon {float:left;}
         padding-left: 30px;
         margin-top: 10px;
 }        
+h5.news {color:#800; border:0px solid red; margin-bottom:0.7em}
+.news-details {border-left: 1px solid grey; padding-left: 2em; font-style: italic;}
 
 .footer .menu {
         display: inline;
