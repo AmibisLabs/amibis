@@ -33,7 +33,7 @@ export-gforge:
 all-html: $(patsubst %.xml,%.html,$(wildcard *.xml))
 
 %.html: %.xml $(wildcard xsl/*.xsl) $(wildcard common/*.xml)
-	xsltproc --xinclude --output $@ xsl/page.xsl $<
+	xsltproc --xinclude xsl/page.xsl $< | sed 's@<br></br>@<br/>@g' >$@
 	sed -i -e "s@[.]xml@.html@g" $@
 
 # JAVADOC IMPORT

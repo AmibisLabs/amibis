@@ -11,7 +11,7 @@
     <h1>Latest Releases</h1>
     <table class="downloadtable" cellpadding="10" cellspacing="0" style="text-align: center;" border="1">
 	    <tr align="center"><th>Release</th><th>Version</th><th>Format</th><th width="200">Distribution</th><th width="300">Description</th></tr>
-	    <tr><td rowspan="4"><omiscid/> C++</td><td>1.6.0 (Mac OSX, Linux, Windows 32 bits)</td><td>zip<br/>tgz</td><td><a href="https://gforge.inria.fr/frs/download.php/22680/Omiscid-1.6.0.zip">Omiscid-1.6.0.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/22681/Omiscid-1.6.0.tgz">Omiscid-1.6.0.tgz</a></td><td style="text-align: justify;">The C++ implementation of <omiscid/> containing the necessary files and instruction about how to build the library.</td></tr>
+	    <tr><td rowspan="4">C++</td><td>1.6.0 (Mac OSX, Linux, Windows 32 bits)</td><td>zip<br/>tgz</td><td><a href="https://gforge.inria.fr/frs/download.php/22680/Omiscid-1.6.0.zip">Omiscid-1.6.0.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/22681/Omiscid-1.6.0.tgz">Omiscid-1.6.0.tgz</a></td><td style="text-align: justify;">The C++ implementation of <omiscid/> containing the necessary files and instruction about how to build the library.</td></tr>
 	    <tr><td>1.6.0 (Debian package using mDNS)</td><td>deb</td>
 	    	<td align="center">
 	    	i386 :<br />
@@ -37,9 +37,9 @@
 	    	amd64 :<br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22690/omiscid-mdns_1.6.0_amd64.deb">omiscid-mdns_1.6.0_amd64.deb</a>
 	    </td><td style="text-align: justify;">A Debian to install the files needed by <omiscid/> developpers. One of the previous packages must be installed before this one.</td></tr>
-	    <tr><td><omiscid/> Java Library (Java 5.0)</td><td>1.5.1</td><td>zip</td><td><a href="https://gforge.inria.fr/frs/download.php/19495/omiscid-java-library-1.5.1.zip"><img class="inline-icon" src="image/download-java.jpg" alt="J"/>omiscid-java-library-1.5.1.zip</a></td><td style="text-align: justify;">The java implementation of <omiscid/> containing basic classes (it also contains the old gui).</td></tr>
-	    <tr><td><omiscid/> OSGi</td><td>1.5.1</td><td>jar</td><td><a href="http://gforge.inria.fr/frs/download.php/19497/jomiscid-bundle-1.5.1.jar">jomiscid-bundle-1.5.1.jar</a></td><td style="text-align: justify;">An OSGi interface to <omiscid/>, requires Felix, iPOJO and Java 6.0.</td></tr>
-	    <tr><td><omiscid/> Python</td><td>1.5.0</td><td>zip</td><td><a href="https://gforge.inria.fr/frs/download.php/10554/OmiscidPython-1.5.zip"><img class="inline-icon" src="image/download-python.jpg" alt="P"/>OMiSCID-Python-1.5.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/10553/OmiscidPython-1.5.tar.gz">OmiscidPython-1.5.tar.gz</a></td><td style="text-align: justify;">A Python wrapper to the <omiscid/> C++ libraries.</td></tr>
+	    <tr><td>Java (5.0)</td><td>1.5.1</td><td>zip</td><td><a href="https://gforge.inria.fr/frs/download.php/19495/omiscid-java-library-1.5.1.zip"><img class="inline-icon" src="image/download-java.jpg" alt="J"/>omiscid-java-library-1.5.1.zip</a></td><td style="text-align: justify;">The java implementation of <omiscid/> containing basic classes (it also contains the old gui).</td></tr>
+	    <tr><td>OSGi</td><td>1.5.1</td><td>jar</td><td><a href="http://gforge.inria.fr/frs/download.php/19497/jomiscid-bundle-1.5.1.jar">jomiscid-bundle-1.5.1.jar</a></td><td style="text-align: justify;">An OSGi interface to <omiscid/>, requires Felix, iPOJO and Java 6.0.</td></tr>
+	    <tr><td>Python</td><td>1.5.0</td><td>zip</td><td><a href="https://gforge.inria.fr/frs/download.php/10554/OmiscidPython-1.5.zip"><img class="inline-icon" src="image/download-python.jpg" alt="P"/>OMiSCID-Python-1.5.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/10553/OmiscidPython-1.5.tar.gz">OmiscidPython-1.5.tar.gz</a></td><td style="text-align: justify;">A Python wrapper to the <omiscid/> C++ libraries.</td></tr>
     </table>
     <h1>Tools</h1>
     <table class="downloadtable" cellpadding="10" cellspacing="0" style="text-align: center;" border="1">
