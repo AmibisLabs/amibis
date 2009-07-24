@@ -11,7 +11,7 @@
     <h1>Latest Releases</h1>
     <table class="downloadtable" cellpadding="10" cellspacing="0" style="text-align: center;" border="1">
 	    <tr align="center"><th>Release</th><th>Version</th><th>Format</th><th width="200">Distribution</th><th width="300">Description</th></tr>
-	    <tr><td rowspan="4"><omiscid/> C++</td><td>1.6.0 (Mac OSX, Linux, Windows 32 bits)</td><td>zip<br/>tgz</td><td><a href="https://gforge.inria.fr/frs/download.php/22680/Omiscid-1.6.0.zip">Omiscid-1.6.0.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/10547/Omiscid-1.6.0.tgz">Omiscid-1.6.0.tgz</a></td><td style="text-align: justify;">The C++ implementation of <omiscid/> containing the necessary files and instruction about how to build the library.</td></tr>
+	    <tr><td rowspan="4"><omiscid/> C++</td><td>1.6.0 (Mac OSX, Linux, Windows 32 bits)</td><td>zip<br/>tgz</td><td><a href="https://gforge.inria.fr/frs/download.php/22680/Omiscid-1.6.0.zip">Omiscid-1.6.0.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/22681/Omiscid-1.6.0.tgz">Omiscid-1.6.0.tgz</a></td><td style="text-align: justify;">The C++ implementation of <omiscid/> containing the necessary files and instruction about how to build the library.</td></tr>
 	    <tr><td>1.6.0 (Debian package using mDNS)</td><td>deb</td>
 	    	<td align="center">
 	    	i386 :<br />
@@ -22,7 +22,7 @@
 	    	<a href="https://gforge.inria.fr/frs/download.php/22691/omiscid-mdns-debug_1.6.0_amd64.deb">omiscid-mdns-debug_1.6.0_amd64.deb</a>
 	    </td><td style="text-align: justify;">A Debian package to install <omiscid/> using mDNS (as there is no Debian package for MDNS from Apple, you will need to install it manually before using OMiSCID). mDNS seems to be more stable than Avahi, you may choose this package. There are 2 versions: standard and debug (with more traces and symbols).</td></tr>
 	    <tr><td>1.6.0 (Debian package using Avahi)</td><td>deb</td>
-	    	<tdalign="center">
+	    	<td align="center">
 	    	i386 :<br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22682/omiscid-avahi_1.6.0_i386.deb">omiscid-avahi_1.6.0_i386.deb</a><br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22683/omiscid-avahi-debug_1.6.0_i386.deb">omiscid-avahi-debug_1.6.0_i386.deb</a><br />
@@ -31,7 +31,7 @@
 	    	<a href="https://gforge.inria.fr/frs/download.php/22688/omiscid-avahi-debug_1.6.0_amd64.deb">omiscid-avahi-debug_1.6.0_amd64.deb</a>	    	
 	    </td><td style="text-align: justify;">A Debian package to install <omiscid/> using Avahi. There are 2 versions: standard and debug (with more traces and symbols).</td></tr>
 	    <tr><td>1.6.0 (Debian dev package)</td><td>deb</td>
-	    	<tdalign="center">
+	    	<td align="center">
 	    	i386 :<br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22684/omiscid-dev_1.6.0_i386.deb">omiscid-dev_1.6.0_i386.deb</a><br />
 	    	amd64 :<br />
