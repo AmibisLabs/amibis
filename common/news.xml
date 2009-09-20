@@ -2,6 +2,16 @@
 
 <news xmlns="http://custom" xmlns:x="http://www.w3.org/1999/xhtml">
     <piece>
+        <date>2009-09-02</date>
+        <title>Module portage in progress</title>
+        <content>
+            <x:p>
+                The core Gui is now release in version 3.0 (see the news below).
+                Due to our current workload, modules and documentation will be available in late September.
+            </x:p>
+        </content>
+    </piece>
+    <piece>
         <date>2009-07-06</date>
         <title>Work in progress: Omiscid Gui port to latest Netbeans platform</title>
         <content>
