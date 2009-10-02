@@ -44,7 +44,7 @@
     <h1>Tools</h1>
     <table class="downloadtable" cellpadding="10" cellspacing="0" style="text-align: center;" border="1">
 	    <tr align="center"><th>Tools</th><th>Version</th><th>Format</th><th width="200">Distribution</th><th width="300">Description</th></tr>
-	    <tr><td><omiscid/> GUI (Standalone)</td><td>2.0¹</td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/4340/omiscidgui-2.0.zip"><div class="stack-content"><img src="image/download-gui.jpg" alt="G"/>omiscidgui-2.0.zip</div></a></td><td style="text-align: justify;">The current implementation of the <omiscid/> GUI.</td></tr>
+	    <tr><td><omiscid/> GUI (Standalone)</td><td>3.0¹</td><td>zip</td><td><a href="https://gforge.inria.fr/frs/download.php/24155/omiscidgui-3.0.zip"><div class="stack-content"><img src="image/download-gui.jpg" alt="G"/>omiscidgui-3.0.zip</div></a></td><td style="text-align: justify;">The current implementation of the <omiscid/> GUI.</td></tr>
     </table>
     ¹: version number is unrelated to <omiscid/> version as continuous update are provided in the GUI. Starting and updating the GUI should bring you to the latest stable java version.
     

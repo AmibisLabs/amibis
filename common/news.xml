@@ -2,6 +2,18 @@
 
 <news xmlns="http://custom" xmlns:x="http://www.w3.org/1999/xhtml">
     <piece>
+        <date>2009-10-02</date>
+        <title>New OMiSCID Gui available</title>
+        <content>
+            <x:p>
+                The core Gui is now release in version 3.0.
+                Most used modules have been proven to work in the new GUI.
+                Consult the download page to <a href="download.xml">optain the new GUI</a>.
+            </x:p>
+        </content>
+    </piece>
+    <old-hidden>
+    <piece>
         <date>2009-09-02</date>
         <title>Module portage in progress</title>
         <content>
@@ -21,5 +33,5 @@
             </x:p>
         </content>
     </piece>
-    <old-hidden/>
+    </old-hidden>
 </news>
