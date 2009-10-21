@@ -2,36 +2,45 @@
 
 <news xmlns="http://custom" xmlns:x="http://www.w3.org/1999/xhtml">
     <piece>
+        <date>2009-10-22</date>
+        <title>OMiSCID Java 1.6.0 available</title>
+        <custom:content xmlns:custom="http://custom" xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                It is <a href="download.xml">here!</a>
+            </p>
+        </custom:content>
+    </piece>
+    <piece>
         <date>2009-10-02</date>
         <title>New OMiSCID Gui available</title>
-        <content>
-            <x:p>
+        <custom:content xmlns:custom="http://custom" xmlns="http://www.w3.org/1999/xhtml">
+            <p>
                 The core Gui is now release in version 3.0.
                 Most used modules have been proven to work in the new GUI.
                 Consult the download page to <a href="download.xml">optain the new GUI</a>.
-            </x:p>
-        </content>
+            </p>
+        </custom:content>
     </piece>
     <old-hidden>
     <piece>
         <date>2009-09-02</date>
         <title>Module portage in progress</title>
-        <content>
-            <x:p>
+        <custom:content xmlns:custom="http://custom" xmlns="http://www.w3.org/1999/xhtml">
+            <p>
                 The core Gui is now release in version 3.0 (see the news below).
                 Due to our current workload, modules and documentation will be available in late September.
-            </x:p>
-        </content>
+            </p>
+        </custom:content>
     </piece>
     <piece>
         <date>2009-07-06</date>
         <title>Work in progress: Omiscid Gui port to latest Netbeans platform</title>
-        <content>
-            <x:p>
+        <custom:content xmlns:custom="http://custom" xmlns="http://www.w3.org/1999/xhtml">
+            <p>
                 With the release of Netbeans 6.7, Omiscid Gui is being ported to the new platform and to the Maven build system.
                 New Gui version will be available soon with an updated manual for writing modules (extensions, plugins) using Maven.
-            </x:p>
-        </content>
+            </p>
+        </custom:content>
     </piece>
     </old-hidden>
 </news>
