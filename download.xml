@@ -37,7 +37,7 @@
 	    	amd64 :<br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22690/omiscid-mdns_1.6.0_amd64.deb">omiscid-mdns_1.6.0_amd64.deb</a>
 	    </td><td style="text-align: justify;">A Debian to install the files needed by <omiscid/> developpers. One of the previous packages must be installed before this one.</td></tr>
-	    <tr><td>Java (5.0)</td><td>1.6.0</td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/24590/omiscid-java-library-1.6.0.zip"><img class="inline-icon" src="image/download-java.jpg" alt="J"/>omiscid-java-library-1.6.0.zip</a></td><td style="text-align: justify;">The java implementation of <omiscid/>.</td></tr>
+	    <tr><td>Java (5.0)</td><td>1.6.1</td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/24765/omiscid-java-library-1.6.1.zip"><img class="inline-icon" src="image/download-java.jpg" alt="J"/>omiscid-java-library-1.6.1.zip</a></td><td style="text-align: justify;">The java implementation of <omiscid/>.</td></tr>
 	    <tr><td>OSGi</td><td>1.5.1</td><td>jar</td><td><a href="http://gforge.inria.fr/frs/download.php/19497/jomiscid-bundle-1.5.1.jar">jomiscid-bundle-1.5.1.jar</a></td><td style="text-align: justify;">An OSGi interface to <omiscid/>, requires Felix, iPOJO and Java 6.0.</td></tr>
 	    <tr><td>Python</td><td>1.5.0</td><td>zip</td><td><a href="https://gforge.inria.fr/frs/download.php/10554/OmiscidPython-1.5.zip"><img class="inline-icon" src="image/download-python.jpg" alt="P"/>OMiSCID-Python-1.5.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/10553/OmiscidPython-1.5.tar.gz">OmiscidPython-1.5.tar.gz</a></td><td style="text-align: justify;">A Python wrapper to the <omiscid/> C++ libraries.</td></tr>
     </table>

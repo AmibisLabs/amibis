@@ -2,8 +2,8 @@
 
 <news xmlns="http://custom" xmlns:x="http://www.w3.org/1999/xhtml">
     <piece>
-        <date>2009-10-22</date>
-        <title>OMiSCID Java 1.6.0 available</title>
+        <date>2009-11-17</date>
+        <title>OMiSCID Java 1.6.1 available</title>
         <custom:content xmlns:custom="http://custom" xmlns="http://www.w3.org/1999/xhtml">
             <p>
                 It is <a href="download.xml">here!</a>
