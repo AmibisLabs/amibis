@@ -2,6 +2,17 @@
 
 <news xmlns="http://custom" xmlns:x="http://www.w3.org/1999/xhtml">
     <piece>
+        <date>2010-01-26</date>
+        <title>PyMiSCID implementation is finally available.</title>
+        <custom:content xmlns:custom="http://custom" xmlns="http://www.w3.org/1999/xhtml">
+            <p>
+                First pure Python <omiscid/> implementation is available.
+                <br/>
+                Give it a try! It is <a href="download.xml">here!</a>
+            </p>
+        </custom:content>
+    </piece>
+    <piece>
         <date>2009-11-17</date>
         <title>OMiSCID Java 1.6.1 available</title>
         <custom:content xmlns:custom="http://custom" xmlns="http://www.w3.org/1999/xhtml">

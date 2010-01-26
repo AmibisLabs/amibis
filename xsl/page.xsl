@@ -183,7 +183,7 @@
   </xsl:template>
 
   <xsl:template match="p:news/p:piece">
-      <h5 class="news"><span class="date">[<xsl:apply-templates select="p:date"/>]</span> <xsl:apply-templates select="p:title"/></h5>
+      <h5 class="news"><span class="date">[<xsl:apply-templates select="p:date"/>]</span>   <xsl:apply-templates select="p:title"/></h5>
       <div class="news-details">
           <xsl:apply-templates select="p:content"/>
       </div>

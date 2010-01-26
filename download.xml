@@ -9,10 +9,11 @@
 
   <custom:content xmlns="http://www.w3.org/1999/xhtml">
     <h1>Latest Releases</h1>
+    <p>All releases are provided through a "forge", see the <a href="http://gforge.inria.fr/frs/?group_id=363">download page in the <omiscid/> forge</a>.</p>
     <table class="downloadtable" cellpadding="10" cellspacing="0" style="text-align: center;" border="1">
-	    <tr align="center"><th>Release</th><th>Version</th><th>Format</th><th width="200">Distribution</th><th width="300">Description</th></tr>
-	    <tr><td rowspan="4">C++</td><td>1.6.0 (Mac OSX, Linux, Windows 32 bits)</td><td>zip<br/>tgz</td><td><a href="https://gforge.inria.fr/frs/download.php/22680/Omiscid-1.6.0.zip">Omiscid-1.6.0.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/22681/Omiscid-1.6.0.tgz">Omiscid-1.6.0.tgz</a></td><td style="text-align: justify;">The C++ implementation of <omiscid/> containing the necessary files and instruction about how to build the library.</td></tr>
-	    <tr><td>1.6.0 (Debian package using mDNS)</td><td>deb</td>
+	    <tr align="center"><th>Release</th><th>Version</th><th>Format</th><th width="270">Distribution</th><th width="300">Description</th></tr>
+	    <tr><td rowspan="4">C++</td><td>1.6.0-src</td><td>zip<br/>tgz</td><td><a href="https://gforge.inria.fr/frs/download.php/22680/Omiscid-1.6.0.zip">Omiscid-1.6.0.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/22681/Omiscid-1.6.0.tgz">Omiscid-1.6.0.tgz</a></td><td style="text-align: justify;">The C++ implementation of <omiscid/> containing the necessary files and instruction about how to build the library.</td></tr>
+	    <tr><td>1.6.0-mdns</td><td>deb</td>
 	    	<td align="center">
 	    	i386 :<br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22685/omiscid-mdns_1.6.0_i386.deb">omiscid-mdns_1.6.0_i386.deb</a><br />
@@ -21,7 +22,7 @@
 	    	<a href="https://gforge.inria.fr/frs/download.php/22690/omiscid-mdns_1.6.0_amd64.deb">omiscid-mdns_1.6.0_amd64.deb</a><br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22691/omiscid-mdns-debug_1.6.0_amd64.deb">omiscid-mdns-debug_1.6.0_amd64.deb</a>
 	    </td><td style="text-align: justify;">A Debian package to install <omiscid/> using mDNS (as there is no Debian package for MDNS from Apple, you will need to install it manually before using OMiSCID). mDNS seems to be more stable than Avahi, you may choose this package. There are 2 versions: standard and debug (with more traces and symbols).</td></tr>
-	    <tr><td>1.6.0 (Debian package using Avahi)</td><td>deb</td>
+	    <tr><td>1.6.0-avahi</td><td>deb</td>
 	    	<td align="center">
 	    	i386 :<br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22682/omiscid-avahi_1.6.0_i386.deb">omiscid-avahi_1.6.0_i386.deb</a><br />
@@ -30,16 +31,17 @@
 	    	<a href="https://gforge.inria.fr/frs/download.php/22687/omiscid-avahi_1.6.0_amd64.deb">omiscid-avahi_1.6.0_amd64.deb</a><br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22688/omiscid-avahi-debug_1.6.0_amd64.deb">omiscid-avahi-debug_1.6.0_amd64.deb</a>	    	
 	    </td><td style="text-align: justify;">A Debian package to install <omiscid/> using Avahi. There are 2 versions: standard and debug (with more traces and symbols).</td></tr>
-	    <tr><td>1.6.0 (Debian dev package)</td><td>deb</td>
+	    <tr><td>1.6.0-dev</td><td>deb</td>
 	    	<td align="center">
 	    	i386 :<br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22684/omiscid-dev_1.6.0_i386.deb">omiscid-dev_1.6.0_i386.deb</a><br />
 	    	amd64 :<br />
 	    	<a href="https://gforge.inria.fr/frs/download.php/22690/omiscid-mdns_1.6.0_amd64.deb">omiscid-mdns_1.6.0_amd64.deb</a>
 	    </td><td style="text-align: justify;">A Debian to install the files needed by <omiscid/> developpers. One of the previous packages must be installed before this one.</td></tr>
-	    <tr><td>Java (5.0)</td><td>1.6.1</td><td>zip</td><td><a href="http://gforge.inria.fr/frs/download.php/24765/omiscid-java-library-1.6.1.zip"><img class="inline-icon" src="image/download-java.jpg" alt="J"/>omiscid-java-library-1.6.1.zip</a></td><td style="text-align: justify;">The java implementation of <omiscid/>.</td></tr>
+	    <tr><td>Java (5.0)</td><td>1.6.1</td><td>zip</td><td style="text-align: left;"><a href="http://gforge.inria.fr/frs/download.php/24765/omiscid-java-library-1.6.1.zip"><img class="inline-icon" src="image/download-java.jpg" alt="J"/><br/>omiscid-java-library-1.6.1.zip</a></td><td style="text-align: justify;">The java implementation of <omiscid/>.</td></tr>
 	    <tr><td>OSGi</td><td>1.5.1</td><td>jar</td><td><a href="http://gforge.inria.fr/frs/download.php/19497/jomiscid-bundle-1.5.1.jar">jomiscid-bundle-1.5.1.jar</a></td><td style="text-align: justify;">An OSGi interface to <omiscid/>, requires Felix, iPOJO and Java 6.0.</td></tr>
-	    <tr><td>Python</td><td>1.5.0</td><td>zip</td><td><a href="https://gforge.inria.fr/frs/download.php/10554/OmiscidPython-1.5.zip"><img class="inline-icon" src="image/download-python.jpg" alt="P"/>OMiSCID-Python-1.5.zip</a><br/><a href="https://gforge.inria.fr/frs/download.php/10553/OmiscidPython-1.5.tar.gz">OmiscidPython-1.5.tar.gz</a></td><td style="text-align: justify;">A Python wrapper to the <omiscid/> C++ libraries.</td></tr>
+	    <tr><td>Python</td><td>1.6.0</td><td>tar.gz</td><td style="text-align: left;"><a href="http://gforge.inria.fr/frs/download.php/25591/pymiscid-1.6.tar.gz"><img class="inline-icon" src="image/download-python.jpg" alt="P"/><br/>pymiscid-1.6.tar.gz</a></td><td style="text-align: justify;">A pure Python implementation of <omiscid/>.</td></tr>
+            <!-- https://gforge.inria.fr/frs/download.php/10554/OmiscidPython-1.5.zip -->
     </table>
     <h1>Tools</h1>
     <table class="downloadtable" cellpadding="10" cellspacing="0" style="text-align: center;" border="1">
@@ -48,8 +50,6 @@
     </table>
     ¹: version number is unrelated to <omiscid/> version as continuous update are provided in the GUI. Starting and updating the GUI should bring you to the latest stable java version.
     
-    <h1>Other Releases</h1>
-    <p>Access to the previous releases is provided through a "forge". The <a href="http://gforge.inria.fr/frs/?group_id=363">download page in the <omiscid/> forge</a>.</p>
     <h1>Documentations</h1>
     <p>Documentation on how to install <omiscid/> and tutorials are available on the <a href="documentation.xml">documentation page</a>.</p>
 
