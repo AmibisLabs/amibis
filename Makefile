@@ -9,6 +9,7 @@ release: all-html patch-javadoc
 	mkdir ${OUT}
 	cp -r css image download *.html ${OUT}
 	make import-screencasts
+	make patch-pres-day2
 	perl GenerateSiteMap.pl out > out/sitemap.xml
 
 #	cp -r Documents/Doc/ Documents/OMiSCID-C++Tutorial.pdf ${OUT}/download/
@@ -60,6 +61,12 @@ import-screencasts:
 	find ${OUT}/screencasts/ -name \*.wnk -delete
 	find ${OUT}/screencasts/ -name \*.xml -delete
 	find ${OUT}/screencasts/ -name \*\~ -delete
+
+patch-pres-day2:
+	rm -rf download/doc-all/extending-omiscidgui/jquery
+	wget http://oberon.inrialpes.fr/release/custom-jquery.zip
+	(cd download/doc-all/extending-omiscidgui && unzip ../../../custom-jquery.zip)
+	rm custom-jquery.zip
 
 #inkscape --export-png=image/main-gui.png -d 45 image/main-gui.svg
 #convert image/main-gui.png image/main-gui.jpg

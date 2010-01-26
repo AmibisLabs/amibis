@@ -43,6 +43,7 @@
       <p>For further details, you can look at the OSGi tutorial below.</p>
 
     <h2><omiscid/> GUI</h2>
+      <p>See also <a href="omiscidgui.xml">the page on <omiscid/> GUI</a></p>
       <p>In replacement for the old <omiscid/> gui that is bundled with the plain java version of <omiscid/>, one can use the new <omiscid/> GUI. This new version is a standalone application that can be easily extended by adding some modules or plugins.</p>
       <p>To run the new GUI you need to download <omiscid/> GUI zip file on the <a href="download.xml">download page</a>, unzip it and run executable present in bin folder. MacOSX users, please feel free to contact us, we will provide you with a MacOSX version.</p>
       <p>You can access basic functionalities by right clicking on service connectors and variables in tree on the right. Plugins for the GUI can add some actions to the possible ones appearing in the context menu. You can manage installed plugins through the Tool->Plugins menu entry.</p>
@@ -82,6 +83,8 @@
 
     <h1>Presentations</h1>
     <p>If you want to look at some slides presenting <omiscid/>, you can just watch <a href="download/doc-all/presentation-1/index.html">an (old) html presentation of <omiscid/></a>.</p>
+    <p>The <omiscid/> “day 1” presentation can be obtained on demand only (by now), don't hesitate.</p>
+    <p>The <omiscid/> <a href="download/doc-all/extending-omiscidgui/starter.xhtml#slide1">“day 2” presentation</a> on advanced tips and tricks and on the extension of <omiscid/> GUI.</p>
     
     <h1>Publications</h1>
     <p>For a detailled description of <omiscid/> architecture and design goals, see this <a href="http://www-prima.inrialpes.fr/prima/pub/Publications/2006/EVRL06/">paper presented at the IEEE workshop SIPE-2006</a>.</p>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.1//EN" "http://www.netbeans.org/dtds/filesystem-1_1.dtd">
+<filesystem>
+    <folder name="Omiscid">
+        <folder name="Selectors">
+            <file name="fr-prima-omiscidgui-demolive-StrangeSelector.instance"/>
+        </folder>
+        <folder name="Actions">
+            <file name="fr-prima-omiscidgui-demolive-GreenAction.instance"/>
+        </folder>
+    </folder>
+</filesystem>

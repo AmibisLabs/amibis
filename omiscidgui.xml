@@ -46,14 +46,15 @@
         <h1>Writing Extensions</h1>
         <p>
             Extensions to the OMiSCID Gui are Netbeans modules.
-            
+            See the presentations below for more information.
         </p>
 
-        <h2>Writing Extensions Using Maven</h2>
+        <!--h2>Writing Extensions Using Maven</h2>
 
-        <h2>Sharing Extensions</h2>
+        <h2>Sharing Extensions</h2-->
 
         <h1>Presentations and External Material</h1>
+        <p><omiscid/> <a href="download/doc-all/extending-omiscidgui/starter.xhtml#slide1">“day 2” presentation</a> includes <a href="download/doc-all/extending-omiscidgui/starter.xhtml#slide17">some slides about the <omiscid/> GUI and how to extend it</a>.</p>
 
     </custom:content>
     

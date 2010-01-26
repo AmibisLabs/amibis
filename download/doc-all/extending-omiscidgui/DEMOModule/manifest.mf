@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: fr.prima.omiscidgui.demolive
+OpenIDE-Module-Layer: fr/prima/omiscidgui/demolive/layer.xml
+OpenIDE-Module-Localizing-Bundle: fr/prima/omiscidgui/demolive/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0.0
+
