@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
 import os,sys
 from django.core.management import execute_manager
 

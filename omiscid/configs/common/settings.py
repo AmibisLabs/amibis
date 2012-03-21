@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
 import os
 
 # Django settings for homepage project.
@@ -81,10 +84,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'homepage.libs.minidetector.Middleware',
 )
 
-ROOT_URLCONF = 'homepage.configs.common.urls'
+ROOT_URLCONF = 'omiscid.configs.common.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
