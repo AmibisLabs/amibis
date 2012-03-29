@@ -4,3 +4,6 @@
 [submodule "src/cpp"]
 	path = src/cpp
 	url = oberon:/git/prima/amibis-cpp.git
+[submodule "src/java"]
+	path = src/java
+	url = oberon:/git/prima/amibis-java.git
